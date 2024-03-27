@@ -1,0 +1,302 @@
+{
+  "http://localhost:8080": [
+    {
+      "selector": "[class=\"navbar-brand\"]",
+      "tag": "<a data-cy=\"navbar-brand\" class=\"navbar-brand\" href=\"/\"><span></span></a>"
+    },
+    {
+      "selector": "[class=\"navbar-toggler\"]",
+      "tag": "<button data-cy=\"navbar-toggler\" class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#main-navbar\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>"
+    },
+    {
+      "selector": "[title=\"home page\"]",
+      "tag": "<a data-cy=\"home page\" class=\"nav-link active\" href=\"/\" title=\"home page\">\n              <span class=\"fa fa-home\"></span>\n              <span>Home</span>\n            </a>"
+    },
+    {
+      "selector": "[title=\"find owners\"]",
+      "tag": "<a data-cy=\"find owners\" class=\"nav-link\" href=\"/owners/find\" title=\"find owners\">\n              <span class=\"fa fa-search\"></span>\n              <span>Find owners</span>\n            </a>"
+    },
+    {
+      "selector": "[title=\"veterinarians\"]",
+      "tag": "<a data-cy=\"veterinarians\" class=\"nav-link\" href=\"/vets.html\" title=\"veterinarians\">\n              <span class=\"fa fa-th-list\"></span>\n              <span>Veterinarians</span>\n            </a>"
+    }
+  ],
+  "http://localhost:8080/owners/find": [
+    {
+      "selector": "Find Owner",
+      "tag": "<button data-cy=\"find-owner-button\" type=\"submit\" class=\"btn btn-primary\">Find\n          Owner</button>"
+    },
+    {
+      "selector": "Add Owner",
+      "tag": "<a class=\"btn btn-primary\" data-cy=\"add-owner-find-owners\" href=\"/owners/new\">Add Owner</a>"
+    },
+    {
+      "selector": "[id=\"lastName\"]",
+      "tag": "<input data-cy=\"last-name-input-find-owners\" class=\"form-control\" size=\"30\" maxlength=\"80\" id=\"lastName\" name=\"lastName\" value=\"\">"
+    }
+  ],
+  "http://localhost:8080/vets.html": [
+    {
+      "selector": "[title=\"Next\"]",
+      "tag": "<a data-cy=\"vets-next-button\" href=\"/vets.html?page=2\" title=\"Next\" class=\"fa fa-step-forward\"></a>"
+    },
+    {
+      "selector": "[title=\"Last\"]",
+      "tag": "<a data-cy=\"vets-last-button\" href=\"/vets.html?page=2\" title=\"Last\" class=\"fa fa-fast-forward\"></a>"
+    },
+    {
+      "selector": "2",
+      "tag": "<a data-cy=\"vets-pagination-button\" href=\"/vets.html?page=2\">2</a>"
+    }
+  ],
+  "http://localhost:8080/owners?lastName=": [
+    {
+      "selector": "[title=\"Next\"]",
+      "tag": "<a data-cy=\"next-button\" href=\"/owners?page=2\" title=\"Next\" class=\"fa fa-step-forward\"></a>"
+    },
+    {
+      "selector": "[title=\"Last\"]",
+      "tag": "<a data-cy=\"last-button\" href=\"/owners?page=2\" title=\"Last\" class=\"fa fa-fast-forward\"></a>"
+    },
+    {
+      "selector": "George Franklin",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/1\">George Franklin</a>"
+    },
+    {
+      "selector": "Betty Davis",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/2\">Betty Davis</a>"
+    },
+    {
+      "selector": "Eduardo Rodriquez",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/3\">Eduardo Rodriquez</a>"
+    },
+    {
+      "selector": "Harold Davis",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/4\">Harold Davis</a>"
+    },
+    {
+      "selector": "Peter McTavish",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/5\">Peter McTavish</a>"
+    },
+    {
+      "selector": "2",
+      "tag": "<a data-cy=\"pagination-button\" href=\"/owners?page=2\">2</a>"
+    }
+  ],
+  "http://localhost:8080/owners/new": [
+    {
+      "selector": "[id=\"firstName\"]",
+      "tag": "<input data-cy=\"firstName\" class=\"form-control\" type=\"text\" id=\"firstName\" name=\"firstName\" value=\"\">"
+    },
+    {
+      "selector": "[id=\"address\"]",
+      "tag": "<input data-cy=\"address\" class=\"form-control\" type=\"text\" id=\"address\" name=\"address\" value=\"\">"
+    },
+    {
+      "selector": "[id=\"city\"]",
+      "tag": "<input data-cy=\"city\" class=\"form-control\" type=\"text\" id=\"city\" name=\"city\" value=\"\">"
+    },
+    {
+      "selector": "[id=\"telephone\"]",
+      "tag": "<input data-cy=\"telephone\" class=\"form-control\" type=\"text\" id=\"telephone\" name=\"telephone\" value=\"\">"
+    }
+  ],
+  "http://localhost:8080/vets.html?page=2": [
+    {
+      "selector": "[title=\"First\"]",
+      "tag": "<a data-cy=\"vets-first-button\" href=\"/vets.html?page=1\" title=\"First\" class=\"fa fa-fast-backward\"></a>"
+    },
+    {
+      "selector": "[title=\"Previous\"]",
+      "tag": "<a data-cy=\"vets-previous-button\" href=\"/vets.html?page=1\" title=\"Previous\" class=\"fa fa-step-backward\"></a>"
+    },
+    {
+      "selector": "1",
+      "tag": "<a data-cy=\"vets-pagination-button\" href=\"/vets.html?page=1\">1</a>"
+    }
+  ],
+  "http://localhost:8080/owners/1": [
+    {
+      "selector": "Edit Owner",
+      "tag": "<a data-cy=\"edit-owner\" href=\"1/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "Add New Pet",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"1/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "Edit Pet",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"1/pets/1/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "Add Visit",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"1/pets/1/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/owners?page=2": [
+    {
+      "selector": "[title=\"First\"]",
+      "tag": "<a data-cy=\"first-button\" href=\"/owners?page=1\" title=\"First\" class=\"fa fa-fast-backward\"></a>"
+    },
+    {
+      "selector": "[title=\"Previous\"]",
+      "tag": "<a data-cy=\"previous-button\" href=\"/owners?page=1\" title=\"Previous\" class=\"fa fa-step-backward\"></a>"
+    },
+    {
+      "selector": "Jean Coleman",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/6\">Jean Coleman</a>"
+    },
+    {
+      "selector": "Jeff Black",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/7\">Jeff Black</a>"
+    },
+    {
+      "selector": "Maria Escobito",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/8\">Maria Escobito</a>"
+    },
+    {
+      "selector": "David Schroeder",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/9\">David Schroeder</a>"
+    },
+    {
+      "selector": "Carlos Estaban",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/10\">Carlos Estaban</a>"
+    },
+    {
+      "selector": "1",
+      "tag": "<a data-cy=\"pagination-button\" href=\"/owners?page=1\">1</a>"
+    }
+  ],
+  "http://localhost:8080/vets.html?page=1": [
+    {
+      "selector": "[title=\"Next\"]",
+      "tag": "<a data-cy=\"vets-next-button\" href=\"/vets.html?page=2\" title=\"Next\" class=\"fa fa-step-forward\"></a>"
+    },
+    {
+      "selector": "[title=\"Last\"]",
+      "tag": "<a data-cy=\"vets-last-button\" href=\"/vets.html?page=2\" title=\"Last\" class=\"fa fa-fast-forward\"></a>"
+    },
+    {
+      "selector": "2",
+      "tag": "<a data-cy=\"vets-pagination-button\" href=\"/vets.html?page=2\">2</a>"
+    }
+  ],
+  "http://localhost:8080/owners/1/edit": [
+    {
+      "selector": "Update Owner",
+      "tag": "<button data-cy=\"add-owner\" class=\"btn btn-primary\" type=\"submit\">Update Owner</button>"
+    },
+    {
+      "selector": "[id=\"firstName\"]",
+      "tag": "<input data-cy=\"firstName\" class=\"form-control\" type=\"text\" id=\"firstName\" name=\"firstName\" value=\"George\">"
+    },
+    {
+      "selector": "[id=\"lastName\"]",
+      "tag": "<input data-cy=\"lastName\" class=\"form-control\" type=\"text\" id=\"lastName\" name=\"lastName\" value=\"Franklin\">"
+    },
+    {
+      "selector": "[id=\"address\"]",
+      "tag": "<input data-cy=\"address\" class=\"form-control\" type=\"text\" id=\"address\" name=\"address\" value=\"110 W. Liberty St.\">"
+    },
+    {
+      "selector": "[id=\"city\"]",
+      "tag": "<input data-cy=\"city\" class=\"form-control\" type=\"text\" id=\"city\" name=\"city\" value=\"Madison\">"
+    },
+    {
+      "selector": "[id=\"telephone\"]",
+      "tag": "<input data-cy=\"telephone\" class=\"form-control\" type=\"text\" id=\"telephone\" name=\"telephone\" value=\"6085551023\">"
+    }
+  ],
+  "http://localhost:8080/owners/1/pets/new": [
+    {
+      "selector": "Add Pet",
+      "tag": "<button data-cy=\"add-pet\" class=\"btn btn-primary\" type=\"submit\">Add Pet</button>"
+    },
+    {
+      "selector": "[name=\"id\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"id\" value=\"\">"
+    },
+    {
+      "selector": "[id=\"name\"]",
+      "tag": "<input data-cy=\"name\" class=\"form-control\" type=\"text\" id=\"name\" name=\"name\" value=\"\">"
+    },
+    {
+      "selector": "[id=\"birthDate\"]",
+      "tag": "<input data-cy=\"birthDate\" class=\"form-control\" type=\"date\" id=\"birthDate\" name=\"birthDate\" value=\"\">"
+    },
+    {
+      "selector": "[id=\"type\"]",
+      "tag": "<select id=\"type\" name=\"type\">\n            <option data-cy=\"bird\" value=\"bird\">bird</option>\n            <option data-cy=\"cat\" value=\"cat\">cat</option>\n            <option data-cy=\"dog\" value=\"dog\">dog</option>\n            <option data-cy=\"hamster\" value=\"hamster\">hamster</option>\n            <option data-cy=\"lizard\" value=\"lizard\">lizard</option>\n            <option data-cy=\"snake\" value=\"snake\">snake</option>\n          </select>"
+    }
+  ],
+  "http://localhost:8080/owners/1/pets/1/edit": [
+    {
+      "selector": "Update Pet",
+      "tag": "<button data-cy=\"add-pet\" class=\"btn btn-primary\" type=\"submit\">Update Pet</button>"
+    },
+    {
+      "selector": "[name=\"id\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"id\" value=\"1\">"
+    },
+    {
+      "selector": "[id=\"name\"]",
+      "tag": "<input data-cy=\"name\" class=\"form-control\" type=\"text\" id=\"name\" name=\"name\" value=\"Leo\">"
+    },
+    {
+      "selector": "[id=\"birthDate\"]",
+      "tag": "<input data-cy=\"birthDate\" class=\"form-control\" type=\"date\" id=\"birthDate\" name=\"birthDate\" value=\"2010-09-07\">"
+    },
+    {
+      "selector": "[id=\"type\"]",
+      "tag": "<select id=\"type\" name=\"type\">\n            <option data-cy=\"bird\" value=\"bird\">bird</option>\n            <option data-cy=\"cat\" value=\"cat\" selected=\"selected\">cat</option>\n            <option data-cy=\"dog\" value=\"dog\">dog</option>\n            <option data-cy=\"hamster\" value=\"hamster\">hamster</option>\n            <option data-cy=\"lizard\" value=\"lizard\">lizard</option>\n            <option data-cy=\"snake\" value=\"snake\">snake</option>\n          </select>"
+    }
+  ],
+  "http://localhost:8080/owners/1/pets/1/visits/new": [
+    {
+      "selector": "[id=\"date\"]",
+      "tag": "<input data-cy=\"date\" class=\"form-control\" type=\"date\" id=\"date\" name=\"date\" value=\"2024-03-11\">"
+    },
+    {
+      "selector": "[id=\"description\"]",
+      "tag": "<input data-cy=\"description\" class=\"form-control\" type=\"text\" id=\"description\" name=\"description\" value=\"\">"
+    },
+    {
+      "selector": "[name=\"petId\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"petId\" value=\"1\">"
+    }
+  ],
+  "http://localhost:8080/owners?page=1": [
+    {
+      "selector": "[title=\"Next\"]",
+      "tag": "<a data-cy=\"next-button\" href=\"/owners?page=2\" title=\"Next\" class=\"fa fa-step-forward\"></a>"
+    },
+    {
+      "selector": "[title=\"Last\"]",
+      "tag": "<a data-cy=\"last-button\" href=\"/owners?page=2\" title=\"Last\" class=\"fa fa-fast-forward\"></a>"
+    },
+    {
+      "selector": "George Franklin",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/1\">George Franklin</a>"
+    },
+    {
+      "selector": "Betty Davis",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/2\">Betty Davis</a>"
+    },
+    {
+      "selector": "Eduardo Rodriquez",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/3\">Eduardo Rodriquez</a>"
+    },
+    {
+      "selector": "Harold Davis",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/4\">Harold Davis</a>"
+    },
+    {
+      "selector": "Peter McTavish",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/5\">Peter McTavish</a>"
+    },
+    {
+      "selector": "2",
+      "tag": "<a data-cy=\"pagination-button\" href=\"/owners?page=2\">2</a>"
+    }
+  ]
+}

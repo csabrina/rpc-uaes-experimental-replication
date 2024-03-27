@@ -1,0 +1,1798 @@
+{
+  "http://application-16/#": [
+    {
+      "selector": "[data-cy=\"tce-logo-button\"]",
+      "tag": "<button data-cy=\"tce-logo-button\" type=\"button\" class=\"layout-topbar-logo p-link\" style=\"cursor: pointer;\"><img id=\"app-logo\" src=\"http://application-16/assets/images/tceac-small.png\" alt=\"ultima-layout\" style=\"height: 2.25rem;\"></button>"
+    },
+    {
+      "selector": "[data-cy=\"collapse-menu-button\"]",
+      "tag": "<button data-cy=\"collapse-menu-button\" type=\"button\" class=\"layout-menu-button p-shadow-6 p-link\"><i class=\"pi pi-chevron-right\"></i></button>"
+    },
+    {
+      "selector": "[data-cy=\"entity-button\"]",
+      "tag": "<button aria-label=\"SECRETARIA MUNICIPAL DE GESTAO ADMINISTRATIVA - SMGA\" data-cy=\"entity-button\" type=\"button\" aria-haspopup=\"true\" aria-controls=\"overlay_panel\" class=\"p-button p-component p-button-raised p-button-info\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-users\"></span><span class=\"p-button-label p-c\">SECRETARIA MUNICIPAL DE GESTAO ADMINISTRATIVA - SMGA</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"scale-plus-button\"]",
+      "tag": "<button data-cy=\"scale-plus-button\" type=\"button\" class=\"p-button p-component p-button-text p-button-icon-only\"><span class=\"p-button-icon p-c pi pi-plus\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"scale-standard-button\"]",
+      "tag": "<button aria-label=\"A\" data-cy=\"scale-standard-button\" type=\"button\" class=\"p-button p-component p-button-text p-button-lg\"><span class=\"p-button-label p-c\">A</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"scale-minus-button\"]",
+      "tag": "<button data-cy=\"scale-minus-button\" type=\"button\" class=\"p-button p-component p-button-text p-button-icon-only\"><span class=\"p-button-icon p-c pi pi-minus\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"layout-button\"]",
+      "tag": "<button data-cy=\"layout-button\" type=\"button\" aria-haspopup=\"true\" aria-controls=\"overlay_panel\" class=\"p-button p-component p-button-text p-button-lg p-button-icon-only\"><span class=\"p-button-icon p-c pi pi-bars\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"notification-button\"]",
+      "tag": "<button aria-label=\"Notification\" data-cy=\"notification-button\" class=\"p-button p-component pi pi-bell p-button-text notifications_button\" style=\"padding-left: 0px; left: -5px;\"><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"profile-button\"]",
+      "tag": "<button data-cy=\"profile-button\" class=\"layout-topbar-action p-d-flex p-dir-row p-jc-center p-ai-center p-px-2 rounded-circle p-link\"><div style=\"text-align: center; width: 32px; height: 32px; background-color: rgb(238, 29, 34); color: rgb(73, 80, 87); line-height: 32px; border-radius: 20px;\"><span style=\"display: inline-block; line-height: normal; vertical-align: middle; color: white;\"><b>A</b></span></div></button>"
+    },
+    {
+      "selector": "[data-cy=\"catalogo de produtos\"]",
+      "tag": "<li data-cy=\"catalogo de produtos\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/catalogo/consulta-materiais\"><i class=\"layout-menuitem-icon pi pi-table\"></i><span class=\"layout-menuitem-text\">Catálogo de Produtos</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"termo de referencia\"]",
+      "tag": "<li data-cy=\"termo de referencia\" class=\"\" role=\"menuitem\"><a type=\"button\" class=\"p-ripple p-link\"><i class=\"layout-menuitem-icon pi pi-file\"></i><span class=\"layout-menuitem-text\">Termo de Referência</span><i class=\"pi pi-fw pi-angle-down layout-submenu-toggler\"></i><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"cadastros e consultas\"]",
+      "tag": "<li data-cy=\"cadastros e consultas\" class=\"\" role=\"menuitem\"><a type=\"button\" class=\"p-ripple p-link\"><i class=\"layout-menuitem-icon pi pi-globe\"></i><span class=\"layout-menuitem-text\">Cadastros e Consultas</span><i class=\"pi pi-fw pi-angle-down layout-submenu-toggler\"></i><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"auditoria\"]",
+      "tag": "<li data-cy=\"auditoria\" class=\"\" role=\"menuitem\"><a type=\"button\" class=\"p-ripple p-link\"><i class=\"layout-menuitem-icon pi pi-clone\"></i><span class=\"layout-menuitem-text\">Auditoria</span><i class=\"pi pi-fw pi-angle-down layout-submenu-toggler\"></i><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"alertas\"]",
+      "tag": "<li data-cy=\"alertas\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/alertas\"><i class=\"layout-menuitem-icon pi pi-bell\"></i><span class=\"layout-menuitem-text\">Alertas</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"administracao\"]",
+      "tag": "<li data-cy=\"administracao\" class=\"\" role=\"menuitem\"><a type=\"button\" class=\"p-ripple p-link\"><i class=\"layout-menuitem-icon pi pi-money-bill\"></i><span class=\"layout-menuitem-text\">Administração</span><i class=\"pi pi-fw pi-angle-down layout-submenu-toggler\"></i><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"seguranca\"]",
+      "tag": "<li data-cy=\"seguranca\" class=\"\" role=\"menuitem\"><a type=\"button\" class=\"p-ripple p-link\"><i class=\"layout-menuitem-icon pi pi-lock\"></i><span class=\"layout-menuitem-text\">Segurança</span><i class=\"pi pi-fw pi-angle-down layout-submenu-toggler\"></i><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"obras\"]",
+      "tag": "<li data-cy=\"obras\" class=\"\" role=\"menuitem\"><a type=\"button\" class=\"p-ripple p-link\"><i class=\"layout-menuitem-icon pi pi-map\"></i><span class=\"layout-menuitem-text\">Obras</span><i class=\"pi pi-fw pi-angle-down layout-submenu-toggler\"></i><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"2147483695-7 nova(s) no ultimo ano\"]",
+      "tag": "<button aria-label=\"7 nova(s) no último ano\" data-cy=\"2147483695-7 nova(s) no ultimo ano\" class=\"p-button p-component\" style=\"background-color: rgb(63, 81, 181); border-radius: 10px; padding: 10px; height: 20%; width: 100%;\"><span class=\"p-button-label p-c\">7 nova(s) no último ano</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2147483695-9 nova(s) no ultimo ano\"]",
+      "tag": "<button aria-label=\"9 nova(s) no último ano\" data-cy=\"2147483695-9 nova(s) no ultimo ano\" class=\"p-button p-component\" style=\"background-color: rgb(104, 159, 56); border-radius: 10px; padding: 10px; height: 20%; width: 100%;\"><span class=\"p-button-label p-c\">9 nova(s) no último ano</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2147483695-1 nova(s) no ultimo ano\"]",
+      "tag": "<button aria-label=\"1 nova(s) no último ano\" data-cy=\"2147483695-1 nova(s) no ultimo ano\" class=\"p-button p-component\" style=\"background-color: rgb(211, 47, 47); border-radius: 10px; padding: 10px; height: 20%; width: 100%;\"><span class=\"p-button-label p-c\">1 nova(s) no último ano</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2147483695-4 nova(s) no ultimo ano\"]",
+      "tag": "<button aria-label=\"4 nova(s) no último ano\" data-cy=\"2147483695-4 nova(s) no ultimo ano\" class=\"p-button p-component\" style=\"background-color: rgb(251, 192, 45); border-radius: 10px; padding: 10px; height: 20%; width: 100%;\"><span class=\"p-button-label p-c\">4 nova(s) no último ano</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2147483695-13 novo(s) no ultimo ano\"]",
+      "tag": "<button aria-label=\"13 novo(s) no último ano\" data-cy=\"2147483695-13 novo(s) no ultimo ano\" class=\"p-button p-component\" style=\"background-color: rgb(15, 178, 242); border-radius: 10px; padding: 10px; height: 20%; width: 100%;\"><span class=\"p-button-label p-c\">13 novo(s) no último ano</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2147483695-0 novo(s) no ultimo ano\"]",
+      "tag": "<button aria-label=\"0 novo(s) no último ano\" data-cy=\"2147483695-0 novo(s) no ultimo ano\" class=\"p-button p-component\" style=\"background-color: rgb(149, 182, 52); border-radius: 10px; padding: 10px; height: 20%; width: 100%;\"><span class=\"p-button-label p-c\">0 novo(s) no último ano</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2147483695-exibir todos os alertas...\"]",
+      "tag": "<button aria-label=\"Exibir todos os alertas...\" type=\"button\" class=\"p-button p-component p-button-link\" data-cy=\"2147483695-exibir todos os alertas...\" style=\"text-decoration: underline; width: 180px; height: 10px; margin-top: 13px;\"><span class=\"p-button-label p-c\">Exibir todos os alertas...</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2147483695-visualizar\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button p-mr-2 p-button-icon-only\" data-cy=\"2147483695-visualizar\"><span class=\"p-button-icon p-c pi pi-list\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2147483695-cancelar\"]",
+      "tag": "<button aria-label=\"Cancelar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"2147483695-cancelar\"><span class=\"p-button-label p-c\">Cancelar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"recarregar-permissoes-button\"]",
+      "tag": "<button data-cy=\"recarregar-permissoes-button\" class=\"p-d-flex p-flex-row p-ai-center p-link\"><i class=\"pi pi-replay p-mr-2\"></i><span>Recarregar Permissões</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"configuracoes-button\"]",
+      "tag": "<button data-cy=\"configuracoes-button\" class=\"p-d-flex p-flex-row p-ai-center p-link\"><i class=\"pi pi-user p-mr-2\"></i><span>Detalhes do Usuário</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"sobre-button\"]",
+      "tag": "<button data-cy=\"sobre-button\" class=\"p-d-flex p-flex-row p-ai-center p-link\"><i class=\"pi pi-info-circle p-mr-2\"></i><span>Informações do Sistema</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"secoes\"]",
+      "tag": "<li data-cy=\"secoes\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/termo-referencia/secao\"><i class=\"layout-menuitem-icon pi pi-bookmark\"></i><span class=\"layout-menuitem-text\">Seções</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"gerenciamento de termos\"]",
+      "tag": "<li data-cy=\"gerenciamento de termos\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/termo-referencia/gerenciamento-termos\"><i class=\"layout-menuitem-icon pi pi-file\"></i><span class=\"layout-menuitem-text\">Gerenciamento de Termos</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"licitacao\"]",
+      "tag": "<li data-cy=\"licitacao\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/cadastros-consulta/licitacao\"><i class=\"layout-menuitem-icon pi pi-briefcase\"></i><span class=\"layout-menuitem-text\">Licitação</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"adesao/carona\"]",
+      "tag": "<li data-cy=\"adesao/carona\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/cadastros-consulta/carona\"><i class=\"layout-menuitem-icon pi pi-dollar\"></i><span class=\"layout-menuitem-text\">Adesão/Carona</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"dispensa\"]",
+      "tag": "<li data-cy=\"dispensa\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/cadastros-consulta/dispensa\"><i class=\"layout-menuitem-icon pi pi-book\"></i><span class=\"layout-menuitem-text\">Dispensa</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"inexigibilidade\"]",
+      "tag": "<li data-cy=\"inexigibilidade\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/cadastros-consulta/inexigibilidade\"><i class=\"layout-menuitem-icon pi pi-comment\"></i><span class=\"layout-menuitem-text\">Inexigibilidade</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"contrato/aditivo\"]",
+      "tag": "<li data-cy=\"contrato/aditivo\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/cadastros-consulta/contrato\"><i class=\"layout-menuitem-icon pi pi-book\"></i><span class=\"layout-menuitem-text\">Contrato/Aditivo</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"comissao\"]",
+      "tag": "<li data-cy=\"comissao\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/cadastros-consulta/comissao\"><i class=\"layout-menuitem-icon pi pi-users\"></i><span class=\"layout-menuitem-text\">Comissão</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"requisicoes de modificacao\"]",
+      "tag": "<li data-cy=\"requisicoes de modificacao\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/cadastros-consulta/requisicao-modificacao\"><i class=\"layout-menuitem-icon pi pi-exclamation-triangle\"></i><span class=\"layout-menuitem-text\">Requisições de Modificação</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"consultar processos\"]",
+      "tag": "<li data-cy=\"consultar processos\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/cadastros-consulta/processo\"><i class=\"layout-menuitem-icon pi pi-search\"></i><span class=\"layout-menuitem-text\">Consultar Processos</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"alertas dafo\"]",
+      "tag": "<li data-cy=\"alertas dafo\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/analisar-alertas\"><i class=\"layout-menuitem-icon pi pi-bell\"></i><span class=\"layout-menuitem-text\">Alertas Dafo</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"analisar processos\"]",
+      "tag": "<li data-cy=\"analisar processos\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/analise-processo\"><i class=\"layout-menuitem-icon pi pi-search-minus\"></i><span class=\"layout-menuitem-text\">Analisar Processos</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"secoes checklist\"]",
+      "tag": "<li data-cy=\"secoes checklist\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/secao-checklist\"><i class=\"layout-menuitem-icon pi pi-check-square\"></i><span class=\"layout-menuitem-text\">Seções Checklist</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"checklist de verificacao\"]",
+      "tag": "<li data-cy=\"checklist de verificacao\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/item-checklist\"><i class=\"layout-menuitem-icon pi pi-check-square\"></i><span class=\"layout-menuitem-text\">Checklist de Verificação</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"analise automatica\"]",
+      "tag": "<li data-cy=\"analise automatica\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/analise-automatica\"><i class=\"layout-menuitem-icon pi pi-search-minus\"></i><span class=\"layout-menuitem-text\">Análise Automática</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"historico de processos\"]",
+      "tag": "<li data-cy=\"historico de processos\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/historico-processos\"><i class=\"layout-menuitem-icon pi pi-folder\"></i><span class=\"layout-menuitem-text\">Histórico de Processos</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"analise de editais\"]",
+      "tag": "<li data-cy=\"analise de editais\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/analisar-editais\"><i class=\"layout-menuitem-icon pi pi-search-minus\"></i><span class=\"layout-menuitem-text\">Análise de Editais</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"monitoramento atos diario oficial\"]",
+      "tag": "<li data-cy=\"monitoramento atos diario oficial\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/monitoramento-atos-diario-oficial\"><i class=\"layout-menuitem-icon pi pi-desktop\"></i><span class=\"layout-menuitem-text\">Monitoramento Atos Diário Oficial</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"mapeamento de atos com licitacoes\"]",
+      "tag": "<li data-cy=\"mapeamento de atos com licitacoes\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/mapeamento-atos-licitacoes\"><i class=\"layout-menuitem-icon pi pi-desktop\"></i><span class=\"layout-menuitem-text\">Mapeamento de Atos com Licitações</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"elementos de despesa\"]",
+      "tag": "<li data-cy=\"elementos de despesa\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/elemento-despesa\"><i class=\"layout-menuitem-icon pi pi-dollar\"></i><span class=\"layout-menuitem-text\">Elementos de Despesa</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"falhas\"]",
+      "tag": "<li data-cy=\"falhas\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/falha\"><i class=\"layout-menuitem-icon pi pi-ban\"></i><span class=\"layout-menuitem-text\">Falhas</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"feriados\"]",
+      "tag": "<li data-cy=\"feriados\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/feriado\"><i class=\"layout-menuitem-icon pi pi-calendar\"></i><span class=\"layout-menuitem-text\">Feriados</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"fontes de recurso\"]",
+      "tag": "<li data-cy=\"fontes de recurso\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/fonte-recurso\"><i class=\"layout-menuitem-icon pi pi-paperclip\"></i><span class=\"layout-menuitem-text\">Fontes de Recurso</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"formas de licitacao\"]",
+      "tag": "<li data-cy=\"formas de licitacao\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/forma-licitacao\"><i class=\"layout-menuitem-icon pi pi-book\"></i><span class=\"layout-menuitem-text\">Formas de Licitação</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"formas de publicacao\"]",
+      "tag": "<li data-cy=\"formas de publicacao\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/forma-publicacao\"><i class=\"layout-menuitem-icon pi pi-link\"></i><span class=\"layout-menuitem-text\">Formas de Publicação</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"fundamentacao legal\"]",
+      "tag": "<li data-cy=\"fundamentacao legal\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/fundamentacao-legal\"><i class=\"layout-menuitem-icon pi pi-check-square\"></i><span class=\"layout-menuitem-text\">Fundamentação Legal</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"licitantes\"]",
+      "tag": "<li data-cy=\"licitantes\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/licitante\"><i class=\"layout-menuitem-icon pi pi-user\"></i><span class=\"layout-menuitem-text\">Licitantes</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"modalidades da licitacao\"]",
+      "tag": "<li data-cy=\"modalidades da licitacao\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/modalidade-licitacao\"><i class=\"layout-menuitem-icon pi pi-folder\"></i><span class=\"layout-menuitem-text\">Modalidades da Licitação</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"criterios de julgamento\"]",
+      "tag": "<li data-cy=\"criterios de julgamento\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/tipo-licitacao\"><i class=\"layout-menuitem-icon pi pi-tags\"></i><span class=\"layout-menuitem-text\">Critérios de Julgamento</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"gerador de links\"]",
+      "tag": "<li data-cy=\"gerador de links\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/gerador-links\"><i class=\"layout-menuitem-icon pi pi-link\"></i><span class=\"layout-menuitem-text\">Gerador de Links</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"variaveis de controle\"]",
+      "tag": "<li data-cy=\"variaveis de controle\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/variavel-controle\"><i class=\"layout-menuitem-icon pi pi-key\"></i><span class=\"layout-menuitem-text\">Variáveis de Controle</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"parametrizacao dos arquivos\"]",
+      "tag": "<li data-cy=\"parametrizacao dos arquivos\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/obrigatoriedade-arquivo\"><i class=\"layout-menuitem-icon pi pi-file\"></i><span class=\"layout-menuitem-text\">Parametrização dos Arquivos</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"entidade externa\"]",
+      "tag": "<li data-cy=\"entidade externa\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/entidade-externa\"><i class=\"layout-menuitem-icon pi pi-th-large\"></i><span class=\"layout-menuitem-text\">Entidade Externa</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"responsavel ente\"]",
+      "tag": "<li data-cy=\"responsavel ente\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/administracao/responsavel-ente\"><i class=\"layout-menuitem-icon pi pi-envelope\"></i><span class=\"layout-menuitem-text\">Responsável Ente</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"grupos\"]",
+      "tag": "<li data-cy=\"grupos\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/seguranca/grupo-usuario\"><i class=\"layout-menuitem-icon pi pi-users\"></i><span class=\"layout-menuitem-text\">Grupos</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"usuarios\"]",
+      "tag": "<li data-cy=\"usuarios\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/seguranca/usuario\"><i class=\"layout-menuitem-icon pi pi-user\"></i><span class=\"layout-menuitem-text\">Usuários</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"auditores atribuidores\"]",
+      "tag": "<li data-cy=\"auditores atribuidores\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/seguranca/auditorAtribuidor\"><i class=\"layout-menuitem-icon pi pi-user\"></i><span class=\"layout-menuitem-text\">Auditores Atribuidores</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"funcoes de risco\"]",
+      "tag": "<li data-cy=\"funcoes de risco\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/seguranca/funcao-risco\"><i class=\"layout-menuitem-icon pi pi-exclamation-triangle\"></i><span class=\"layout-menuitem-text\">Funções de Risco</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"configuracoes\"]",
+      "tag": "<li data-cy=\"configuracoes\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/seguranca/configuracoes/editar\"><i class=\"layout-menuitem-icon pi pi-cog\"></i><span class=\"layout-menuitem-text\">Configurações</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"medicao\"]",
+      "tag": "<li data-cy=\"medicao\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/obras/medicao\"><i class=\"layout-menuitem-icon pi pi-map-marker\"></i><span class=\"layout-menuitem-text\">Medição</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    }
+  ],
+  "http://application-16/#/catalogo/consulta-materiais": [
+    {
+      "selector": "[data-cy=\"4245688225-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"4245688225-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4245688225-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"4245688225-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4245688225-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"4245688225-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/alertas": [
+    {
+      "selector": "[data-cy=\"1537469311-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1537469311-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1537469311-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1537469311-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1537469311-detalhes do processo\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"1537469311-detalhes do processo\"><span class=\"p-button-icon p-c pi pi-external-link\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1537469311-visualizar alerta\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-mr-2 p-button-icon-only\" data-cy=\"1537469311-visualizar alerta\"><span class=\"p-button-icon p-c pi pi-eye\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1537469311-arquivar alerta\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-mr-2 p-button-icon-only\" data-cy=\"1537469311-arquivar alerta\"><span class=\"p-button-icon p-c pi pi-file\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1537469311-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1537469311-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/termo-referencia/secao": [
+    {
+      "selector": "[data-cy=\"2718408923-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"2718408923-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2718408923-pi pi-filter-slash\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-danger p-button-text p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"2718408923-pi pi-filter-slash\"><span class=\"p-button-icon p-c pi pi-filter-slash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2718408923-filtros\"]",
+      "tag": "<button aria-label=\"Filtros 1\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"2718408923-filtros\" style=\"width: 120px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span class=\"p-badge p-badge-danger\">1</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2718408923-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"2718408923-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2718408923-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"2718408923-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2718408923-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"2718408923-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2718408923-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"2718408923-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/termo-referencia/gerenciamento-termos": [
+    {
+      "selector": "[data-cy=\"1834015054-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1834015054-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1834015054-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1834015054-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1834015054-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"1834015054-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1834015054-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"1834015054-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1834015054-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1834015054-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1834015054-csv\"]",
+      "tag": "<button aria-label=\"CSV\" type=\"button\" class=\"p-button p-component p-mr-2\" data-cy=\"1834015054-csv\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-o\"></span><span class=\"p-button-label p-c\">CSV</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1834015054-xls\"]",
+      "tag": "<button aria-label=\"XLS\" type=\"button\" class=\"p-button p-component p-button-success p-mr-2\" data-cy=\"1834015054-xls\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-excel\"></span><span class=\"p-button-label p-c\">XLS</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1834015054-pdf\"]",
+      "tag": "<button aria-label=\"PDF\" type=\"button\" class=\"p-button p-component p-button-danger p-mr-2\" data-cy=\"1834015054-pdf\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-pdf\"></span><span class=\"p-button-label p-c\">PDF</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/licitacao": [
+    {
+      "selector": "[data-cy=\"1555221225-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1555221225-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1555221225-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1555221225-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1555221225-nova licitacao\"]",
+      "tag": "<button aria-label=\"Nova Licitação\" class=\"p-button p-component p-button\" data-cy=\"1555221225-nova licitacao\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Nova Licitação</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1555221225-pi pi-angle-right\"]",
+      "tag": "<button class=\"p-button p-component p-button-text toggle-button p-button-icon-only\" data-cy=\"1555221225-pi pi-angle-right\"><span class=\"p-button-icon p-c pi pi-angle-right\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1555221225-pi pi-sort-alt\"]",
+      "tag": "<button data-cy=\"1555221225-pi pi-sort-alt\" class=\"p-button p-component p-button-icon-only\" style=\"background-color: rgba(0, 0, 0, 0);\"><span class=\"p-button-icon p-c pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1555221225-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1555221225-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1555221225-pi pi-angle-down\"]",
+      "tag": "<button class=\"p-button p-component p-button-text toggle-button p-button-icon-only\" data-cy=\"1555221225-pi pi-angle-down\"><span class=\"p-button-icon p-c pi pi-angle-down\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1555221225-aplicar\"]",
+      "tag": "<button aria-label=\"Aplicar\" class=\"p-button p-component p-ml-auto p-button-primary p-mr-2\" optionlabel=\"value\" data-cy=\"1555221225-aplicar\" style=\"margin-top: 5px;\"><span class=\"p-button-label p-c\">Aplicar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/carona": [
+    {
+      "selector": "[data-cy=\"1678432678-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1678432678-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1678432678-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1678432678-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1678432678-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"1678432678-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1678432678-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"1678432678-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1678432678-entidade de origem\"]",
+      "tag": "<button aria-label=\"Entidade de Origem\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1678432678-entidade de origem\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Entidade de Origem</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1678432678-numero do processo administrativo\"]",
+      "tag": "<button aria-label=\"Número do Processo Administrativo\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1678432678-numero do processo administrativo\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Número do Processo Administrativo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1678432678-valor\"]",
+      "tag": "<button aria-label=\"Valor\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1678432678-valor\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Valor</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1678432678-objeto\"]",
+      "tag": "<button aria-label=\"Objeto\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1678432678-objeto\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Objeto</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1678432678-pi pi-ellipsis-v\"]",
+      "tag": "<button class=\"p-button p-component p-button-text ellipsis-button p-button-icon-only\" data-cy=\"1678432678-pi pi-ellipsis-v\"><span class=\"p-button-icon p-c pi pi-ellipsis-v\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1678432678-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1678432678-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/dispensa": [
+    {
+      "selector": "[data-cy=\"2643273457-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"2643273457-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"2643273457-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"2643273457-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"2643273457-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-numero do processo\"]",
+      "tag": "<button aria-label=\"Número do Processo\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"2643273457-numero do processo\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Número do Processo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-responsavel\"]",
+      "tag": "<button aria-label=\"Responsável\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"2643273457-responsavel\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Responsável</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-objeto\"]",
+      "tag": "<button aria-label=\"Objeto\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"2643273457-objeto\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Objeto</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-data da autorizacao\"]",
+      "tag": "<button aria-label=\"Data da Autorização\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"2643273457-data da autorizacao\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Data da Autorização</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-valor\"]",
+      "tag": "<button aria-label=\"Valor\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"2643273457-valor\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Valor</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-pi pi-ellipsis-v\"]",
+      "tag": "<button class=\"p-button p-component p-button-text ellipsis-button p-button-icon-only\" data-cy=\"2643273457-pi pi-ellipsis-v\"><span class=\"p-button-icon p-c pi pi-ellipsis-v\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"2643273457-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-csv\"]",
+      "tag": "<button aria-label=\"CSV\" type=\"button\" class=\"p-button p-component p-mr-2\" data-cy=\"2643273457-csv\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-o\"></span><span class=\"p-button-label p-c\">CSV</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-xls\"]",
+      "tag": "<button aria-label=\"XLS\" type=\"button\" class=\"p-button p-component p-button-success p-mr-2\" data-cy=\"2643273457-xls\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-excel\"></span><span class=\"p-button-label p-c\">XLS</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2643273457-pdf\"]",
+      "tag": "<button aria-label=\"PDF\" type=\"button\" class=\"p-button p-component p-button-danger p-mr-2\" data-cy=\"2643273457-pdf\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-pdf\"></span><span class=\"p-button-label p-c\">PDF</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/inexigibilidade": [
+    {
+      "selector": "[data-cy=\"3253598109-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3253598109-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3253598109-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3253598109-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3253598109-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"3253598109-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3253598109-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"3253598109-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3253598109-numero do processo\"]",
+      "tag": "<button aria-label=\"Número do Processo\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"3253598109-numero do processo\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Número do Processo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3253598109-responsavel pela ratificacao\"]",
+      "tag": "<button aria-label=\"Responsável pela Ratificacao\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"3253598109-responsavel pela ratificacao\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Responsável pela Ratificacao</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3253598109-objeto\"]",
+      "tag": "<button aria-label=\"Objeto\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"3253598109-objeto\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Objeto</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3253598109-data da autorizacao\"]",
+      "tag": "<button aria-label=\"Data da Autorização\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"3253598109-data da autorizacao\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Data da Autorização</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3253598109-valor\"]",
+      "tag": "<button aria-label=\"Valor\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"3253598109-valor\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Valor</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3253598109-pi pi-ellipsis-v\"]",
+      "tag": "<button class=\"p-button p-component p-button-text ellipsis-button p-button-icon-only\" data-cy=\"3253598109-pi pi-ellipsis-v\"><span class=\"p-button-icon p-c pi pi-ellipsis-v\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3253598109-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3253598109-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/contrato": [
+    {
+      "selector": "[data-cy=\"1791441076-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1791441076-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1791441076-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"1791441076-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"1791441076-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-numero do contrato\"]",
+      "tag": "<button aria-label=\"Número do Contrato\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1791441076-numero do contrato\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Número do Contrato</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-contratado(a)\"]",
+      "tag": "<button aria-label=\"Contratado(a)\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1791441076-contratado(a)\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Contratado(a)</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-objeto\"]",
+      "tag": "<button aria-label=\"Objeto\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1791441076-objeto\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Objeto</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-modalidade\"]",
+      "tag": "<button aria-label=\"Modalidade\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1791441076-modalidade\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Modalidade</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-valor\"]",
+      "tag": "<button aria-label=\"Valor\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1791441076-valor\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Valor</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-forma de contrato\"]",
+      "tag": "<button aria-label=\"Forma de Contrato\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1791441076-forma de contrato\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Forma de Contrato</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-entidade externa\"]",
+      "tag": "<button aria-label=\"Entidade Externa\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1791441076-entidade externa\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Entidade Externa</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-pi pi-ellipsis-v\"]",
+      "tag": "<button class=\"p-button p-component p-button-text ellipsis-button p-button-icon-only\" data-cy=\"1791441076-pi pi-ellipsis-v\"><span class=\"p-button-icon p-c pi pi-ellipsis-v\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1791441076-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1791441076-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/comissao": [
+    {
+      "selector": "[data-cy=\"1752699694-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1752699694-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1752699694-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1752699694-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1752699694-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"1752699694-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1752699694-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1752699694-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/requisicao-modificacao": [
+    {
+      "selector": "[data-cy=\"1906747741-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1906747741-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1906747741-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1906747741-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1906747741-pi pi-user-edit\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" title=\"Julgar Requisição\" data-cy=\"1906747741-pi pi-user-edit\"><span class=\"p-button-icon p-c pi pi-user-edit\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1906747741-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1906747741-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/processo": [
+    {
+      "selector": "[data-cy=\"1353241976-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1353241976-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1353241976-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-nova licitacao\"]",
+      "tag": "<button aria-label=\"Nova Licitação\" class=\"p-button p-component p-button\" data-cy=\"1353241976-nova licitacao\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Nova Licitação</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"1353241976-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-numero\"]",
+      "tag": "<button aria-label=\"Número\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1353241976-numero\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Número</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-entidade/orgao\"]",
+      "tag": "<button aria-label=\"Entidade/Órgão\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1353241976-entidade/orgao\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Entidade/Órgão</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-objeto\"]",
+      "tag": "<button aria-label=\"Objeto\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1353241976-objeto\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Objeto</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-data de abertura\"]",
+      "tag": "<button aria-label=\"Data de Abertura\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1353241976-data de abertura\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Data de Abertura</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-modalidade\"]",
+      "tag": "<button aria-label=\"Modalidade\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1353241976-modalidade\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Modalidade</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-valor estimado\"]",
+      "tag": "<button aria-label=\"Valor Estimado\" class=\"p-button p-component p-button-outlined filters-button p-button-sm\" data-cy=\"1353241976-valor estimado\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">Valor Estimado</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-pi pi-ellipsis-v\"]",
+      "tag": "<button class=\"p-button p-component p-button-text ellipsis-button p-button-icon-only\" data-cy=\"1353241976-pi pi-ellipsis-v\"><span class=\"p-button-icon p-c pi pi-ellipsis-v\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1353241976-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1353241976-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/analisar-alertas": [
+    {
+      "selector": "[data-cy=\"775637628-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"775637628-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"775637628-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"775637628-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"775637628-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"775637628-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/analise-processo": [
+    {
+      "selector": "[data-cy=\"3240378834-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3240378834-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3240378834-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3240378834-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3240378834-pi pi-angle-down\"]",
+      "tag": "<button class=\"p-button p-component p-button-text toggle-button p-button-icon-only\" data-cy=\"3240378834-pi pi-angle-down\"><span class=\"p-button-icon p-c pi pi-angle-down\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3240378834-pi pi-angle-right\"]",
+      "tag": "<button class=\"p-button p-component p-button-text toggle-button p-button-icon-only\" data-cy=\"3240378834-pi pi-angle-right\"><span class=\"p-button-icon p-c pi pi-angle-right\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3240378834-pi pi-sort-alt\"]",
+      "tag": "<button data-cy=\"3240378834-pi pi-sort-alt\" class=\"p-button p-component p-button-icon-only\" style=\"background-color: rgba(0, 0, 0, 0);\"><span class=\"p-button-icon p-c pi pi-sort-alt\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3240378834-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3240378834-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3240378834-aplicar\"]",
+      "tag": "<button aria-label=\"Aplicar\" class=\"p-button p-component p-ml-auto p-button-primary p-mr-2\" optionlabel=\"value\" data-cy=\"3240378834-aplicar\" style=\"margin-top: 5px;\"><span class=\"p-button-label p-c\">Aplicar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/secao-checklist": [
+    {
+      "selector": "[data-cy=\"3479445712-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3479445712-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3479445712-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3479445712-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3479445712-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"3479445712-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3479445712-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"3479445712-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3479445712-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"3479445712-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3479445712-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3479445712-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/item-checklist": [
+    {
+      "selector": "[data-cy=\"3355604276-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3355604276-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3355604276-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3355604276-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3355604276-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"3355604276-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3355604276-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"3355604276-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3355604276-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"3355604276-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3355604276-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3355604276-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/analise-automatica": [
+    {
+      "selector": "[data-cy=\"74772744-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"74772744-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"74772744-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"74772744-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"74772744-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"74772744-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"74772744-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"74772744-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"74772744-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"74772744-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"74772744-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"74772744-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/historico-processos": [
+    {
+      "selector": "[data-cy=\"1628962350-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1628962350-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1628962350-pi pi-filter-slash\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-danger p-button-text p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1628962350-pi pi-filter-slash\"><span class=\"p-button-icon p-c pi pi-filter-slash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1628962350-filtros\"]",
+      "tag": "<button aria-label=\"Filtros 1\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1628962350-filtros\" style=\"width: 120px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span class=\"p-badge p-badge-danger\">1</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1628962350-pi pi-eye\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"1628962350-pi pi-eye\"><span class=\"p-button-icon p-c pi pi-eye\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1628962350-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1628962350-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1628962350-fechar\"]",
+      "tag": "<button aria-label=\"Fechar\" class=\"p-button p-component p-button-text\" data-cy=\"1628962350-fechar\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-times\"></span><span class=\"p-button-label p-c\">Fechar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/analisar-editais": [
+    {
+      "selector": "[data-cy=\"4100354799-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"4100354799-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4100354799-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"4100354799-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4100354799-novo edital\"]",
+      "tag": "<button aria-label=\"Novo Edital\" class=\"p-button p-component p-button\" data-cy=\"4100354799-novo edital\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo Edital</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4100354799-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"4100354799-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4100354799-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"4100354799-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4100354799-analisar\"]",
+      "tag": "<button aria-label=\"Analisar\" type=\"submit\" data-cy=\"4100354799-analisar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Analisar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/monitoramento-atos-diario-oficial": [
+    {
+      "selector": "[data-cy=\"3575258333-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3575258333-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3575258333-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3575258333-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3575258333-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3575258333-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/mapeamento-atos-licitacoes": [
+    {
+      "selector": "[data-cy=\"2601858932-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"2601858932-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2601858932-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"2601858932-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2601858932-pi pi-ellipsis-v\"]",
+      "tag": "<button class=\"p-button p-component p-button-text ellipsis-button p-button-icon-only\" data-cy=\"2601858932-pi pi-ellipsis-v\"><span class=\"p-button-icon p-c pi pi-ellipsis-v\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2601858932-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"2601858932-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/falha": [
+    {
+      "selector": "[data-cy=\"1380608115-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1380608115-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1380608115-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1380608115-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1380608115-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"1380608115-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1380608115-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"1380608115-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1380608115-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"1380608115-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1380608115-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"1380608115-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1380608115-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1380608115-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/feriado": [
+    {
+      "selector": "[data-cy=\"4034562079-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"4034562079-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4034562079-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"4034562079-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4034562079-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"4034562079-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4034562079-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"4034562079-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4034562079-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"4034562079-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4034562079-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"4034562079-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4034562079-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"4034562079-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/fonte-recurso": [
+    {
+      "selector": "[data-cy=\"2906815771-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"2906815771-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2906815771-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"2906815771-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2906815771-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"2906815771-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2906815771-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"2906815771-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2906815771-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"2906815771-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2906815771-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"2906815771-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2906815771-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"2906815771-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/forma-licitacao": [
+    {
+      "selector": "[data-cy=\"2830712122-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"2830712122-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2830712122-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"2830712122-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2830712122-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"2830712122-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2830712122-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"2830712122-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2830712122-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"2830712122-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2830712122-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"2830712122-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2830712122-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"2830712122-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2830712122-csv\"]",
+      "tag": "<button aria-label=\"CSV\" type=\"button\" class=\"p-button p-component p-mr-2\" data-cy=\"2830712122-csv\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-o\"></span><span class=\"p-button-label p-c\">CSV</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2830712122-xls\"]",
+      "tag": "<button aria-label=\"XLS\" type=\"button\" class=\"p-button p-component p-button-success p-mr-2\" data-cy=\"2830712122-xls\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-excel\"></span><span class=\"p-button-label p-c\">XLS</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2830712122-pdf\"]",
+      "tag": "<button aria-label=\"PDF\" type=\"button\" class=\"p-button p-component p-button-danger p-mr-2\" data-cy=\"2830712122-pdf\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-pdf\"></span><span class=\"p-button-label p-c\">PDF</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/forma-publicacao": [
+    {
+      "selector": "[data-cy=\"1458627872-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1458627872-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1458627872-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1458627872-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1458627872-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"1458627872-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1458627872-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"1458627872-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1458627872-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"1458627872-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1458627872-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"1458627872-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1458627872-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1458627872-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1458627872-csv\"]",
+      "tag": "<button aria-label=\"CSV\" type=\"button\" class=\"p-button p-component p-mr-2\" data-cy=\"1458627872-csv\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-o\"></span><span class=\"p-button-label p-c\">CSV</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1458627872-xls\"]",
+      "tag": "<button aria-label=\"XLS\" type=\"button\" class=\"p-button p-component p-button-success p-mr-2\" data-cy=\"1458627872-xls\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-excel\"></span><span class=\"p-button-label p-c\">XLS</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1458627872-pdf\"]",
+      "tag": "<button aria-label=\"PDF\" type=\"button\" class=\"p-button p-component p-button-danger p-mr-2\" data-cy=\"1458627872-pdf\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-pdf\"></span><span class=\"p-button-label p-c\">PDF</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/fundamentacao-legal": [
+    {
+      "selector": "[data-cy=\"275348607-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"275348607-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"275348607-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"275348607-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"275348607-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"275348607-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"275348607-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"275348607-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"275348607-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"275348607-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"275348607-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"275348607-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/licitante": [
+    {
+      "selector": "[data-cy=\"3164945720-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3164945720-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3164945720-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3164945720-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3164945720-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"3164945720-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3164945720-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"3164945720-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3164945720-pi pi-list\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-info p-mr-2 p-button-icon-only\" data-cy=\"3164945720-pi pi-list\"><span class=\"p-button-icon p-c pi pi-list\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3164945720-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"3164945720-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3164945720-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"3164945720-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3164945720-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3164945720-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/modalidade-licitacao": [
+    {
+      "selector": "[data-cy=\"2428299973-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"2428299973-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2428299973-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"2428299973-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2428299973-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"2428299973-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2428299973-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"2428299973-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2428299973-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"2428299973-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2428299973-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"2428299973-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2428299973-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"2428299973-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/tipo-licitacao": [
+    {
+      "selector": "[data-cy=\"3946733471-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3946733471-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3946733471-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3946733471-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3946733471-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"3946733471-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3946733471-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"3946733471-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3946733471-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"3946733471-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3946733471-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"3946733471-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3946733471-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3946733471-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/gerador-links": [
+    {
+      "selector": "[data-cy=\"1437041263-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1437041263-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1437041263-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1437041263-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1437041263-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"1437041263-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1437041263-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1437041263-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/variavel-controle": [
+    {
+      "selector": "[data-cy=\"3787439616-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3787439616-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3787439616-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3787439616-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3787439616-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3787439616-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/obrigatoriedade-arquivo": [
+    {
+      "selector": "[data-cy=\"3706103062-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3706103062-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3706103062-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3706103062-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3706103062-pi pi-list\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-info p-mr-2 p-button-icon-only\" data-cy=\"3706103062-pi pi-list\"><span class=\"p-button-icon p-c pi pi-list\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3706103062-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"3706103062-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3706103062-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3706103062-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/entidade-externa": [
+    {
+      "selector": "[data-cy=\"3919870791-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3919870791-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3919870791-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3919870791-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3919870791-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"3919870791-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3919870791-exportar dados\"]",
+      "tag": "<button aria-label=\"Exportar Dados\" class=\"p-button p-component p-button\" data-cy=\"3919870791-exportar dados\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-download\"></span><span class=\"p-button-label p-c\">Exportar Dados</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3919870791-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"3919870791-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3919870791-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"3919870791-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3919870791-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3919870791-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3919870791-csv\"]",
+      "tag": "<button aria-label=\"CSV\" type=\"button\" class=\"p-button p-component p-mr-2\" data-cy=\"3919870791-csv\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-o\"></span><span class=\"p-button-label p-c\">CSV</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3919870791-xls\"]",
+      "tag": "<button aria-label=\"XLS\" type=\"button\" class=\"p-button p-component p-button-success p-mr-2\" data-cy=\"3919870791-xls\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-excel\"></span><span class=\"p-button-label p-c\">XLS</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3919870791-pdf\"]",
+      "tag": "<button aria-label=\"PDF\" type=\"button\" class=\"p-button p-component p-button-danger p-mr-2\" data-cy=\"3919870791-pdf\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-pdf\"></span><span class=\"p-button-label p-c\">PDF</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/responsavel-ente": [
+    {
+      "selector": "[data-cy=\"1130073086-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1130073086-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1130073086-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1130073086-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1130073086-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"1130073086-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1130073086-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"1130073086-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1130073086-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"1130073086-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1130073086-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1130073086-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/seguranca/grupo-usuario": [
+    {
+      "selector": "[data-cy=\"1745718313-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"1745718313-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1745718313-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1745718313-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1745718313-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"1745718313-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1745718313-permissoes\"]",
+      "tag": "<button class=\"p-button p-component p-button-help p-button-sm p-mr-2 p-button-icon-only\" data-cy=\"1745718313-permissoes\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c pi pi-unlock\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1745718313-usuarios\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-mr-2 p-button-icon-only\" data-cy=\"1745718313-usuarios\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c pi pi-user\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1745718313-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"1745718313-pi pi-pencil\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1745718313-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"1745718313-pi pi-trash\" style=\"margin-bottom: 5px;\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1745718313-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1745718313-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/seguranca/usuario": [
+    {
+      "selector": "[data-cy=\"4277602509-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"4277602509-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4277602509-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"4277602509-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4277602509-grupos\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-mr-2 p-button-icon-only\" data-cy=\"4277602509-grupos\"><span class=\"p-button-icon p-c pi pi-users\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4277602509-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"4277602509-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"4277602509-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"4277602509-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/seguranca/auditorAtribuidor": [
+    {
+      "selector": "[data-cy=\"2252475832-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"2252475832-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2252475832-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"2252475832-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2252475832-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"2252475832-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2252475832-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"2252475832-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2252475832-cancelar\"]",
+      "tag": "<button aria-label=\"Cancelar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"2252475832-cancelar\"><span class=\"p-button-label p-c\">Cancelar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/seguranca/funcao-risco": [
+    {
+      "selector": "[data-cy=\"3861932206-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"3861932206-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3861932206-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"3861932206-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3861932206-novo\"]",
+      "tag": "<button aria-label=\"Novo\" class=\"p-button p-component p-button\" data-cy=\"3861932206-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3861932206-pi pi-eye\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button p-mr-2 p-button-icon-only\" data-cy=\"3861932206-pi pi-eye\"><span class=\"p-button-icon p-c pi pi-eye\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3861932206-pi pi-pencil\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-success p-mr-2 p-button-icon-only\" data-cy=\"3861932206-pi pi-pencil\"><span class=\"p-button-icon p-c pi pi-pencil\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3861932206-pi pi-trash\"]",
+      "tag": "<button class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"3861932206-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3861932206-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"3861932206-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/seguranca/configuracoes/editar": [
+    {
+      "selector": "[data-cy=\"2791227887-novo\"]",
+      "tag": "<button aria-label=\"Novo\" type=\"button\" class=\"p-button p-component p-button\" data-cy=\"2791227887-novo\" style=\"margin-bottom: 5px; margin-right: 5px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2791227887-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"2791227887-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2791227887-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"button\" data-cy=\"2791227887-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2791227887-pi pi-trash\"]",
+      "tag": "<button type=\"button\" class=\"p-button p-component p-button-sm p-button-danger p-button-icon-only\" data-cy=\"2791227887-pi pi-trash\"><span class=\"p-button-icon p-c pi pi-trash\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/obras/medicao": [
+    {
+      "selector": "[data-cy=\"391958567-pi pi-chevron-right\"]",
+      "tag": "<button class=\"p-button p-component  p-button-lg p-button-icon-only\" data-cy=\"391958567-pi pi-chevron-right\" style=\"width: 50px; height: 50px; z-index: 1; position: absolute; right: 0px; margin-top: 1px; margin-right: 531px; transition-duration: 0.5s; transition-property: margin-right;\"><span class=\"p-button-icon p-c pi pi-chevron-right\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"391958567-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"391958567-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"391958567-pi pi-search\"]",
+      "tag": "<button class=\"p-button p-component p-button p-button-icon-only\" id=\"search-btn-advanced\" type=\"button\" data-cy=\"391958567-pi pi-search\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"391958567-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"391958567-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/termo-referencia/secao/novo": [
+    {
+      "selector": "[data-cy=\"171684078-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"171684078-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"171684078-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"171684078-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/termo-referencia/secao/editar/1": [
+    {
+      "selector": "[data-cy=\"556775477-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"556775477-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"556775477-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"556775477-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/termo-referencia/gerenciamento-termos/novo": [
+    {
+      "selector": "[data-cy=\"942852187-exportar\"]",
+      "tag": "<button aria-label=\"Exportar\" type=\"button\" class=\"p-button p-component p-button-danger p-mr-2\" data-cy=\"942852187-exportar\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-file-pdf\"></span><span class=\"p-button-label p-c\">Exportar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"942852187-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-2 p-button-secondary p-mr-2\" data-cy=\"942852187-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/licitacao/novo": [
+    {
+      "selector": "[data-cy=\"98475936-voltar\"]",
+      "tag": "<button class=\"p-button p-component p-button-raised p-button-danger p-button-icon-only\" data-cy=\"98475936-voltar\"><span class=\"p-button-icon p-c pi pi-arrow-left\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"98475936-pi pi-search\"]",
+      "tag": "<button id=\"search-btn\" type=\"button\" data-cy=\"98475936-pi pi-search\" class=\"p-button p-component p-button-icon-only\" style=\"width: 100%; height: 100%;\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"98475936-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"98475936-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/dispensa/novo": [
+    {
+      "selector": "[data-cy=\"1220839576-pi pi-search\"]",
+      "tag": "<button id=\"search-btn\" type=\"button\" data-cy=\"1220839576-pi pi-search\" class=\"p-button p-component p-button-icon-only\" style=\"width: 100%; height: 100%;\"><span class=\"p-button-icon p-c pi pi-search\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1220839576-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-button-secondary p-mr-2\" data-cy=\"1220839576-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1220839576-pi pi-times\"]",
+      "tag": "<button class=\"p-button p-component p-button-rounded p-button-text p-button-icon-only\" data-cy=\"1220839576-pi pi-times\" style=\"color: black;\"><span class=\"p-button-icon p-c pi pi-times\"></span><span class=\"p-button-label p-c\">&nbsp;</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1220839576-filtros\"]",
+      "tag": "<button aria-label=\"Filtros\" class=\"p-button p-component filter-button p-button-text pr-2\" id=\"show-filter-btn\" type=\"button\" data-cy=\"1220839576-filtros\" style=\"width: 90px;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-angle-double-right\"></span><span class=\"p-button-label p-c\">Filtros</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1220839576-cancelar\"]",
+      "tag": "<button aria-label=\"Cancelar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"1220839576-cancelar\"><span class=\"p-button-label p-c\">Cancelar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/cadastros-consulta/comissao/novo": [
+    {
+      "selector": "[data-cy=\"3756309115-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"3756309115-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3756309115-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"3756309115-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/requisicao-modificacao/julgamento/15522": [
+    {
+      "selector": "[data-cy=\"alertas dafo\"]",
+      "tag": "<li data-cy=\"alertas dafo\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/analisar-alertas\"><i class=\"layout-menuitem-icon pi pi-bell\"></i><span class=\"layout-menuitem-text\">Alertas Dafo</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"analisar processos\"]",
+      "tag": "<li data-cy=\"analisar processos\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/analise-processo\"><i class=\"layout-menuitem-icon pi pi-search-minus\"></i><span class=\"layout-menuitem-text\">Analisar Processos</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"secoes checklist\"]",
+      "tag": "<li data-cy=\"secoes checklist\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/secao-checklist\"><i class=\"layout-menuitem-icon pi pi-check-square\"></i><span class=\"layout-menuitem-text\">Seções Checklist</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"checklist de verificacao\"]",
+      "tag": "<li data-cy=\"checklist de verificacao\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/item-checklist\"><i class=\"layout-menuitem-icon pi pi-check-square\"></i><span class=\"layout-menuitem-text\">Checklist de Verificação</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"analise automatica\"]",
+      "tag": "<li data-cy=\"analise automatica\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/analise-automatica\"><i class=\"layout-menuitem-icon pi pi-search-minus\"></i><span class=\"layout-menuitem-text\">Análise Automática</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"historico de processos\"]",
+      "tag": "<li data-cy=\"historico de processos\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/historico-processos\"><i class=\"layout-menuitem-icon pi pi-folder\"></i><span class=\"layout-menuitem-text\">Histórico de Processos</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"analise de editais\"]",
+      "tag": "<li data-cy=\"analise de editais\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/analisar-editais\"><i class=\"layout-menuitem-icon pi pi-search-minus\"></i><span class=\"layout-menuitem-text\">Análise de Editais</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"monitoramento atos diario oficial\"]",
+      "tag": "<li data-cy=\"monitoramento atos diario oficial\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/monitoramento-atos-diario-oficial\"><i class=\"layout-menuitem-icon pi pi-desktop\"></i><span class=\"layout-menuitem-text\">Monitoramento Atos Diário Oficial</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    },
+    {
+      "selector": "[data-cy=\"mapeamento de atos com licitacoes\"]",
+      "tag": "<li data-cy=\"mapeamento de atos com licitacoes\" class=\"\" role=\"menuitem\"><a class=\"p-ripple\" href=\"#/auditoria/mapeamento-atos-licitacoes\"><i class=\"layout-menuitem-icon pi pi-desktop\"></i><span class=\"layout-menuitem-text\">Mapeamento de Atos com Licitações</span><span role=\"presentation\" class=\"p-ink\"></span></a></li>"
+    }
+  ],
+  "http://application-16/#/auditoria/secao-checklist/novo": [
+    {
+      "selector": "[data-cy=\"803856921-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"803856921-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"803856921-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"button\" data-cy=\"803856921-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/secao-checklist/editar/1": [
+    {
+      "selector": "[data-cy=\"3227589920-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"3227589920-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3227589920-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"button\" data-cy=\"3227589920-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/auditoria/analise-automatica/editar/3": [
+    {
+      "selector": "[data-cy=\"3330963944-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"3330963944-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3330963944-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"3330963944-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/falha/editar/12": [
+    {
+      "selector": "[data-cy=\"3165962653-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"3165962653-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3165962653-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"3165962653-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/feriado/editar/4": [
+    {
+      "selector": "[data-cy=\"249978481-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"249978481-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"249978481-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"249978481-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/fonte-recurso/editar/29": [
+    {
+      "selector": "[data-cy=\"1144828917-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"1144828917-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1144828917-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"1144828917-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/forma-licitacao/novo": [
+    {
+      "selector": "[data-cy=\"1615329263-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"1615329263-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1615329263-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"1615329263-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/forma-publicacao/novo": [
+    {
+      "selector": "[data-cy=\"2117816265-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"2117816265-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2117816265-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"2117816265-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/forma-publicacao/editar/8": [
+    {
+      "selector": "[data-cy=\"3010823888-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"3010823888-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3010823888-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"3010823888-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/licitante/editar/36972": [
+    {
+      "selector": "[data-cy=\"1052880824-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"1052880824-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1052880824-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"1052880824-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/modalidade-licitacao/editar/9": [
+    {
+      "selector": "[data-cy=\"266598411-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"266598411-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"266598411-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"266598411-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/tipo-licitacao/editar/5": [
+    {
+      "selector": "[data-cy=\"3606632177-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"3606632177-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3606632177-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"3606632177-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/gerador-links/novo": [
+    {
+      "selector": "[data-cy=\"2968366042-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"2968366042-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2968366042-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"2968366042-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/obrigatoriedade-arquivo/editar/1": [
+    {
+      "selector": "[data-cy=\"1098338586-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"1098338586-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1098338586-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"1098338586-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/entidade-externa/novo": [
+    {
+      "selector": "[data-cy=\"3705829890-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"3705829890-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3705829890-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"3705829890-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/entidade-externa/editar/1": [
+    {
+      "selector": "[data-cy=\"3319292489-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"3319292489-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"3319292489-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"3319292489-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/administracao/responsavel-ente/editar/30": [
+    {
+      "selector": "[data-cy=\"2652145970-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"2652145970-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2652145970-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"2652145970-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/seguranca/grupo-usuario/editar/3": [
+    {
+      "selector": "[data-cy=\"1090080807-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"1090080807-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1090080807-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"1090080807-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/seguranca/usuario/editar/21882": [
+    {
+      "selector": "[data-cy=\"1750615299-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"1750615299-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"1750615299-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"1750615299-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/seguranca/funcao-risco/novo": [
+    {
+      "selector": "[data-cy=\"461755643-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"461755643-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"461755643-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"461755643-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ],
+  "http://application-16/#/seguranca/funcao-risco/editar/11": [
+    {
+      "selector": "[data-cy=\"2734677634-novo\"]",
+      "tag": "<button aria-label=\"Novo\" type=\"button\" data-cy=\"2734677634-novo\" class=\"p-button p-component\" style=\"margin-bottom: 5px; margin-right: 5px; width: 8%;\"><span class=\"p-button-icon p-c p-button-icon-left pi pi-plus\"></span><span class=\"p-button-label p-c\">Novo</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2734677634-voltar\"]",
+      "tag": "<button aria-label=\"Voltar\" type=\"button\" class=\"p-button p-component p-ml-auto p-button-secondary p-mr-2\" data-cy=\"2734677634-voltar\"><span class=\"p-button-label p-c\">Voltar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"2734677634-salvar\"]",
+      "tag": "<button aria-label=\"Salvar\" type=\"submit\" data-cy=\"2734677634-salvar\" class=\"p-button p-component\"><span class=\"p-button-label p-c\">Salvar</span><span role=\"presentation\" class=\"p-ink\"></span></button>"
+    }
+  ]
+}

@@ -1,0 +1,778 @@
+{
+  "http://localhost:9998": [
+    {
+      "selector": "[class=\"navbar-toggle\"]",
+      "tag": "<button data-cy=\"index-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+    },
+    {
+      "selector": "[class=\"navbar-brand\"]",
+      "tag": "<a class=\"navbar-brand\" href=\"index.html\" data-cy=\"index-navbar-brand\">\n\t\t\t\t\t<img src=\"assets/images/logo.png\" alt=\"Techro HTML5 template\"></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-twitter\"]",
+      "tag": "<i class=\"fa fa-twitter\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-facebook\"]",
+      "tag": "<i class=\"fa fa-facebook\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-dribbble\"]",
+      "tag": "<i class=\"fa fa-dribbble\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-flickr\"]",
+      "tag": "<i class=\"fa fa-flickr\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-github\"]",
+      "tag": "<i class=\"fa fa-github\"></i></a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"index.html\" data-cy=\"index-index\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"about.html\" data-cy=\"index-about\">About</a>"
+    },
+    {
+      "selector": "Courses",
+      "tag": "<a href=\"courses.html\" data-cy=\"index-courses\">Courses</a>"
+    },
+    {
+      "selector": "Fees",
+      "tag": "<a href=\"fees.html\" data-cy=\"index-fees\">Fees</a>"
+    },
+    {
+      "selector": "Portfolio",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"index-portfolio\">Portfolio</a>"
+    },
+    {
+      "selector": "Pages",
+      "tag": "<a href=\"index.html\" data-cy=\"index-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+    },
+    {
+      "selector": "Right Sidebar",
+      "tag": "<a href=\"sidebar-right.html\" data-cy=\"index-right-sidebar\">Right Sidebar</a>"
+    },
+    {
+      "selector": "Dummy Link1",
+      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-1\">Dummy Link1</a>"
+    },
+    {
+      "selector": "Dummy Link2",
+      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-2\">Dummy Link2</a>"
+    },
+    {
+      "selector": "Dummy Link3",
+      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-3\">Dummy Link3</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a data-cy=\"index-contact\" href=\"contact.html\">Contact</a>"
+    },
+    {
+      "selector": "read more",
+      "tag": "<a href=\"index.html\" data-cy=\"index-read-more\" title=\"read more\" class=\"btn-inline \" target=\"_self\">read more</a>"
+    },
+    {
+      "selector": "Mathematics and Computer Science",
+      "tag": "<a data-cy=\"index-text-1\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"index.html\">Mathematics and Computer Science</a>"
+    },
+    {
+      "selector": "Mathematics and Philosophy",
+      "tag": "<a data-cy=\"index-text-2\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"index.html\">Mathematics and Philosophy</a>"
+    },
+    {
+      "selector": "Philosophy and Modern Languages",
+      "tag": "<a data-cy=\"index-text-3\" title=\"Penatibus et magnis dis parturient montes ascetur ridiculus mus.\" href=\"index.html\">Philosophy and Modern Languages</a>"
+    },
+    {
+      "selector": "History (Ancient and Modern)",
+      "tag": "<a data-cy=\"index-text-4\" title=\"Morbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci.\" href=\"index.html\">History (Ancient and Modern)</a>"
+    },
+    {
+      "selector": "Classical Archaeology and Ancient History",
+      "tag": "<a data-cy=\"index-text-5\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"index.html\">Classical Archaeology and Ancient History</a>"
+    },
+    {
+      "selector": "Physics and Philosophy",
+      "tag": "<a data-cy=\"index-text-6\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"index.html\">Physics and Philosophy</a>"
+    },
+    {
+      "selector": "WebThemez.com",
+      "tag": "<a href=\"http://webthemez.com/\" data-cy=\"index-WebThemez\" rel=\"develop\">WebThemez.com</a>"
+    }
+  ],
+  "http://localhost:9998/index.html": [
+    {
+      "selector": "[class=\"navbar-toggle\"]",
+      "tag": "<button data-cy=\"index-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+    },
+    {
+      "selector": "[class=\"navbar-brand\"]",
+      "tag": "<a class=\"navbar-brand\" href=\"index.html\" data-cy=\"index-navbar-brand\">\n\t\t\t\t\t<img src=\"assets/images/logo.png\" alt=\"Techro HTML5 template\"></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-twitter\"]",
+      "tag": "<i class=\"fa fa-twitter\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-facebook\"]",
+      "tag": "<i class=\"fa fa-facebook\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-dribbble\"]",
+      "tag": "<i class=\"fa fa-dribbble\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-flickr\"]",
+      "tag": "<i class=\"fa fa-flickr\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-github\"]",
+      "tag": "<i class=\"fa fa-github\"></i></a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"index.html\" data-cy=\"index-index\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"about.html\" data-cy=\"index-about\">About</a>"
+    },
+    {
+      "selector": "Courses",
+      "tag": "<a href=\"courses.html\" data-cy=\"index-courses\">Courses</a>"
+    },
+    {
+      "selector": "Fees",
+      "tag": "<a href=\"fees.html\" data-cy=\"index-fees\">Fees</a>"
+    },
+    {
+      "selector": "Portfolio",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"index-portfolio\">Portfolio</a>"
+    },
+    {
+      "selector": "Pages",
+      "tag": "<a href=\"index.html\" data-cy=\"index-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+    },
+    {
+      "selector": "Right Sidebar",
+      "tag": "<a href=\"sidebar-right.html\" data-cy=\"index-right-sidebar\">Right Sidebar</a>"
+    },
+    {
+      "selector": "Dummy Link1",
+      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-1\">Dummy Link1</a>"
+    },
+    {
+      "selector": "Dummy Link2",
+      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-2\">Dummy Link2</a>"
+    },
+    {
+      "selector": "Dummy Link3",
+      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-3\">Dummy Link3</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a data-cy=\"index-contact\" href=\"contact.html\">Contact</a>"
+    },
+    {
+      "selector": "read more",
+      "tag": "<a href=\"index.html\" data-cy=\"index-read-more\" title=\"read more\" class=\"btn-inline \" target=\"_self\">read more</a>"
+    },
+    {
+      "selector": "Mathematics and Computer Science",
+      "tag": "<a data-cy=\"index-text-1\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"index.html\">Mathematics and Computer Science</a>"
+    },
+    {
+      "selector": "Mathematics and Philosophy",
+      "tag": "<a data-cy=\"index-text-2\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"index.html\">Mathematics and Philosophy</a>"
+    },
+    {
+      "selector": "Philosophy and Modern Languages",
+      "tag": "<a data-cy=\"index-text-3\" title=\"Penatibus et magnis dis parturient montes ascetur ridiculus mus.\" href=\"index.html\">Philosophy and Modern Languages</a>"
+    },
+    {
+      "selector": "History (Ancient and Modern)",
+      "tag": "<a data-cy=\"index-text-4\" title=\"Morbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci.\" href=\"index.html\">History (Ancient and Modern)</a>"
+    },
+    {
+      "selector": "Classical Archaeology and Ancient History",
+      "tag": "<a data-cy=\"index-text-5\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"index.html\">Classical Archaeology and Ancient History</a>"
+    },
+    {
+      "selector": "Physics and Philosophy",
+      "tag": "<a data-cy=\"index-text-6\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"index.html\">Physics and Philosophy</a>"
+    },
+    {
+      "selector": "WebThemez.com",
+      "tag": "<a href=\"http://webthemez.com/\" data-cy=\"index-WebThemez\" rel=\"develop\">WebThemez.com</a>"
+    }
+  ],
+  "http://localhost:9998/about.html": [
+    {
+      "selector": "[class=\"navbar-toggle\"]",
+      "tag": "<button data-cy=\"about-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+    },
+    {
+      "selector": "[class=\"navbar-brand\"]",
+      "tag": "<a class=\"navbar-brand\" href=\"index.html\" data-cy=\"about-navbar-brand\">\n                    <img src=\"assets/images/logo.png\" alt=\"Techro HTML5 template\"></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-facebook\"]",
+      "tag": "<i class=\"fa fa-facebook\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-google-plus\"]",
+      "tag": "<i class=\"fa fa-google-plus\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-twitter\"]",
+      "tag": "<i class=\"fa fa-twitter\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-dribbble\"]",
+      "tag": "<i class=\"fa fa-dribbble\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-github\"]",
+      "tag": "<i class=\"fa fa-github\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-flickr\"]",
+      "tag": "<i class=\"fa fa-flickr\"></i></a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"index.html\" data-cy=\"about-index\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"about.html\" data-cy=\"about-about\">About</a>"
+    },
+    {
+      "selector": "Courses",
+      "tag": "<a href=\"courses.html\" data-cy=\"about-courses\">Courses</a>"
+    },
+    {
+      "selector": "Fees",
+      "tag": "<a href=\"fees.html\" data-cy=\"about-fees\">Fees</a>"
+    },
+    {
+      "selector": "Portfolio",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"about-portfolio\">Portfolio</a>"
+    },
+    {
+      "selector": "Pages",
+      "tag": "<a href=\"about.html\" data-cy=\"about-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+    },
+    {
+      "selector": "Right Sidebar",
+      "tag": "<a href=\"sidebar-right.html\" data-cy=\"about-right-sidebar\">Right Sidebar</a>"
+    },
+    {
+      "selector": "Dummy Link1",
+      "tag": "<a href=\"about.html\" data-cy=\"about-dummy-link-1\">Dummy Link1</a>"
+    },
+    {
+      "selector": "Dummy Link2",
+      "tag": "<a href=\"about.html\" data-cy=\"about-dummy-link-2\">Dummy Link2</a>"
+    },
+    {
+      "selector": "Dummy Link3",
+      "tag": "<a href=\"about.html\" data-cy=\"about-dummy-link-3\">Dummy Link3</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a href=\"contact.html\" data-cy=\"about-contact\">Contact</a>"
+    },
+    {
+      "selector": "Responsive Design",
+      "tag": "<a data-cy=\"about-Responsive\" href=\"\">Responsive Design</a>"
+    },
+    {
+      "selector": "HTML5, CSS3 and JavaScript",
+      "tag": "<a href=\"\" data-cy=\"about-HTML5\">HTML5, CSS3 and JavaScript</a>"
+    },
+    {
+      "selector": "Bootstrap",
+      "tag": "<a href=\"\" data-cy=\"about-Bootstrap\">Bootstrap</a>"
+    },
+    {
+      "selector": "Clean Template",
+      "tag": "<a href=\"\" data-cy=\"about-Clean\">Clean Template</a>"
+    },
+    {
+      "selector": "Premium Quality",
+      "tag": "<a href=\"\" data-cy=\"about-Premium\">Premium Quality</a>"
+    },
+    {
+      "selector": "WebThemez.com",
+      "tag": "<a href=\"http://webthemez.com/\" data-cy=\"about-WebThemez\" rel=\"develop\">WebThemez.com</a>"
+    }
+  ],
+  "http://localhost:9998/courses.html": [
+    {
+      "selector": "[class=\"navbar-toggle\"]",
+      "tag": "<button data-cy=\"courses-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+    },
+    {
+      "selector": "[class=\"navbar-brand\"]",
+      "tag": "<a class=\"navbar-brand\" href=\"index.html\" data-cy=\"courses-navbar-brand\">\n\t\t\t\t\t<img src=\"assets/images/logo.png\" alt=\"Techro HTML5 template\"></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-twitter\"]",
+      "tag": "<i class=\"fa fa-twitter\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-facebook\"]",
+      "tag": "<i class=\"fa fa-facebook\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-dribbble\"]",
+      "tag": "<i class=\"fa fa-dribbble\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-flickr\"]",
+      "tag": "<i class=\"fa fa-flickr\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-github\"]",
+      "tag": "<i class=\"fa fa-github\"></i></a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"index.html\" data-cy=\"courses-index\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"about.html\" data-cy=\"courses-about\">About</a>"
+    },
+    {
+      "selector": "Courses",
+      "tag": "<a href=\"courses.html\" data-cy=\"courses-courses\">Courses</a>"
+    },
+    {
+      "selector": "Fees",
+      "tag": "<a href=\"fees.html\" data-cy=\"courses-fees\">Fees</a>"
+    },
+    {
+      "selector": "Portfolio",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"courses-portfolio\">Portfolio</a>"
+    },
+    {
+      "selector": "Pages",
+      "tag": "<a href=\"courses.html\" data-cy=\"courses-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+    },
+    {
+      "selector": "Right Sidebar",
+      "tag": "<a href=\"sidebar-right.html\" data-cy=\"courses-right-sidebar\">Right Sidebar</a>"
+    },
+    {
+      "selector": "Dummy Link1",
+      "tag": "<a href=\"courses.html\" data-cy=\"courses-dummy-link-1\">Dummy Link1</a>"
+    },
+    {
+      "selector": "Dummy Link2",
+      "tag": "<a href=\"courses.html\" data-cy=\"courses-dummy-link-2\">Dummy Link2</a>"
+    },
+    {
+      "selector": "Dummy Link3",
+      "tag": "<a href=\"courses.html\" data-cy=\"courses-dummy-link-3\">Dummy Link3</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a href=\"contact.html\" data-cy=\"courses-contact\">Contact</a>"
+    },
+    {
+      "selector": "WebThemez.com",
+      "tag": "<a href=\"http://webthemez.com/\" data-cy=\"courses-WebThemez\" rel=\"develop\">WebThemez.com</a>"
+    }
+  ],
+  "http://localhost:9998/fees.html": [
+    {
+      "selector": "[class=\"navbar-toggle\"]",
+      "tag": "<button data-cy=\"fees-navbar-collapse\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+    },
+    {
+      "selector": "[class=\"navbar-brand\"]",
+      "tag": "<a class=\"navbar-brand\" href=\"index.html\" data-cy=\"fees-navbar-brand\">\n\t\t\t\t\t<img src=\"assets/images/logo.png\" alt=\"Techro HTML5 template\"></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-twitter\"]",
+      "tag": "<i class=\"fa fa-twitter\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-facebook\"]",
+      "tag": "<i class=\"fa fa-facebook\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-dribbble\"]",
+      "tag": "<i class=\"fa fa-dribbble\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-flickr\"]",
+      "tag": "<i class=\"fa fa-flickr\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-github\"]",
+      "tag": "<i class=\"fa fa-github\"></i></a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"index.html\" data-cy=\"fees-index\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"about.html\" data-cy=\"fees-about\">About</a>"
+    },
+    {
+      "selector": "Courses",
+      "tag": "<a href=\"courses.html\" data-cy=\"fees-courses\">Courses</a>"
+    },
+    {
+      "selector": "Fees",
+      "tag": "<a href=\"fees.html\" data-cy=\"fees-fees\">Fees</a>"
+    },
+    {
+      "selector": "Portfolio",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"fees-portfolio\">Portfolio</a>"
+    },
+    {
+      "selector": "Pages",
+      "tag": "<a href=\"fees.html\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" data-cy=\"fees-dropdown\">Pages <b class=\"caret\"></b></a>"
+    },
+    {
+      "selector": "Right Sidebar",
+      "tag": "<a href=\"sidebar-right.html\" data-cy=\"fees-right-sidebar\">Right Sidebar</a>"
+    },
+    {
+      "selector": "Dummy Link1",
+      "tag": "<a data-cy=\"fees-dummy-link-1\" href=\"fees.html\">Dummy Link1</a>"
+    },
+    {
+      "selector": "Dummy Link2",
+      "tag": "<a data-cy=\"fees-dummy-link-2\" href=\"fees.html\">Dummy Link2</a>"
+    },
+    {
+      "selector": "Dummy Link3",
+      "tag": "<a data-cy=\"fees-dummy-link-3\" href=\"fees.html\">Dummy Link3</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a href=\"contact.html\" data-cy=\"fees-contact\">Contact</a>"
+    },
+    {
+      "selector": "Signup",
+      "tag": "<a href=\"fees.html\" class=\"btn\" data-cy=\"fees-signup-basic\">Signup</a>"
+    },
+    {
+      "selector": "WebThemez.com",
+      "tag": "<a href=\"http://webthemez.com/\" data-cy=\"fees-WebThemez\" rel=\"develop\">WebThemez.com</a>"
+    }
+  ],
+  "http://localhost:9998/portfolio.html": [
+    {
+      "selector": "[class=\"navbar-toggle\"]",
+      "tag": "<button data-cy=\"portfolio-navbar-collapse\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+    },
+    {
+      "selector": "[class=\"navbar-brand\"]",
+      "tag": "<a class=\"navbar-brand\" href=\"index.html\" data-cy=\"sidebar-navbar-brand\">\n\t\t\t\t\t<img src=\"assets/images/logo.png\" alt=\"Techro HTML5 template\"></a>"
+    },
+    {
+      "selector": "[class=\"fancybox\"]",
+      "tag": "<a href=\"assets/images/portfolio/img1.jpg\" class=\"fancybox\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h5>Project Title</h5>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-link fa-2x\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-twitter\"]",
+      "tag": "<i class=\"fa fa-twitter\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-facebook\"]",
+      "tag": "<i class=\"fa fa-facebook\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-dribbble\"]",
+      "tag": "<i class=\"fa fa-dribbble\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-flickr\"]",
+      "tag": "<i class=\"fa fa-flickr\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-github\"]",
+      "tag": "<i class=\"fa fa-github\"></i></a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"index.html\" data-cy=\"portfolio-index\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"about.html\" data-cy=\"portfolio-about\">About</a>"
+    },
+    {
+      "selector": "Courses",
+      "tag": "<a href=\"courses.html\" data-cy=\"portfolio-courses\">Courses</a>"
+    },
+    {
+      "selector": "Fees",
+      "tag": "<a href=\"fees.html\" data-cy=\"portfolio-fees\">Fees</a>"
+    },
+    {
+      "selector": "Portfolio",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-portfolio\">Portfolio</a>"
+    },
+    {
+      "selector": "Pages",
+      "tag": "<a href=\"portfolio.html\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" data-cy=\"portfolio-dropdown\">Pages <b class=\"caret\"></b></a>"
+    },
+    {
+      "selector": "Right Sidebar",
+      "tag": "<a href=\"sidebar-right.html\" data-cy=\"portfolio-right-sidebar\">Right Sidebar</a>"
+    },
+    {
+      "selector": "Dummy Link1",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-dummy-link-1\">Dummy Link1</a>"
+    },
+    {
+      "selector": "Dummy Link2",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-dummy-link-2\">Dummy Link2</a>"
+    },
+    {
+      "selector": "Dummy Link3",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-dummy-link-3\">Dummy Link3</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a href=\"contact.html\" data-cy=\"portfolio-contact\">Contact</a>"
+    },
+    {
+      "selector": "All",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-all\" class=\"current btn-theme btn-small\" data-filter=\"*\">All</a>"
+    },
+    {
+      "selector": "Web Design",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-web-design\" class=\"btn-theme btn-small\" data-filter=\".webdesign\">Web Design</a>"
+    },
+    {
+      "selector": "Photography",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-photography\" class=\"btn-theme btn-small\" data-filter=\".photography\">Photography</a>"
+    },
+    {
+      "selector": "Print",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-print\" class=\"btn-theme btn-small\" data-filter=\".print\">Print</a>"
+    },
+    {
+      "selector": "WebThemez.com",
+      "tag": "<a href=\"http://webthemez.com/\" data-cy=\"portfolio-WebThemez\" rel=\"develop\">WebThemez.com</a>"
+    }
+  ],
+  "http://localhost:9998/contact.html": [
+    {
+      "selector": "[class=\"navbar-toggle\"]",
+      "tag": "<button data-cy=\"contact-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+    },
+    {
+      "selector": "[class=\"navbar-brand\"]",
+      "tag": "<a class=\"navbar-brand\" href=\"index.html\" data-cy=\"contact-navbar-brand\">\n\t\t\t\t\t<img src=\"assets/images/logo.png\" alt=\"Techro HTML5 template\"></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-twitter\"]",
+      "tag": "<i class=\"fa fa-twitter\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-facebook\"]",
+      "tag": "<i class=\"fa fa-facebook\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-dribbble\"]",
+      "tag": "<i class=\"fa fa-dribbble\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-flickr\"]",
+      "tag": "<i class=\"fa fa-flickr\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-github\"]",
+      "tag": "<i class=\"fa fa-github\"></i></a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"index.html\" data-cy=\"contact-index\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"about.html\" data-cy=\"contact-about\">About</a>"
+    },
+    {
+      "selector": "Courses",
+      "tag": "<a href=\"courses.html\" data-cy=\"contact-courses\">Courses</a>"
+    },
+    {
+      "selector": "Fees",
+      "tag": "<a href=\"fees.html\" data-cy=\"contact-fees\">Fees</a>"
+    },
+    {
+      "selector": "Portfolio",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"contact-portfolio\">Portfolio</a>"
+    },
+    {
+      "selector": "Pages",
+      "tag": "<a href=\"contact.html\" data-cy=\"contact-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+    },
+    {
+      "selector": "Right Sidebar",
+      "tag": "<a href=\"sidebar-right.html\" data-cy=\"contact-right-sidebar\">Right Sidebar</a>"
+    },
+    {
+      "selector": "Dummy Link1",
+      "tag": "<a href=\"contact.html\" data-cy=\"contact-dummy-link-1\">Dummy Link1</a>"
+    },
+    {
+      "selector": "Dummy Link2",
+      "tag": "<a href=\"contact.html\" data-cy=\"contact-dummy-link-2\">Dummy Link2</a>"
+    },
+    {
+      "selector": "Dummy Link3",
+      "tag": "<a href=\"contact.html\" data-cy=\"contact-dummy-link-3\">Dummy Link3</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a href=\"contact.html\" data-cy=\"contact-contact\">Contact</a>"
+    },
+    {
+      "selector": "Send message",
+      "tag": "<button data-cy=\"send-message-button\" type=\"submit\" class=\"btn btn-two\">Send message</button>"
+    },
+    {
+      "selector": "WebThemez.com",
+      "tag": "<a href=\"http://webthemez.com/\" data-cy=\"contact-webthemez\" rel=\"develop\">WebThemez.com</a>"
+    },
+    {
+      "selector": "[placeholder=\"Your name\"]",
+      "tag": "<input type=\"text\" class=\"form-control\" placeholder=\"Your name\" data-cy=\"email-name-input\">"
+    },
+    {
+      "selector": "[placeholder=\"Email address\"]",
+      "tag": "<input type=\"email\" class=\"form-control\" placeholder=\"Email address\" data-cy=\"email-address-input\">"
+    },
+    {
+      "selector": "[placeholder=\"Phone number\"]",
+      "tag": "<input type=\"text\" class=\"form-control\" placeholder=\"Phone number\" data-cy=\"phone-number-input\">"
+    },
+    {
+      "selector": "[placeholder=\"Subject\"]",
+      "tag": "<input type=\"text\" class=\"form-control\" placeholder=\"Subject\" data-cy=\"subject-input\">"
+    },
+    {
+      "selector": "[id=\"message\"]",
+      "tag": "<textarea data-cy=\"message-textarea\" class=\"form-control\" id=\"message\" placeholder=\"Write you message here...\" style=\"height:100px;\"></textarea>"
+    }
+  ],
+  "http://localhost:9998/contact.html?": [
+    {
+      "selector": "[class=\"navbar-toggle\"]",
+      "tag": "<button data-cy=\"contact-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+    },
+    {
+      "selector": "[class=\"navbar-brand\"]",
+      "tag": "<a class=\"navbar-brand\" href=\"index.html\" data-cy=\"contact-navbar-brand\">\n\t\t\t\t\t<img src=\"assets/images/logo.png\" alt=\"Techro HTML5 template\"></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-twitter\"]",
+      "tag": "<i class=\"fa fa-twitter\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-facebook\"]",
+      "tag": "<i class=\"fa fa-facebook\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-dribbble\"]",
+      "tag": "<i class=\"fa fa-dribbble\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-flickr\"]",
+      "tag": "<i class=\"fa fa-flickr\"></i></a>"
+    },
+    {
+      "selector": "[class=\"fa fa-github\"]",
+      "tag": "<i class=\"fa fa-github\"></i></a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"index.html\" data-cy=\"contact-index\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"about.html\" data-cy=\"contact-about\">About</a>"
+    },
+    {
+      "selector": "Courses",
+      "tag": "<a href=\"courses.html\" data-cy=\"contact-courses\">Courses</a>"
+    },
+    {
+      "selector": "Fees",
+      "tag": "<a href=\"fees.html\" data-cy=\"contact-fees\">Fees</a>"
+    },
+    {
+      "selector": "Portfolio",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"contact-portfolio\">Portfolio</a>"
+    },
+    {
+      "selector": "Pages",
+      "tag": "<a href=\"contact.html\" data-cy=\"contact-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+    },
+    {
+      "selector": "Right Sidebar",
+      "tag": "<a href=\"sidebar-right.html\" data-cy=\"contact-right-sidebar\">Right Sidebar</a>"
+    },
+    {
+      "selector": "Dummy Link1",
+      "tag": "<a href=\"contact.html\" data-cy=\"contact-dummy-link-1\">Dummy Link1</a>"
+    },
+    {
+      "selector": "Dummy Link2",
+      "tag": "<a href=\"contact.html\" data-cy=\"contact-dummy-link-2\">Dummy Link2</a>"
+    },
+    {
+      "selector": "Dummy Link3",
+      "tag": "<a href=\"contact.html\" data-cy=\"contact-dummy-link-3\">Dummy Link3</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a href=\"contact.html\" data-cy=\"contact-contact\">Contact</a>"
+    },
+    {
+      "selector": "Send message",
+      "tag": "<button data-cy=\"send-message-button\" type=\"submit\" class=\"btn btn-two\">Send message</button>"
+    },
+    {
+      "selector": "WebThemez.com",
+      "tag": "<a href=\"http://webthemez.com/\" data-cy=\"contact-webthemez\" rel=\"develop\">WebThemez.com</a>"
+    },
+    {
+      "selector": "[placeholder=\"Your name\"]",
+      "tag": "<input type=\"text\" class=\"form-control\" placeholder=\"Your name\" data-cy=\"email-name-input\">"
+    },
+    {
+      "selector": "[placeholder=\"Email address\"]",
+      "tag": "<input type=\"email\" class=\"form-control\" placeholder=\"Email address\" data-cy=\"email-address-input\">"
+    },
+    {
+      "selector": "[placeholder=\"Phone number\"]",
+      "tag": "<input type=\"text\" class=\"form-control\" placeholder=\"Phone number\" data-cy=\"phone-number-input\">"
+    },
+    {
+      "selector": "[placeholder=\"Subject\"]",
+      "tag": "<input type=\"text\" class=\"form-control\" placeholder=\"Subject\" data-cy=\"subject-input\">"
+    },
+    {
+      "selector": "[id=\"message\"]",
+      "tag": "<textarea data-cy=\"message-textarea\" class=\"form-control\" id=\"message\" placeholder=\"Write you message here...\" style=\"height:100px;\"></textarea>"
+    }
+  ]
+}
