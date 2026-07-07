@@ -1,0 +1,261 @@
+{
+  "equal": {
+    "http://localhost:3000": [
+      [
+        {
+          "selector": "[data-cy=\"header-mobile-home\"]",
+          "tag": "<a aria-current=\"page\" class=\"mobile-nav active\" data-cy=\"header-mobile-home\" href=\"/\"><img src=\"/images/logo_mobile.png\" alt=\"Cocos\" height=\"36\"></a>"
+        },
+        {
+          "selector": "[class=\"mobile-nav active\"]",
+          "tag": "<a aria-current=\"page\" class=\"mobile-nav active\" data-cy=\"header-mobile-home\" href=\"/\"><img src=\"/images/logo_mobile.png\" alt=\"Cocos\" height=\"36\"></a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-home\"]",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-home\" href=\"/\">Home</a>"
+        },
+        {
+          "selector": "Home",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-home\" href=\"/\">Home</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-rooms\"]",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-rooms\" href=\"/\">Rooms</a>"
+        },
+        {
+          "selector": "Rooms",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-rooms\" href=\"/\">Rooms</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-restaurant\"]",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-restaurant\" href=\"/\">Restaurant</a>"
+        },
+        {
+          "selector": "Restaurant",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-restaurant\" href=\"/\">Restaurant</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-logo-home\"]",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-logo-home\" href=\"/\"><img src=\"/images/logo.png\" class=\"logo\" alt=\"Cocos\"></a>"
+        },
+        {
+          "selector": "[class=\"active\"]",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-logo-home\" href=\"/\"><img src=\"/images/logo.png\" class=\"logo\" alt=\"Cocos\"></a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-weddings\"]",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-weddings\" href=\"/\">Weddings</a>"
+        },
+        {
+          "selector": "Weddings",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-weddings\" href=\"/\">Weddings</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-membership\"]",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-membership\" href=\"/\">Membership</a>"
+        },
+        {
+          "selector": "Membership",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-membership\" href=\"/\">Membership</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-contact\"]",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-contact\" href=\"/\">Contact</a>"
+        },
+        {
+          "selector": "Contact",
+          "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-contact\" href=\"/\">Contact</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-mobile-menu-toggle\"]",
+          "tag": "<button data-cy=\"header-mobile-menu-toggle\" class=\"navbar-toggle\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+        },
+        {
+          "selector": "[class=\"navbar-toggle\"]",
+          "tag": "<button data-cy=\"header-mobile-menu-toggle\" class=\"navbar-toggle\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"booking-search-modify\"]",
+          "tag": "<button data-cy=\"booking-search-modify\" class=\"btn btn-primary\">Modify</button>"
+        },
+        {
+          "selector": "Modify",
+          "tag": "<button data-cy=\"booking-search-modify\" class=\"btn btn-primary\">Modify</button>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"booking-promotion-enjoy\"]",
+          "tag": "<button data-cy=\"booking-promotion-enjoy\" class=\"btn btn-primary text-uppercase\">Enjoy</button>"
+        },
+        {
+          "selector": "Enjoy",
+          "tag": "<button data-cy=\"booking-promotion-enjoy\" class=\"btn btn-primary text-uppercase\">Enjoy</button>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"booking-reservation-continue\"]",
+          "tag": "<button data-cy=\"booking-reservation-continue\" type=\"button\" class=\"btn btn-primary btn-group-justified\">Continue</button>"
+        },
+        {
+          "selector": "Continue",
+          "tag": "<button data-cy=\"booking-reservation-continue\" type=\"button\" class=\"btn btn-primary btn-group-justified\">Continue</button>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"footer-terms\"]",
+          "tag": "<a data-cy=\"footer-terms\" href=\"/\">Terms &amp; Conditions</a>"
+        },
+        {
+          "selector": "Terms &amp; Conditions",
+          "tag": "<a data-cy=\"footer-terms\" href=\"/\">Terms &amp; Conditions</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"footer-privacy\"]",
+          "tag": "<a data-cy=\"footer-privacy\" href=\"/\">Privacy Policy</a>"
+        },
+        {
+          "selector": "Privacy Policy",
+          "tag": "<a data-cy=\"footer-privacy\" href=\"/\">Privacy Policy</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"footer-partners\"]",
+          "tag": "<a data-cy=\"footer-partners\" href=\"/\">Partners</a>"
+        },
+        {
+          "selector": "Partners",
+          "tag": "<a data-cy=\"footer-partners\" href=\"/\">Partners</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"footer-reservations-email\"]",
+          "tag": "<a data-cy=\"footer-reservations-email\" href=\"/\" class=\"dark-blue\">reservations@loscocosbungalows.com</a>"
+        },
+        {
+          "selector": "reservations@loscocosbungalows.com",
+          "tag": "<a data-cy=\"footer-reservations-email\" href=\"/\" class=\"dark-blue\">reservations@loscocosbungalows.com</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"footer-reservations-phone\"]",
+          "tag": "<a data-cy=\"footer-reservations-phone\" href=\"/\" class=\"dark-blue\">Tlf: +34 987 675 432</a>"
+        },
+        {
+          "selector": "Tlf: +34 987 675 432",
+          "tag": "<a data-cy=\"footer-reservations-phone\" href=\"/\" class=\"dark-blue\">Tlf: +34 987 675 432</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"booking-search-checkin\"]",
+          "tag": "<input data-cy=\"booking-search-checkin\" type=\"text\" class=\"form-item\" value=\"29/06/2026\">"
+        },
+        {
+          "selector": "[value=\"29/06/2026\"]",
+          "tag": "<input data-cy=\"booking-search-checkin\" type=\"text\" class=\"form-item\" value=\"29/06/2026\">"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"booking-search-checkout\"]",
+          "tag": "<input data-cy=\"booking-search-checkout\" type=\"text\" class=\"form-item\" value=\"30/06/2026\">"
+        },
+        {
+          "selector": "[value=\"30/06/2026\"]",
+          "tag": "<input data-cy=\"booking-search-checkout\" type=\"text\" class=\"form-item\" value=\"30/06/2026\">"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"booking-search-adults\"]",
+          "tag": "<select data-cy=\"booking-search-adults\" name=\"adults\" class=\"form-item\"><option value=\"1\">Adults: 1</option><option value=\"2\">Adults: 2</option><option value=\"3\">Adults: 3</option><option value=\"4\">Adults: 4</option><option value=\"5\">Adults: 5</option><option value=\"6\">Adults: 6</option><option value=\"7\">Adults: 7</option><option value=\"8\">Adults: 8</option><option value=\"9\">Adults: 9</option></select>"
+        },
+        {
+          "selector": "[name=\"adults\"]",
+          "tag": "<select data-cy=\"booking-search-adults\" name=\"adults\" class=\"form-item\"><option value=\"1\">Adults: 1</option><option value=\"2\">Adults: 2</option><option value=\"3\">Adults: 3</option><option value=\"4\">Adults: 4</option><option value=\"5\">Adults: 5</option><option value=\"6\">Adults: 6</option><option value=\"7\">Adults: 7</option><option value=\"8\">Adults: 8</option><option value=\"9\">Adults: 9</option></select>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"booking-search-children\"]",
+          "tag": "<select data-cy=\"booking-search-children\" name=\"children\" class=\"form-item\"><option value=\"0\">Children</option><option value=\"1\">Children: 1</option><option value=\"2\">Children: 2</option><option value=\"3\">Children: 3</option><option value=\"4\">Children: 4</option><option value=\"5\">Children: 5</option><option value=\"6\">Children: 6</option><option value=\"7\">Children: 7</option><option value=\"8\">Children: 8</option><option value=\"9\">Children: 9</option></select>"
+        },
+        {
+          "selector": "[name=\"children\"]",
+          "tag": "<select data-cy=\"booking-search-children\" name=\"children\" class=\"form-item\"><option value=\"0\">Children</option><option value=\"1\">Children: 1</option><option value=\"2\">Children: 2</option><option value=\"3\">Children: 3</option><option value=\"4\">Children: 4</option><option value=\"5\">Children: 5</option><option value=\"6\">Children: 6</option><option value=\"7\">Children: 7</option><option value=\"8\">Children: 8</option><option value=\"9\">Children: 9</option></select>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"booking-reservation-rooms\"]",
+          "tag": "<select data-cy=\"booking-reservation-rooms\" name=\"rooms\" class=\"\"><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option></select>"
+        },
+        {
+          "selector": "[name=\"rooms\"]",
+          "tag": "<select data-cy=\"booking-reservation-rooms\" name=\"rooms\" class=\"\"><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option></select>"
+        }
+      ]
+    ]
+  },
+  "minus": {
+    "http://localhost:3000": [
+      {
+        "selector": "[data-cy=\"booking-room-1\"]",
+        "tag": "<div data-cy=\"booking-room-1\" class=\"card  flex flex-row pl-0\"><img src=\"/images/room_1.png\" alt=\"Mini Dreamy Room\" class=\"card-img\"><div><h3>Mini Dreamy Room</h3><p>Spacious and comfortable, this modern furnished room offers a queen-size bed and breathtaking views.</p><p>Size: 25m2</p><div class=\"d-flex align-items-end justify-content-between\"><div><img src=\"/images/icons/double-bed.svg\" width=\"40\" alt=\"\"><div>Beds: 1</div></div><div>People: 2</div><div class=\"price\"><span>€ 120</span></div></div>"
+      },
+      {
+        "selector": "[data-cy=\"booking-room-2\"]",
+        "tag": "<div data-cy=\"booking-room-2\" class=\"card  flex flex-row pl-0\"><img src=\"/images/room_2.png\" alt=\"Sweet Bungalow\" class=\"card-img\"><div><h3>Sweet Bungalow</h3><p>Spacious and comfortable, this modern furnished room offers a queen-size bed and breathtaking views.</p><p>Size: 50m2</p><div class=\"d-flex align-items-end justify-content-between\"><div><img src=\"/images/icons/double-bed.svg\" width=\"40\" alt=\"\"><div>Beds: 1</div></div><div>People: 2</div><div class=\"price\"><span>€ 200</span></div></div>"
+      },
+      {
+        "selector": "[data-cy=\"booking-room-3\"]",
+        "tag": "<div data-cy=\"booking-room-3\" class=\"card  flex flex-row pl-0\"><img src=\"/images/room_3.png\" alt=\"Los Cocos Suite\" class=\"card-img\"><div><h3>Los Cocos Suite</h3><p>If you want a little extra from your stay, you might like our superior rooms. With double doors opening onto a private terrace, you will enjoy spectacular views of our pristine beach.</p><p>Size: 125m2</p><div class=\"d-flex align-items-end justify-content-between\"><div><img src=\"/images/icons/double-bed.svg\" width=\"40\" alt=\"\"><div>Beds: 3</div></div><div>People: 4</div><div class=\"price\"><span>€ 350</span></div></div>"
+      },
+      {
+        "selector": "[data-cy=\"booking-room-4\"]",
+        "tag": "<div data-cy=\"booking-room-4\" class=\"card  flex flex-row pl-0\"><img src=\"/images/room_1.png\" alt=\"Summer Coco\" class=\"card-img\"><div><h3>Summer Coco</h3><p>For large groups of friends or families to enjoy spectacular views of our pristine beach.</p><p>Size: 145m2</p><div class=\"d-flex align-items-end justify-content-between\"><div><img src=\"/images/icons/double-bed.svg\" width=\"40\" alt=\"\"><div>Beds: 5</div></div><div>People: 7</div><div class=\"price\"><span>€ 770</span></div></div>"
+      }
+    ]
+  },
+  "plus": {
+    "http://localhost:3000": []
+  },
+  "numbers": {
+    "http://localhost:3000": {
+      "equal": 22,
+      "minus": 4,
+      "plus": 0
+    }
+  },
+  "total": {
+    "equal": 22,
+    "minus": 4,
+    "plus": 0
+  }
+}

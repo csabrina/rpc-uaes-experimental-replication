@@ -1,46 +1,72 @@
-# Execute-study
+# UAES Experimental Replication
 
-### Cytestion tool could be found here: [cytestion.zip](./cytestion.zip). Inside the zip, you will found a **complete** README.
+This repository contains the data and scripts used to replicate the open-source part of the UAES experiment.
 
-# Study using UAES approach
+The Cytestion package that must be executed for this experiment is [cytestion-open-source.zip](./cytestion-open-source.zip), available in the root of this repository. After extracting it, follow the README included inside the zip to run Cytestion and generate the catalogs.
 
-The study was made comparing the UAES approach with the markup approach using twenty industrial applications using [Ant Design](https://ant.design/) components based on [React](https://react.dev/).
+## Study Using UAES Approach
 
-The four open-source applications:
+The study compares the UAES approach with the markup approach. The current dataset contains 20 open-source applications:
 
-[petclinic](https://gitlab.com/lsi-ufcg/cytestion/gui-testing-study/applications/spring-petclinic) a SpringBoot website for adding owners as well as their pets and manage scheduled visits to a veterinary
+| Application | Repository | KLOC |
+| --- | --- | ---: |
+| spring-petclinic | [spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic) | 20.7 |
+| juiceshop | [juice-shop/juice-shop](https://github.com/juice-shop/juice-shop) | 142.9 |
+| website-bistro-restaurant | [website-bistro-restaurant](https://gitlab.com/lsi-ufcg/cytestion/gui-testing-study/applications/website-bistro-restaurant) | 12.3 |
+| website-learn-educational | [website-learn-educational](https://gitlab.com/lsi-ufcg/cytestion/gui-testing-study/applications/website-learn-educational) | 5.1 |
+| website-school-educational | [website-school-educational](https://gitlab.com/lsi-ufcg/cytestion/gui-testing-study/applications/website-school-educational) | 11.0 |
+| TodoMVC | [tastejs/todomvc](https://github.com/tastejs/todomvc/tree/master) | 17.4 |
+| React Shopping Cart | [jeffersonRibeiro/react-shopping-cart](https://github.com/jeffersonRibeiro/react-shopping-cart/tree/main/src/components/Products/Product) | 30.1 |
+| open-resume | [xitanggg/open-resume](https://github.com/xitanggg/open-resume) | 44.9 |
+| cypress-realworld-app | [cypress-io/cypress-realworld-app](https://github.com/cypress-io/cypress-realworld-app/tree/develop) | 36.7 |
+| PizzaFlow | [zacktam12/PizzaFlow](https://github.com/zacktam12/PizzaFlow) | 11.1 |
+| react-hotel-reservation-system | [onyxdevs/react-hotel-reservation-system](https://github.com/onyxdevs/react-hotel-reservation-system) | 47.8 |
+| vue_crud_bootstrap | [Jebasuthan/vue_crud_bootstrap](https://github.com/Jebasuthan/vue_crud_bootstrap) | 35.6 |
+| react-hotel-booking-app | [girls-incode/react-hotel-booking-app](https://github.com/girls-incode/react-hotel-booking-app) | 31.2 |
+| restaurant-react-js-app | [NomanKhial/-restaurant-react-js-app](https://github.com/NomanKhial/-restaurant-react-js-app) | 5.0 |
+| job-tracker | [hosseinbaghipour/job-tracker](https://github.com/hosseinbaghipour/job-tracker.git) | 3.9 |
+| Refine Dashboard | [adrianhajdin/refine_dashboard](https://github.com/adrianhajdin/refine_dashboard) | 28.5 |
+| react-restaurant | [ionutcora-webdevelopment/react-restaurant](https://github.com/ionutcora-webdevelopment/react-restaurant) | 19.0 |
+| Feedback App | [bradtraversy/feedback-app](https://github.com/bradtraversy/feedback-app) | 39.4 |
+| cv-application | [michalosman/cv-application](https://github.com/michalosman/cv-application) | 39.8 |
+| Habit-Tracker-Web-App | [TheUnknown550/Habit-Tracker-Web-App](https://github.com/TheUnknown550/Habit-Tracker-Web-App) | 4.6 |
 
-[bistro-restaurant](https://gitlab.com/lsi-ufcg/cytestion/gui-testing-study/applications/website-bistro-restaurant) a website that serves as a portfolio template for your restaurant.
+The study aims to extract the elements located to be tested in each state of the applications. Those elements are separated by URL and placed in catalogs in order to analyze the properties of each approach.
 
-[learn-educational](https://gitlab.com/lsi-ufcg/cytestion/gui-testing-study/applications/website-learn-educational) a website that serves as a platform to show informations about a learning institution.
+The data acquired from Cytestion is located in `data/`. Each application has catalogs for both approaches:
 
-[school-educational](https://gitlab.com/lsi-ufcg/cytestion/gui-testing-study/applications/website-school-educational) a website that serves as a template for school websites.
+- `classic/`: markup approach catalog.
+- `generic/`: UAES approach catalog.
 
-The study aims to extract the elements located to be tested in each state of the applications. Those elements are separated by the URL and placed in a catalog in order to analyze the properties of each approach towards the results gathered.
+Some applications also include coverage artifacts in `coverage/` and the generated Cypress test file `cytestion.cy.js`.
 
-The data used in the study acquired from the execution of the tool Cytestion is located in `data/`, where the catalogs for the industrial and open-source applications can be found. Each approach has its own `.json` catalog.
+## Requirements
 
-Need have instaled:
-
-- Python3
+- Python 3
 - Pip
-- Nodejs
+- Node.js
 
 ## To execute
 
-To generate the results (`results/`, `results_csv/`) and graphs (`generated_graphs/`, `group_graphs/`) execute the bash script:
+To generate the comparison results (`results/`), CSV summaries (`results_csv/`), individual graphs (`generated_graphs/`), and grouped graphs (`group_graphs/`), execute the bash script from the repository root:
 
 `bash script.sh`
 
-Then for counting the particular details of the data comparsion you can alter the file `cnt_new_missed.py` at lines 27, 28, 30 for `new` elements and 33 for `missed` ones, then execute the command:
+The script runs `index.js` for each application in `data/`, creates a temporary Python virtual environment, installs the dependencies from `requirements.txt`, and executes the Python scripts in `scripts/`.
 
-`python3 cnt_new_missed.py`
+To count particular details of the data comparison, edit `scripts/cnt_plus_minus.py` as needed and then execute:
 
-The results can be found at `results_new_elements/` and at the file `selectorsRanking.json`
+`python3 scripts/cnt_plus_minus.py`
+
+The results can be found in `results_new_elements/` and in `selectorsRanking.json`.
 
 
 ## Result
 
-The results found in `results/` at each file are the elements belonging to separate categories defined in the study, those categories being `same`, `new`, `missed` , respectively, are the elements found by the two approaches, elements found only by UAES and elements found only by the markup approach.
+Each file in `results/` contains the elements grouped by category:
 
-The catalog structure is maitained in order to separate which elements are found in each GUI of the applications.
+- `same`: elements found by both approaches.
+- `new`: elements found only by UAES.
+- `missed`: elements found only by the markup approach.
+
+The catalog structure is maintained to indicate which elements are found in each GUI state of the applications.

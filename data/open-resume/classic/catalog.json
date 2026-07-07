@@ -1,0 +1,694 @@
+{
+  "http://localhost:3000": [
+    {
+      "selector": "[data-cy=\"navbar-home\"]",
+      "tag": "<a data-cy=\"navbar-home\" href=\"/\"><span class=\"sr-only\">OpenResume</span><img alt=\"OpenResume Logo\" fetchpriority=\"high\" width=\"257\" height=\"54\" decoding=\"async\" data-nimg=\"1\" class=\"h-8 w-full\" style=\"color:transparent\" src=\"/_next/static/media/logo.90ac2b67.svg\"></a>"
+    },
+    {
+      "selector": "[data-cy=\"navbar-builder\"]",
+      "tag": "<a data-cy=\"navbar-builder\" class=\"rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4\" href=\"/resume-builder\">Builder</a>"
+    },
+    {
+      "selector": "[data-cy=\"navbar-parser\"]",
+      "tag": "<a data-cy=\"navbar-parser\" class=\"rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4\" href=\"/resume-parser\">Parser</a>"
+    },
+    {
+      "selector": "[data-cy=\"home-create-resume\"]",
+      "tag": "<a data-cy=\"home-create-resume\" class=\"btn-primary mt-6 lg:mt-14\" href=\"/resume-import\">Create Resume <span aria-hidden=\"true\">→</span></a>"
+    },
+    {
+      "selector": "[data-cy=\"home-resume-parser\"]",
+      "tag": "<a data-cy=\"home-resume-parser\" class=\"underline underline-offset-2\" href=\"/resume-parser\">resume parser</a>"
+    },
+    {
+      "selector": "[data-cy=\"features-open-source-repository\"]",
+      "tag": "<a data-cy=\"features-open-source-repository\" href=\"https://github.com/xitanggg/open-resume\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">GitHub repository</a>"
+    },
+    {
+      "selector": "[data-cy=\"faq-reactive-resume\"]",
+      "tag": "<a data-cy=\"faq-reactive-resume\" href=\"https://rxresu.me/\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Reactive Resume</a>"
+    },
+    {
+      "selector": "[data-cy=\"faq-flowcv\"]",
+      "tag": "<a data-cy=\"faq-flowcv\" href=\"https://flowcv.com/\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">FlowCV</a>"
+    },
+    {
+      "selector": "[data-cy=\"faq-author-github\"]",
+      "tag": "<a data-cy=\"faq-author-github\" href=\"https://github.com/xitanggg\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Xitang Zhao</a>"
+    },
+    {
+      "selector": "[data-cy=\"faq-designer-linkedin\"]",
+      "tag": "<a data-cy=\"faq-designer-linkedin\" href=\"https://www.linkedin.com/in/imzhi\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Zhigang Wen</a>"
+    },
+    {
+      "selector": "[data-cy=\"faq-contact-email\"]",
+      "tag": "<a data-cy=\"faq-contact-email\" href=\"mailto:hello@open-resume.com\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">hello@open-resume.com</a>"
+    },
+    {
+      "selector": "[data-cy=\"faq-create-issue\"]",
+      "tag": "<a data-cy=\"faq-create-issue\" href=\"https://github.com/xitanggg/open-resume/issues/new\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">open an issue</a>"
+    },
+    {
+      "selector": "[data-cy=\"faq-github-repository\"]",
+      "tag": "<a data-cy=\"faq-github-repository\" href=\"https://github.com/xitanggg/open-resume\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">giving the project a star</a>"
+    }
+  ],
+  "http://localhost:3000/resume-builder": [
+    {
+      "selector": "[data-cy=\"form-workExperiences-move-down-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-workExperiences-move-down-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-workExperiences-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-move-down\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-workExperiences-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-toggle-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-workExperiences-toggle-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-workExperiences-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg><span class=\"sr-only\">Hide section</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-toggle\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-workExperiences-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg><span class=\"sr-only\">Hide section</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"work-experience-0-description\"]",
+      "tag": "<div data-cy=\"work-experience-0-description\" contenteditable=\"true\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base cursor-text [&amp;>div]:list-item pl-7\" placeholder=\"Bullet points\"><div></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-0-move-up-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-workExperiences-0-move-up-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-workExperiences-0-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-0-move-up\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-workExperiences-0-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-0-move-down-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-workExperiences-0-move-down-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-workExperiences-0-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-0-move-down\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-workExperiences-0-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-0-delete-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-workExperiences-0-delete-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-workExperiences-0-delete\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path></svg><span class=\"sr-only\">Delete job</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-0-delete\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-workExperiences-0-delete\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path></svg><span class=\"sr-only\">Delete job</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-add\"]",
+      "tag": "<button data-cy=\"form-workExperiences-add\" type=\"button\" class=\"flex items-center rounded-md bg-white py-2 pl-3 pr-4 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"-ml-0.5 mr-1.5 h-5 w-5 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6v12m6-6H6\"></path></svg>Add Job</button>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-move-up-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-educations-move-up-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-educations-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-move-up\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-educations-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-move-down-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-educations-move-down-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-educations-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-move-down\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-educations-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-toggle-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-educations-toggle-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-educations-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg><span class=\"sr-only\">Hide section</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-toggle\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-educations-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg><span class=\"sr-only\">Hide section</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"education-0-additional-information\"]",
+      "tag": "<div data-cy=\"education-0-additional-information\" contenteditable=\"true\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base cursor-text [&amp;>div]:list-item pl-7\" placeholder=\"Free paragraph space to list out additional activities, courses, awards etc\"><div></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"education-0-toggle-bullets-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"education-0-toggle-bullets-tooltip-wrapper\"><button type=\"button\" data-cy=\"education-0-toggle-bullets\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1 !bg-sky-100\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-700\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z\"></path></svg><span class=\"sr-only\">Hide bullet points</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"education-0-toggle-bullets\"]",
+      "tag": "<button type=\"button\" data-cy=\"education-0-toggle-bullets\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1 !bg-sky-100\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-700\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z\"></path></svg><span class=\"sr-only\">Hide bullet points</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-0-move-up-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-educations-0-move-up-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-educations-0-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-0-move-up\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-educations-0-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-0-move-down-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-educations-0-move-down-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-educations-0-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-0-move-down\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-educations-0-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-0-delete-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-educations-0-delete-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-educations-0-delete\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path></svg><span class=\"sr-only\">Delete school</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-0-delete\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-educations-0-delete\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path></svg><span class=\"sr-only\">Delete school</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-add\"]",
+      "tag": "<button data-cy=\"form-educations-add\" type=\"button\" class=\"flex items-center rounded-md bg-white py-2 pl-3 pr-4 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"-ml-0.5 mr-1.5 h-5 w-5 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6v12m6-6H6\"></path></svg>Add School</button>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-move-up-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-projects-move-up-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-projects-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-move-up\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-projects-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-move-down-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-projects-move-down-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-projects-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-move-down\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-projects-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-toggle-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-projects-toggle-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-projects-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg><span class=\"sr-only\">Hide section</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-toggle\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-projects-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg><span class=\"sr-only\">Hide section</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"project-0-description\"]",
+      "tag": "<div data-cy=\"project-0-description\" contenteditable=\"true\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base cursor-text [&amp;>div]:list-item pl-7\" placeholder=\"Bullet points\"><div></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-0-move-up-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-projects-0-move-up-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-projects-0-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-0-move-up\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-projects-0-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-0-move-down-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-projects-0-move-down-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-projects-0-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-0-move-down\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-projects-0-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-0-delete-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-projects-0-delete-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-projects-0-delete\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path></svg><span class=\"sr-only\">Delete project</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-0-delete\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-projects-0-delete\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path></svg><span class=\"sr-only\">Delete project</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-add\"]",
+      "tag": "<button data-cy=\"form-projects-add\" type=\"button\" class=\"flex items-center rounded-md bg-white py-2 pl-3 pr-4 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"-ml-0.5 mr-1.5 h-5 w-5 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6v12m6-6H6\"></path></svg>Add Project</button>"
+    },
+    {
+      "selector": "[data-cy=\"form-skills-move-up-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-skills-move-up-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-skills-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-skills-move-up\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-skills-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-skills-move-down-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-skills-move-down-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-skills-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-skills-move-down\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-skills-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-skills-toggle-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-skills-toggle-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-skills-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg><span class=\"sr-only\">Hide section</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-skills-toggle\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-skills-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg><span class=\"sr-only\">Hide section</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"skills-list\"]",
+      "tag": "<div data-cy=\"skills-list\" contenteditable=\"true\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base cursor-text [&amp;>div]:list-item pl-7\" placeholder=\"Bullet points\"><div></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"skills-toggle-bullets-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"skills-toggle-bullets-tooltip-wrapper\"><button type=\"button\" data-cy=\"skills-toggle-bullets\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1 !bg-sky-100\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-700\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z\"></path></svg><span class=\"sr-only\">Hide bullet points</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"skills-toggle-bullets\"]",
+      "tag": "<button type=\"button\" data-cy=\"skills-toggle-bullets\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1 !bg-sky-100\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-700\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z\"></path></svg><span class=\"sr-only\">Hide bullet points</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-0-rating-1\"]",
+      "tag": "<div data-cy=\"featured-skill-0-rating-1\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-0-rating-2\"]",
+      "tag": "<div data-cy=\"featured-skill-0-rating-2\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-0-rating-3\"]",
+      "tag": "<div data-cy=\"featured-skill-0-rating-3\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-0-rating-4\"]",
+      "tag": "<div data-cy=\"featured-skill-0-rating-4\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-0-rating-5\"]",
+      "tag": "<div data-cy=\"featured-skill-0-rating-5\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-1-rating-1\"]",
+      "tag": "<div data-cy=\"featured-skill-1-rating-1\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-1-rating-2\"]",
+      "tag": "<div data-cy=\"featured-skill-1-rating-2\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-1-rating-3\"]",
+      "tag": "<div data-cy=\"featured-skill-1-rating-3\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-1-rating-4\"]",
+      "tag": "<div data-cy=\"featured-skill-1-rating-4\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-1-rating-5\"]",
+      "tag": "<div data-cy=\"featured-skill-1-rating-5\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-2-rating-1\"]",
+      "tag": "<div data-cy=\"featured-skill-2-rating-1\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-2-rating-2\"]",
+      "tag": "<div data-cy=\"featured-skill-2-rating-2\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-2-rating-3\"]",
+      "tag": "<div data-cy=\"featured-skill-2-rating-3\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-2-rating-4\"]",
+      "tag": "<div data-cy=\"featured-skill-2-rating-4\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-2-rating-5\"]",
+      "tag": "<div data-cy=\"featured-skill-2-rating-5\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-3-rating-1\"]",
+      "tag": "<div data-cy=\"featured-skill-3-rating-1\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-3-rating-2\"]",
+      "tag": "<div data-cy=\"featured-skill-3-rating-2\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-3-rating-3\"]",
+      "tag": "<div data-cy=\"featured-skill-3-rating-3\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-3-rating-4\"]",
+      "tag": "<div data-cy=\"featured-skill-3-rating-4\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-3-rating-5\"]",
+      "tag": "<div data-cy=\"featured-skill-3-rating-5\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-4-rating-1\"]",
+      "tag": "<div data-cy=\"featured-skill-4-rating-1\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-4-rating-2\"]",
+      "tag": "<div data-cy=\"featured-skill-4-rating-2\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-4-rating-3\"]",
+      "tag": "<div data-cy=\"featured-skill-4-rating-3\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-4-rating-4\"]",
+      "tag": "<div data-cy=\"featured-skill-4-rating-4\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-4-rating-5\"]",
+      "tag": "<div data-cy=\"featured-skill-4-rating-5\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-5-rating-1\"]",
+      "tag": "<div data-cy=\"featured-skill-5-rating-1\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-5-rating-2\"]",
+      "tag": "<div data-cy=\"featured-skill-5-rating-2\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-5-rating-3\"]",
+      "tag": "<div data-cy=\"featured-skill-5-rating-3\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-5-rating-4\"]",
+      "tag": "<div data-cy=\"featured-skill-5-rating-4\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-5-rating-5\"]",
+      "tag": "<div data-cy=\"featured-skill-5-rating-5\" class=\"cursor-pointer p-0.5\"><div class=\"h-5 w-5 rounded-full transition-transform duration-200 hover:scale-[120%] \" style=\"background-color: rgb(56, 189, 248);\"></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"form-custom-move-up-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-custom-move-up-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-custom-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-custom-move-up\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-custom-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"form-custom-toggle-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"form-custom-toggle-tooltip-wrapper\"><button type=\"button\" data-cy=\"form-custom-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88\"></path></svg><span class=\"sr-only\">Show section</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"form-custom-toggle\"]",
+      "tag": "<button type=\"button\" data-cy=\"form-custom-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88\"></path></svg><span class=\"sr-only\">Show section</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"custom-textbox\"]",
+      "tag": "<div data-cy=\"custom-textbox\" contenteditable=\"true\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base cursor-text [&amp;>div]:list-item pl-7\" placeholder=\"Bullet points\"><div></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"custom-toggle-bullets-tooltip-wrapper\"]",
+      "tag": "<span data-cy=\"custom-toggle-bullets-tooltip-wrapper\"><button type=\"button\" data-cy=\"custom-toggle-bullets\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1 !bg-sky-100\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-700\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z\"></path></svg><span class=\"sr-only\">Hide bullet points</span></button></span>"
+    },
+    {
+      "selector": "[data-cy=\"custom-toggle-bullets\"]",
+      "tag": "<button type=\"button\" data-cy=\"custom-toggle-bullets\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1 !bg-sky-100\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-700\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z\"></path></svg><span class=\"sr-only\">Hide bullet points</span></button>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-0\"]",
+      "tag": "<div data-cy=\"settings-theme-color-0\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(248, 113, 113);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-1\"]",
+      "tag": "<div data-cy=\"settings-theme-color-1\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(239, 68, 68);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-2\"]",
+      "tag": "<div data-cy=\"settings-theme-color-2\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(251, 146, 60);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-3\"]",
+      "tag": "<div data-cy=\"settings-theme-color-3\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(249, 115, 22);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-4\"]",
+      "tag": "<div data-cy=\"settings-theme-color-4\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(251, 191, 36);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-5\"]",
+      "tag": "<div data-cy=\"settings-theme-color-5\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(245, 158, 11);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-6\"]",
+      "tag": "<div data-cy=\"settings-theme-color-6\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(34, 197, 94);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-7\"]",
+      "tag": "<div data-cy=\"settings-theme-color-7\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(21, 128, 61);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-8\"]",
+      "tag": "<div data-cy=\"settings-theme-color-8\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(56, 189, 248);\">✓</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-9\"]",
+      "tag": "<div data-cy=\"settings-theme-color-9\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(14, 165, 233);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-10\"]",
+      "tag": "<div data-cy=\"settings-theme-color-10\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(129, 140, 248);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-11\"]",
+      "tag": "<div data-cy=\"settings-theme-color-11\" class=\"flex h-10 w-10 cursor-pointer items-center justify-center rounded-md text-sm text-white\" tabindex=\"0\" style=\"background-color: rgb(99, 102, 241);\"></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-family-roboto\"]",
+      "tag": "<div data-cy=\"settings-font-family-roboto\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"color: white; background-color: rgb(56, 189, 248); border-color: rgb(56, 189, 248); font-family: Roboto; font-size: 14.6667px;\">Roboto</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-family-lato\"]",
+      "tag": "<div data-cy=\"settings-font-family-lato\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: Lato; font-size: 14.6667px;\">Lato</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-family-montserrat\"]",
+      "tag": "<div data-cy=\"settings-font-family-montserrat\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: Montserrat; font-size: 13.3333px;\">Montserrat</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-family-opensans\"]",
+      "tag": "<div data-cy=\"settings-font-family-opensans\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: OpenSans; font-size: 13.3333px;\">Open Sans</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-family-raleway\"]",
+      "tag": "<div data-cy=\"settings-font-family-raleway\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: Raleway; font-size: 13.3333px;\">Raleway</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-family-caladea\"]",
+      "tag": "<div data-cy=\"settings-font-family-caladea\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: Caladea; font-size: 14.6667px;\">Caladea</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-family-lora\"]",
+      "tag": "<div data-cy=\"settings-font-family-lora\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: Lora; font-size: 14.6667px;\">Lora</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-family-robotoslab\"]",
+      "tag": "<div data-cy=\"settings-font-family-robotoslab\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: RobotoSlab; font-size: 13.3333px;\">Roboto Slab</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-family-playfairdisplay\"]",
+      "tag": "<div data-cy=\"settings-font-family-playfairdisplay\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: PlayfairDisplay; font-size: 13.3333px;\">Playfair Display</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-family-merriweather\"]",
+      "tag": "<div data-cy=\"settings-font-family-merriweather\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: Merriweather; font-size: 13.3333px;\">Merriweather</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-size-compact\"]",
+      "tag": "<div data-cy=\"settings-font-size-compact\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: Roboto; font-size: 13.3333px;\">Compact</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-size-standard\"]",
+      "tag": "<div data-cy=\"settings-font-size-standard\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"color: white; background-color: rgb(56, 189, 248); border-color: rgb(56, 189, 248); font-family: Roboto; font-size: 14.6667px;\">Standard</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-size-large\"]",
+      "tag": "<div data-cy=\"settings-font-size-large\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"font-family: Roboto; font-size: 16px;\">Large</div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-document-size-letter\"]",
+      "tag": "<div data-cy=\"settings-document-size-letter\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\" style=\"color: white; background-color: rgb(56, 189, 248); border-color: rgb(56, 189, 248);\"><div class=\"flex flex-col items-center\"><div>Letter</div><div class=\"text-xs\">(US, Canada)</div></div>"
+    },
+    {
+      "selector": "[data-cy=\"settings-document-size-a4\"]",
+      "tag": "<div data-cy=\"settings-document-size-a4\" class=\"flex w-[105px] cursor-pointer items-center justify-center rounded-md border border-gray-300 py-1.5 shadow-sm hover:border-gray-400 hover:bg-gray-100\" tabindex=\"0\"><div class=\"flex flex-col items-center\"><div>A4</div><div class=\"text-xs\">(other countries)</div></div>"
+    },
+    {
+      "selector": "[data-cy=\"resume-download\"]",
+      "tag": "<a data-cy=\"resume-download\" class=\"ml-1 flex items-center gap-1 rounded-md border border-gray-300 px-3 py-0.5 hover:bg-gray-100 lg:ml-8\" download=\" - Resume\" href=\"blob:http://localhost:3000/fcd939f5-120a-437b-b0c6-564017078dba\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3\"></path></svg><span class=\"whitespace-nowrap\">Download Resume</span></a>"
+    },
+    {
+      "selector": "[data-cy=\"profile-name\"]",
+      "tag": "<input data-cy=\"profile-name\" placeholder=\"Sal Khan\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"name\">"
+    },
+    {
+      "selector": "[data-cy=\"profile-objective\"]",
+      "tag": "<textarea data-cy=\"profile-objective\" name=\"summary\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base resize-none overflow-hidden\" placeholder=\"Entrepreneur and educator obsessed with making education free for anyone\" style=\"height: 64px;\"></textarea>"
+    },
+    {
+      "selector": "[data-cy=\"profile-email\"]",
+      "tag": "<input data-cy=\"profile-email\" placeholder=\"hello@khanacademy.org\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"email\">"
+    },
+    {
+      "selector": "[data-cy=\"profile-phone\"]",
+      "tag": "<input data-cy=\"profile-phone\" placeholder=\"(123)456-7890\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"phone\">"
+    },
+    {
+      "selector": "[data-cy=\"profile-website\"]",
+      "tag": "<input data-cy=\"profile-website\" placeholder=\"linkedin.com/in/khanacademy\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"url\">"
+    },
+    {
+      "selector": "[data-cy=\"profile-location\"]",
+      "tag": "<input data-cy=\"profile-location\" placeholder=\"NYC, NY\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"location\">"
+    },
+    {
+      "selector": "[data-cy=\"form-workExperiences-heading\"]",
+      "tag": "<input data-cy=\"form-workExperiences-heading\" class=\"block w-full border-b border-transparent text-lg font-semibold tracking-wide text-gray-900 outline-none hover:border-gray-300 hover:shadow-sm focus:border-gray-300 focus:shadow-sm\" type=\"text\" value=\"WORK EXPERIENCE\">"
+    },
+    {
+      "selector": "[data-cy=\"work-experience-0-company\"]",
+      "tag": "<input data-cy=\"work-experience-0-company\" placeholder=\"Khan Academy\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"company\">"
+    },
+    {
+      "selector": "[data-cy=\"work-experience-0-job-title\"]",
+      "tag": "<input data-cy=\"work-experience-0-job-title\" placeholder=\"Software Engineer\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"jobTitle\">"
+    },
+    {
+      "selector": "[data-cy=\"work-experience-0-date\"]",
+      "tag": "<input data-cy=\"work-experience-0-date\" placeholder=\"Jun 2022 - Present\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"date\">"
+    },
+    {
+      "selector": "[data-cy=\"form-educations-heading\"]",
+      "tag": "<input data-cy=\"form-educations-heading\" class=\"block w-full border-b border-transparent text-lg font-semibold tracking-wide text-gray-900 outline-none hover:border-gray-300 hover:shadow-sm focus:border-gray-300 focus:shadow-sm\" type=\"text\" value=\"EDUCATION\">"
+    },
+    {
+      "selector": "[data-cy=\"education-0-school\"]",
+      "tag": "<input data-cy=\"education-0-school\" placeholder=\"Cornell University\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"school\">"
+    },
+    {
+      "selector": "[data-cy=\"education-0-date\"]",
+      "tag": "<input data-cy=\"education-0-date\" placeholder=\"May 2018\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"date\">"
+    },
+    {
+      "selector": "[data-cy=\"education-0-degree\"]",
+      "tag": "<input data-cy=\"education-0-degree\" placeholder=\"Bachelor of Science in Computer Engineering\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"degree\">"
+    },
+    {
+      "selector": "[data-cy=\"education-0-gpa\"]",
+      "tag": "<input data-cy=\"education-0-gpa\" placeholder=\"3.81\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"gpa\">"
+    },
+    {
+      "selector": "[data-cy=\"form-projects-heading\"]",
+      "tag": "<input data-cy=\"form-projects-heading\" class=\"block w-full border-b border-transparent text-lg font-semibold tracking-wide text-gray-900 outline-none hover:border-gray-300 hover:shadow-sm focus:border-gray-300 focus:shadow-sm\" type=\"text\" value=\"PROJECT\">"
+    },
+    {
+      "selector": "[data-cy=\"project-0-name\"]",
+      "tag": "<input data-cy=\"project-0-name\" placeholder=\"OpenResume\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"project\">"
+    },
+    {
+      "selector": "[data-cy=\"project-0-date\"]",
+      "tag": "<input data-cy=\"project-0-date\" placeholder=\"Winter 2022\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"date\">"
+    },
+    {
+      "selector": "[data-cy=\"form-skills-heading\"]",
+      "tag": "<input data-cy=\"form-skills-heading\" class=\"block w-full border-b border-transparent text-lg font-semibold tracking-wide text-gray-900 outline-none hover:border-gray-300 hover:shadow-sm focus:border-gray-300 focus:shadow-sm\" type=\"text\" value=\"SKILLS\">"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-0-name\"]",
+      "tag": "<input data-cy=\"featured-skill-0-name\" placeholder=\"Featured Skill 1\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-1-name\"]",
+      "tag": "<input data-cy=\"featured-skill-1-name\" placeholder=\"Featured Skill 2\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-2-name\"]",
+      "tag": "<input data-cy=\"featured-skill-2-name\" placeholder=\"Featured Skill 3\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-3-name\"]",
+      "tag": "<input data-cy=\"featured-skill-3-name\" placeholder=\"Featured Skill 4\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-4-name\"]",
+      "tag": "<input data-cy=\"featured-skill-4-name\" placeholder=\"Featured Skill 5\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"featured-skill-5-name\"]",
+      "tag": "<input data-cy=\"featured-skill-5-name\" placeholder=\"Featured Skill 6\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"form-custom-heading\"]",
+      "tag": "<input data-cy=\"form-custom-heading\" class=\"block w-full border-b border-transparent text-lg font-semibold tracking-wide text-gray-900 outline-none hover:border-gray-300 hover:shadow-sm focus:border-gray-300 focus:shadow-sm\" type=\"text\" value=\"CUSTOM SECTION\">"
+    },
+    {
+      "selector": "[data-cy=\"settings-theme-color-input\"]",
+      "tag": "<input data-cy=\"settings-theme-color-input\" placeholder=\"#38bdf8\" class=\"w-[5rem] border-b border-gray-300 text-center font-semibold leading-3 outline-none\" type=\"text\" value=\"#38bdf8\" name=\"themeColor\" style=\"color: rgb(56, 189, 248);\">"
+    },
+    {
+      "selector": "[data-cy=\"settings-font-size-input\"]",
+      "tag": "<input data-cy=\"settings-font-size-input\" placeholder=\"11\" class=\"w-[5rem] border-b border-gray-300 text-center font-semibold leading-3 outline-none\" type=\"text\" value=\"11\" name=\"fontSize\">"
+    },
+    {
+      "selector": "[data-cy=\"resume-scale\"]",
+      "tag": "<input data-cy=\"resume-scale\" min=\"0.5\" max=\"1.5\" step=\"0.01\" type=\"range\" value=\"0.54\">"
+    },
+    {
+      "selector": "[data-cy=\"resume-autoscale\"]",
+      "tag": "<input data-cy=\"resume-autoscale\" class=\"mt-0.5 h-4 w-4\" type=\"checkbox\" checked=\"\">"
+    }
+  ],
+  "http://localhost:3000/resume-parser": [
+    {
+      "selector": "[data-cy=\"parser-example-1\"]",
+      "tag": "<article data-cy=\"parser-example-1\" class=\"flex-1 cursor-pointer rounded-md border-2 px-4 py-3 shadow-sm outline-none hover:bg-gray-50 focus:bg-gray-50 border-blue-400\" tabindex=\"0\"><h1 class=\"font-semibold\">Resume Example 1</h1><p class=\"mt-2 text-sm text-gray-500\"><span>Borrowed from University of La Verne Career Center - <a data-cy=\"parser-example-source\" href=\"https://laverne.edu/careers/wp-content/uploads/sites/15/2010/12/Undergraduate-Student-Resume-Examples.pdf\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Link</a></span></p></article>"
+    },
+    {
+      "selector": "[data-cy=\"parser-example-source\"]",
+      "tag": "<a data-cy=\"parser-example-source\" href=\"https://laverne.edu/careers/wp-content/uploads/sites/15/2010/12/Undergraduate-Student-Resume-Examples.pdf\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Link</a>"
+    },
+    {
+      "selector": "[data-cy=\"parser-example-2\"]",
+      "tag": "<article data-cy=\"parser-example-2\" class=\"flex-1 cursor-pointer rounded-md border-2 px-4 py-3 shadow-sm outline-none hover:bg-gray-50 focus:bg-gray-50 border-gray-300\" tabindex=\"0\"><h1 class=\"font-semibold\">Resume Example 2</h1><p class=\"mt-2 text-sm text-gray-500\"><span>Created with OpenResume resume builder - <a data-cy=\"parser-builder-example\" href=\"/resume-builder\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Link</a></span></p></article>"
+    },
+    {
+      "selector": "[data-cy=\"parser-builder-example\"]",
+      "tag": "<a data-cy=\"parser-builder-example\" href=\"/resume-builder\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Link</a>"
+    },
+    {
+      "selector": "[data-cy=\"parser-article-iso-specification\"]",
+      "tag": "<a data-cy=\"parser-article-iso-specification\" href=\"https://www.iso.org/standard/51502.html\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">ISO 32000 specification</a>"
+    },
+    {
+      "selector": "[data-cy=\"parser-article-pdfjs\"]",
+      "tag": "<a data-cy=\"parser-article-pdfjs\" href=\"https://github.com/mozilla/pdf.js\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">pdf.js</a>"
+    },
+    {
+      "selector": "[data-cy=\"parser-article-author\"]",
+      "tag": "<a data-cy=\"parser-article-author\" href=\"https://github.com/xitanggg\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Xitang</a>"
+    },
+    {
+      "selector": "[data-cy=\"resume-dropzone\"]",
+      "tag": "<div data-cy=\"resume-dropzone\" class=\"flex justify-center rounded-md border-2 border-dashed border-gray-300 px-6 pb-6 pt-4\"><div class=\"text-center space-y-2\"><p class=\"pt-3 text-gray-700\">Browse a pdf file or drop it here</p><p class=\"flex text-sm text-gray-500\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" class=\"mr-1 mt-1 h-3 w-3 text-gray-400\"><path fill-rule=\"evenodd\" d=\"M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z\" clip-rule=\"evenodd\"></path></svg>File data is used locally and never leaves your browser</p><div class=\"pt-4\"><label class=\"within-outline-theme-purple cursor-pointer rounded-full px-6 pb-2.5 pt-2 font-semibold shadow-sm border\">Browse file<input data-cy=\"resume-file-input\" class=\"sr-only\" accept=\".pdf\" type=\"file\"></label></div></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"resume-file-input\"]",
+      "tag": "<input data-cy=\"resume-file-input\" class=\"sr-only\" accept=\".pdf\" type=\"file\">"
+    }
+  ],
+  "http://localhost:3000/resume-import": [
+    {
+      "selector": "[data-cy=\"resume-import-create-or-continue\"]",
+      "tag": "<a data-cy=\"resume-import-create-or-continue\" class=\"outline-theme-blue rounded-full bg-sky-500 px-6 pb-2 pt-1.5 text-base font-semibold text-white\" href=\"/resume-builder\">Create from scratch</a>"
+    },
+    {
+      "selector": "[data-cy=\"resume-dropzone\"]",
+      "tag": "<div data-cy=\"resume-dropzone\" class=\"flex justify-center rounded-md border-2 border-dashed border-gray-300 px-6 py-12 mt-5\"><div class=\"text-center space-y-3\"><img alt=\"Add pdf\" aria-hidden=\"true\" fetchpriority=\"high\" width=\"86\" height=\"99\" decoding=\"async\" data-nimg=\"1\" class=\"mx-auto h-14 w-14\" src=\"/_next/static/media/add-pdf.d5a58bd2.svg\" style=\"color: transparent;\"><p class=\"pt-3 text-gray-700 text-lg font-semibold\">Browse a pdf file or drop it here</p><p class=\"flex text-sm text-gray-500\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" class=\"mr-1 mt-1 h-3 w-3 text-gray-400\"><path fill-rule=\"evenodd\" d=\"M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z\" clip-rule=\"evenodd\"></path></svg>File data is used locally and never leaves your browser</p><div class=\"pt-4\"><label class=\"within-outline-theme-purple cursor-pointer rounded-full px-6 pb-2.5 pt-2 font-semibold shadow-sm bg-primary\">Browse file<input data-cy=\"resume-file-input\" class=\"sr-only\" accept=\".pdf\" type=\"file\"></label></div></div></div>"
+    },
+    {
+      "selector": "[data-cy=\"resume-file-input\"]",
+      "tag": "<input data-cy=\"resume-file-input\" class=\"sr-only\" accept=\".pdf\" type=\"file\">"
+    }
+  ]
+}

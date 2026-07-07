@@ -1,0 +1,68 @@
+{
+  "http://localhost:5173": [
+    {
+      "selector": "[class=\"active\"]",
+      "tag": "<a data-cy=\"navbar-brand\" aria-current=\"page\" class=\"active\" href=\"/\" data-discover=\"true\"> <img alt=\"logo\" class=\"logo\" src=\"/src/assets/logo.png\"></a>"
+    },
+    {
+      "selector": "[class=\"mode-btn\"]",
+      "tag": "<button data-cy=\"navbar-theme\" class=\"mode-btn\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path d=\"M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 0 0-1.41 0 .996.996 0 0 0 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 0 0-1.41 0 .996.996 0 0 0 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 0 0 0-1.41l-1.06-1.06zm1.06-10.96a.996.996 0 0 0 0-1.41.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 0 0 0-1.41.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z\"></path></svg></button>"
+    },
+    {
+      "selector": "[class=\"mode-btn mobile-icon\"]",
+      "tag": "<button data-cy=\"navbar-mobile-menu\" class=\"mode-btn mobile-icon\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" version=\"1.1\" viewBox=\"0 0 17 17\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><g></g><path d=\"M16 3v2h-15v-2h15zM1 10h15v-2h-15v2zM1 15h15v-2h-15v2z\"></path></svg></button>"
+    },
+    {
+      "selector": "home",
+      "tag": "<a data-cy=\"navbar-home\" aria-current=\"page\" class=\"activeLink active\" href=\"/\" data-discover=\"true\">home</a>"
+    },
+    {
+      "selector": "menu",
+      "tag": "<a data-cy=\"navbar-menu\" href=\"#menu\" class=\"\">menu</a>"
+    },
+    {
+      "selector": "mobile",
+      "tag": "<a data-cy=\"navbar-download-app\" href=\"#download-app\" class=\"\">mobile</a>"
+    },
+    {
+      "selector": "contact us",
+      "tag": "<a data-cy=\"navbar-contact\" href=\"#contact\" class=\"\">contact us</a>"
+    },
+    {
+      "selector": "Sign In",
+      "tag": "<button data-cy=\"navbar-auth\" class=\"nav-btn\">Sign In</button>"
+    },
+    {
+      "selector": "View Menu",
+      "tag": "<a data-cy=\"header-view-menu\" href=\"#menu\"><button>View Menu</button></a>"
+    },
+    {
+      "selector": "↑",
+      "tag": "<button data-cy=\"scroll-to-top\" class=\"scroll-to-top\">↑</button>"
+    },
+    {
+      "selector": "X",
+      "tag": "<button data-cy=\"mobile-menu-close\">X</button>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a data-cy=\"mobile-menu-home\" href=\"/\" data-discover=\"true\">Home</a>"
+    },
+    {
+      "selector": "Menu",
+      "tag": "<a data-cy=\"mobile-menu-menu\" href=\"/#menu\" data-discover=\"true\">Menu</a>"
+    },
+    {
+      "selector": "Download App",
+      "tag": "<a data-cy=\"mobile-menu-download-app\" href=\"/#download-app\" data-discover=\"true\">Download App</a>"
+    },
+    {
+      "selector": "Cotact Us",
+      "tag": "<a data-cy=\"mobile-menu-contact\" href=\"/#contact\" data-discover=\"true\">Cotact Us</a>"
+    },
+    {
+      "selector": "[placeholder=\"search you fav meals\"]",
+      "tag": "<input data-cy=\"mobile-menu-search\" placeholder=\"search you fav meals\" type=\"text\">"
+    }
+  ]
+}

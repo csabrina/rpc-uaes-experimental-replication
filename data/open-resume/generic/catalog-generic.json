@@ -1,0 +1,282 @@
+{
+  "http://localhost:3000": [
+    {
+      "selector": "OpenResume",
+      "tag": "<a data-cy=\"navbar-home\" href=\"/\"><span class=\"sr-only\">OpenResume</span><img alt=\"OpenResume Logo\" fetchpriority=\"high\" width=\"257\" height=\"54\" decoding=\"async\" data-nimg=\"1\" class=\"h-8 w-full\" style=\"color:transparent\" src=\"/_next/static/media/logo.90ac2b67.svg\"></a>"
+    },
+    {
+      "selector": "Builder",
+      "tag": "<a data-cy=\"navbar-builder\" class=\"rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4\" href=\"/resume-builder\">Builder</a>"
+    },
+    {
+      "selector": "Parser",
+      "tag": "<a data-cy=\"navbar-parser\" class=\"rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4\" href=\"/resume-parser\">Parser</a>"
+    },
+    {
+      "selector": "→",
+      "tag": "<a data-cy=\"home-create-resume\" class=\"btn-primary mt-6 lg:mt-14\" href=\"/resume-import\">Create Resume <span aria-hidden=\"true\">→</span></a>"
+    },
+    {
+      "selector": "resume parser",
+      "tag": "<a data-cy=\"home-resume-parser\" class=\"underline underline-offset-2\" href=\"/resume-parser\">resume parser</a>"
+    },
+    {
+      "selector": "GitHub repository",
+      "tag": "<a data-cy=\"features-open-source-repository\" href=\"https://github.com/xitanggg/open-resume\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">GitHub repository</a>"
+    },
+    {
+      "selector": "Reactive Resume",
+      "tag": "<a data-cy=\"faq-reactive-resume\" href=\"https://rxresu.me/\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Reactive Resume</a>"
+    },
+    {
+      "selector": "FlowCV",
+      "tag": "<a data-cy=\"faq-flowcv\" href=\"https://flowcv.com/\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">FlowCV</a>"
+    },
+    {
+      "selector": "Xitang Zhao",
+      "tag": "<a data-cy=\"faq-author-github\" href=\"https://github.com/xitanggg\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Xitang Zhao</a>"
+    },
+    {
+      "selector": "Zhigang Wen",
+      "tag": "<a data-cy=\"faq-designer-linkedin\" href=\"https://www.linkedin.com/in/imzhi\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Zhigang Wen</a>"
+    },
+    {
+      "selector": "open an issue",
+      "tag": "<a data-cy=\"faq-create-issue\" href=\"https://github.com/xitanggg/open-resume/issues/new\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">open an issue</a>"
+    },
+    {
+      "selector": "giving the project a star",
+      "tag": "<a data-cy=\"faq-github-repository\" href=\"https://github.com/xitanggg/open-resume\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">giving the project a star</a>"
+    }
+  ],
+  "http://localhost:3000/resume-builder": [
+    {
+      "selector": "OpenResume",
+      "tag": "<a data-cy=\"navbar-home\" href=\"/\"><span class=\"sr-only\">OpenResume</span><img alt=\"OpenResume Logo\" fetchpriority=\"high\" width=\"257\" height=\"54\" decoding=\"async\" data-nimg=\"1\" class=\"h-8 w-full\" style=\"color:transparent\" src=\"/_next/static/media/logo.90ac2b67.svg\"></a>"
+    },
+    {
+      "selector": "Builder",
+      "tag": "<a data-cy=\"navbar-builder\" class=\"rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4\" href=\"/resume-builder\">Builder</a>"
+    },
+    {
+      "selector": "Parser",
+      "tag": "<a data-cy=\"navbar-parser\" class=\"rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4\" href=\"/resume-parser\">Parser</a>"
+    },
+    {
+      "selector": "Move down",
+      "tag": "<button type=\"button\" data-cy=\"form-workExperiences-move-down\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75\"></path></svg><span class=\"sr-only\">Move down</span></button>"
+    },
+    {
+      "selector": "Hide section",
+      "tag": "<button type=\"button\" data-cy=\"form-workExperiences-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg><span class=\"sr-only\">Hide section</span></button>"
+    },
+    {
+      "selector": "Move up",
+      "tag": "<button type=\"button\" data-cy=\"form-workExperiences-0-move-up\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75\"></path></svg><span class=\"sr-only\">Move up</span></button>"
+    },
+    {
+      "selector": "Delete job",
+      "tag": "<button type=\"button\" data-cy=\"form-workExperiences-0-delete\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path></svg><span class=\"sr-only\">Delete job</span></button>"
+    },
+    {
+      "selector": "Add Job",
+      "tag": "<button data-cy=\"form-workExperiences-add\" type=\"button\" class=\"flex items-center rounded-md bg-white py-2 pl-3 pr-4 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"-ml-0.5 mr-1.5 h-5 w-5 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6v12m6-6H6\"></path></svg>Add Job</button>"
+    },
+    {
+      "selector": "Hide bullet points",
+      "tag": "<button type=\"button\" data-cy=\"education-0-toggle-bullets\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1 !bg-sky-100\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-700\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z\"></path></svg><span class=\"sr-only\">Hide bullet points</span></button>"
+    },
+    {
+      "selector": "Delete school",
+      "tag": "<button type=\"button\" data-cy=\"form-educations-0-delete\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path></svg><span class=\"sr-only\">Delete school</span></button>"
+    },
+    {
+      "selector": "Add School",
+      "tag": "<button data-cy=\"form-educations-add\" type=\"button\" class=\"flex items-center rounded-md bg-white py-2 pl-3 pr-4 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"-ml-0.5 mr-1.5 h-5 w-5 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6v12m6-6H6\"></path></svg>Add School</button>"
+    },
+    {
+      "selector": "Delete project",
+      "tag": "<button type=\"button\" data-cy=\"form-projects-0-delete\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path></svg><span class=\"sr-only\">Delete project</span></button>"
+    },
+    {
+      "selector": "Add Project",
+      "tag": "<button data-cy=\"form-projects-add\" type=\"button\" class=\"flex items-center rounded-md bg-white py-2 pl-3 pr-4 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"-ml-0.5 mr-1.5 h-5 w-5 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6v12m6-6H6\"></path></svg>Add Project</button>"
+    },
+    {
+      "selector": "Show section",
+      "tag": "<button type=\"button\" data-cy=\"form-custom-toggle\" class=\"rounded-full outline-none hover:bg-gray-100 focus-visible:bg-gray-100 p-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-6 w-6 text-gray-400\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88\"></path></svg><span class=\"sr-only\">Show section</span></button>"
+    },
+    {
+      "selector": "Download Resume",
+      "tag": "<a data-cy=\"resume-download\" class=\"ml-1 flex items-center gap-1 rounded-md border border-gray-300 px-3 py-0.5 hover:bg-gray-100 lg:ml-8\" download=\" - Resume\" href=\"blob:http://localhost:3000/fcd939f5-120a-437b-b0c6-564017078dba\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" class=\"h-4 w-4\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3\"></path></svg><span class=\"whitespace-nowrap\">Download Resume</span></a>"
+    },
+    {
+      "selector": "[name=\"name\"]",
+      "tag": "<input data-cy=\"profile-name\" placeholder=\"Sal Khan\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"name\">"
+    },
+    {
+      "selector": "[name=\"summary\"]",
+      "tag": "<textarea data-cy=\"profile-objective\" name=\"summary\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base resize-none overflow-hidden\" placeholder=\"Entrepreneur and educator obsessed with making education free for anyone\" style=\"height: 64px;\"></textarea>"
+    },
+    {
+      "selector": "[name=\"email\"]",
+      "tag": "<input data-cy=\"profile-email\" placeholder=\"hello@khanacademy.org\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"email\">"
+    },
+    {
+      "selector": "[name=\"phone\"]",
+      "tag": "<input data-cy=\"profile-phone\" placeholder=\"(123)456-7890\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"phone\">"
+    },
+    {
+      "selector": "[name=\"url\"]",
+      "tag": "<input data-cy=\"profile-website\" placeholder=\"linkedin.com/in/khanacademy\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"url\">"
+    },
+    {
+      "selector": "[name=\"location\"]",
+      "tag": "<input data-cy=\"profile-location\" placeholder=\"NYC, NY\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"location\">"
+    },
+    {
+      "selector": "[value=\"WORK EXPERIENCE\"]",
+      "tag": "<input data-cy=\"form-workExperiences-heading\" class=\"block w-full border-b border-transparent text-lg font-semibold tracking-wide text-gray-900 outline-none hover:border-gray-300 hover:shadow-sm focus:border-gray-300 focus:shadow-sm\" type=\"text\" value=\"WORK EXPERIENCE\">"
+    },
+    {
+      "selector": "[name=\"company\"]",
+      "tag": "<input data-cy=\"work-experience-0-company\" placeholder=\"Khan Academy\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"company\">"
+    },
+    {
+      "selector": "[name=\"jobTitle\"]",
+      "tag": "<input data-cy=\"work-experience-0-job-title\" placeholder=\"Software Engineer\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"jobTitle\">"
+    },
+    {
+      "selector": "[name=\"date\"]",
+      "tag": "<input data-cy=\"work-experience-0-date\" placeholder=\"Jun 2022 - Present\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"date\">"
+    },
+    {
+      "selector": "[value=\"EDUCATION\"]",
+      "tag": "<input data-cy=\"form-educations-heading\" class=\"block w-full border-b border-transparent text-lg font-semibold tracking-wide text-gray-900 outline-none hover:border-gray-300 hover:shadow-sm focus:border-gray-300 focus:shadow-sm\" type=\"text\" value=\"EDUCATION\">"
+    },
+    {
+      "selector": "[name=\"school\"]",
+      "tag": "<input data-cy=\"education-0-school\" placeholder=\"Cornell University\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"school\">"
+    },
+    {
+      "selector": "[name=\"degree\"]",
+      "tag": "<input data-cy=\"education-0-degree\" placeholder=\"Bachelor of Science in Computer Engineering\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"degree\">"
+    },
+    {
+      "selector": "[name=\"gpa\"]",
+      "tag": "<input data-cy=\"education-0-gpa\" placeholder=\"3.81\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"gpa\">"
+    },
+    {
+      "selector": "[value=\"PROJECT\"]",
+      "tag": "<input data-cy=\"form-projects-heading\" class=\"block w-full border-b border-transparent text-lg font-semibold tracking-wide text-gray-900 outline-none hover:border-gray-300 hover:shadow-sm focus:border-gray-300 focus:shadow-sm\" type=\"text\" value=\"PROJECT\">"
+    },
+    {
+      "selector": "[name=\"project\"]",
+      "tag": "<input data-cy=\"project-0-name\" placeholder=\"OpenResume\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\" name=\"project\">"
+    },
+    {
+      "selector": "[value=\"SKILLS\"]",
+      "tag": "<input data-cy=\"form-skills-heading\" class=\"block w-full border-b border-transparent text-lg font-semibold tracking-wide text-gray-900 outline-none hover:border-gray-300 hover:shadow-sm focus:border-gray-300 focus:shadow-sm\" type=\"text\" value=\"SKILLS\">"
+    },
+    {
+      "selector": "[placeholder=\"Featured Skill 1\"]",
+      "tag": "<input data-cy=\"featured-skill-0-name\" placeholder=\"Featured Skill 1\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[placeholder=\"Featured Skill 2\"]",
+      "tag": "<input data-cy=\"featured-skill-1-name\" placeholder=\"Featured Skill 2\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[placeholder=\"Featured Skill 3\"]",
+      "tag": "<input data-cy=\"featured-skill-2-name\" placeholder=\"Featured Skill 3\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[placeholder=\"Featured Skill 4\"]",
+      "tag": "<input data-cy=\"featured-skill-3-name\" placeholder=\"Featured Skill 4\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[placeholder=\"Featured Skill 5\"]",
+      "tag": "<input data-cy=\"featured-skill-4-name\" placeholder=\"Featured Skill 5\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[placeholder=\"Featured Skill 6\"]",
+      "tag": "<input data-cy=\"featured-skill-5-name\" placeholder=\"Featured Skill 6\" class=\"mt-1 px-3 py-2 block w-full rounded-md border border-gray-300 text-gray-900 shadow-sm outline-none font-normal text-base\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[value=\"CUSTOM SECTION\"]",
+      "tag": "<input data-cy=\"form-custom-heading\" class=\"block w-full border-b border-transparent text-lg font-semibold tracking-wide text-gray-900 outline-none hover:border-gray-300 hover:shadow-sm focus:border-gray-300 focus:shadow-sm\" type=\"text\" value=\"CUSTOM SECTION\">"
+    },
+    {
+      "selector": "[name=\"themeColor\"]",
+      "tag": "<input data-cy=\"settings-theme-color-input\" placeholder=\"#38bdf8\" class=\"w-[5rem] border-b border-gray-300 text-center font-semibold leading-3 outline-none\" type=\"text\" value=\"#38bdf8\" name=\"themeColor\" style=\"color: rgb(56, 189, 248);\">"
+    },
+    {
+      "selector": "[name=\"fontSize\"]",
+      "tag": "<input data-cy=\"settings-font-size-input\" placeholder=\"11\" class=\"w-[5rem] border-b border-gray-300 text-center font-semibold leading-3 outline-none\" type=\"text\" value=\"11\" name=\"fontSize\">"
+    },
+    {
+      "selector": "[value=\"0.54\"]",
+      "tag": "<input data-cy=\"resume-scale\" min=\"0.5\" max=\"1.5\" step=\"0.01\" type=\"range\" value=\"0.54\">"
+    },
+    {
+      "selector": "[class=\"mt-0.5 h-4 w-4\"]",
+      "tag": "<input data-cy=\"resume-autoscale\" class=\"mt-0.5 h-4 w-4\" type=\"checkbox\" checked=\"\">"
+    }
+  ],
+  "http://localhost:3000/resume-parser": [
+    {
+      "selector": "OpenResume",
+      "tag": "<a data-cy=\"navbar-home\" href=\"/\"><span class=\"sr-only\">OpenResume</span><img alt=\"OpenResume Logo\" fetchpriority=\"high\" width=\"257\" height=\"54\" decoding=\"async\" data-nimg=\"1\" class=\"h-8 w-full\" style=\"color:transparent\" src=\"/_next/static/media/logo.90ac2b67.svg\"></a>"
+    },
+    {
+      "selector": "Builder",
+      "tag": "<a data-cy=\"navbar-builder\" class=\"rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4\" href=\"/resume-builder\">Builder</a>"
+    },
+    {
+      "selector": "Parser",
+      "tag": "<a data-cy=\"navbar-parser\" class=\"rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4\" href=\"/resume-parser\">Parser</a>"
+    },
+    {
+      "selector": "Link",
+      "tag": "<a data-cy=\"parser-example-source\" href=\"https://laverne.edu/careers/wp-content/uploads/sites/15/2010/12/Undergraduate-Student-Resume-Examples.pdf\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Link</a>"
+    },
+    {
+      "selector": "ISO 32000 specification",
+      "tag": "<a data-cy=\"parser-article-iso-specification\" href=\"https://www.iso.org/standard/51502.html\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">ISO 32000 specification</a>"
+    },
+    {
+      "selector": "pdf.js",
+      "tag": "<a data-cy=\"parser-article-pdfjs\" href=\"https://github.com/mozilla/pdf.js\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">pdf.js</a>"
+    },
+    {
+      "selector": "Xitang",
+      "tag": "<a data-cy=\"parser-article-author\" href=\"https://github.com/xitanggg\" target=\"_blank\" class=\"underline underline-offset-2 hover:decoration-2 \">Xitang</a>"
+    },
+    {
+      "selector": "[class=\"sr-only\"]",
+      "tag": "<input data-cy=\"resume-file-input\" class=\"sr-only\" accept=\".pdf\" type=\"file\">"
+    }
+  ],
+  "http://localhost:3000/resume-import": [
+    {
+      "selector": "OpenResume",
+      "tag": "<a data-cy=\"navbar-home\" href=\"/\"><span class=\"sr-only\">OpenResume</span><img alt=\"OpenResume Logo\" fetchpriority=\"high\" width=\"257\" height=\"54\" decoding=\"async\" data-nimg=\"1\" class=\"h-8 w-full\" style=\"color:transparent\" src=\"/_next/static/media/logo.90ac2b67.svg\"></a>"
+    },
+    {
+      "selector": "Builder",
+      "tag": "<a data-cy=\"navbar-builder\" class=\"rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4\" href=\"/resume-builder\">Builder</a>"
+    },
+    {
+      "selector": "Parser",
+      "tag": "<a data-cy=\"navbar-parser\" class=\"rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4\" href=\"/resume-parser\">Parser</a>"
+    },
+    {
+      "selector": "Create from scratch",
+      "tag": "<a data-cy=\"resume-import-create-or-continue\" class=\"outline-theme-blue rounded-full bg-sky-500 px-6 pb-2 pt-1.5 text-base font-semibold text-white\" href=\"/resume-builder\">Create from scratch</a>"
+    },
+    {
+      "selector": "[class=\"sr-only\"]",
+      "tag": "<input data-cy=\"resume-file-input\" class=\"sr-only\" accept=\".pdf\" type=\"file\">"
+    }
+  ]
+}

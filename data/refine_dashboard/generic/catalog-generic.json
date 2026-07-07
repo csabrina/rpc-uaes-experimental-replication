@@ -1,0 +1,510 @@
+{
+  "http://localhost:5173/login": [
+    {
+      "selector": "refine Project",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">refine Project</h1></div></div></a>"
+    },
+    {
+      "selector": "Forgot password?",
+      "tag": "<a href=\"/forgot-password\" style=\"color: rgb(64, 150, 255); font-size: 12px; margin-left: auto;\">Forgot password?</a>"
+    },
+    {
+      "selector": "Sign in",
+      "tag": "<button type=\"submit\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-primary ant-btn-lg ant-btn-block\"><span>Sign in</span></button>"
+    },
+    {
+      "selector": "Sign up",
+      "tag": "<a href=\"/register\" style=\"font-weight: bold; color: rgb(64, 150, 255);\">Sign up</a>"
+    },
+    {
+      "selector": "[id=\"email\"]",
+      "tag": "<input placeholder=\"Email\" id=\"email\" aria-required=\"true\" class=\"ant-input ant-input-lg css-dev-only-do-not-override-dkbvqv css-dev-only-do-not-override-dkbvqv\" type=\"text\" value=\"michael.scott@dundermifflin.com\">"
+    },
+    {
+      "selector": "[id=\"password\"]",
+      "tag": "<input autocomplete=\"current-password\" type=\"password\" placeholder=\"●●●●●●●●\" id=\"password\" aria-required=\"true\" class=\"ant-input ant-input-lg css-dev-only-do-not-override-dkbvqv css-dev-only-do-not-override-dkbvqv\">"
+    },
+    {
+      "selector": "[id=\"remember\"]",
+      "tag": "<input id=\"remember\" class=\"ant-checkbox-input\" type=\"checkbox\">"
+    }
+  ],
+  "http://localhost:5173/forgot-password": [
+    {
+      "selector": "refine Project",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">refine Project</h1></div></div></a>"
+    },
+    {
+      "selector": "Sign in",
+      "tag": "<a href=\"/login\" style=\"font-weight: bold; color: rgb(64, 150, 255);\">Sign in</a>"
+    },
+    {
+      "selector": "Send reset instructions",
+      "tag": "<button type=\"submit\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-primary ant-btn-lg ant-btn-block\"><span>Send reset instructions</span></button>"
+    },
+    {
+      "selector": "[id=\"email\"]",
+      "tag": "<input type=\"email\" placeholder=\"Email\" id=\"email\" aria-required=\"true\" class=\"ant-input ant-input-lg css-dev-only-do-not-override-dkbvqv css-dev-only-do-not-override-dkbvqv\" value=\"\">"
+    }
+  ],
+  "http://localhost:5173": [
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\"]",
+      "tag": "<button type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\" style=\"border-radius: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\" style=\"color: rgb(22, 119, 255);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "Refine",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">Refine</h1></div></div></a>"
+    },
+    {
+      "selector": "Dashboard",
+      "tag": "<a href=\"/\">Dashboard</a>"
+    },
+    {
+      "selector": "Companies",
+      "tag": "<a href=\"/companies\">Companies</a>"
+    },
+    {
+      "selector": "Tasks",
+      "tag": "<a href=\"/tasks\">Tasks</a>"
+    },
+    {
+      "selector": "[class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\"]",
+      "tag": "<div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div></div></a>"
+    }
+  ],
+  "http://localhost:5173/register": [
+    {
+      "selector": "refine Project",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">refine Project</h1></div></div></a>"
+    },
+    {
+      "selector": "Sign in",
+      "tag": "<a href=\"/login\" style=\"font-weight: bold; color: rgb(64, 150, 255);\">Sign in</a>"
+    },
+    {
+      "selector": "Sign up",
+      "tag": "<button type=\"submit\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-primary ant-btn-lg ant-btn-block\"><span>Sign up</span></button>"
+    },
+    {
+      "selector": "[id=\"email\"]",
+      "tag": "<input placeholder=\"Email\" id=\"email\" aria-required=\"true\" class=\"ant-input ant-input-lg css-dev-only-do-not-override-dkbvqv css-dev-only-do-not-override-dkbvqv\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[id=\"password\"]",
+      "tag": "<input type=\"password\" placeholder=\"●●●●●●●●\" id=\"password\" aria-required=\"true\" class=\"ant-input ant-input-lg css-dev-only-do-not-override-dkbvqv css-dev-only-do-not-override-dkbvqv\">"
+    }
+  ],
+  "http://localhost:5173/companies?pageSize=12&current=1&sorters[0][field]=createdAt&sorters[0][order]=desc&filters[0][field]=name&filters[0][operator]=contains": [
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\"]",
+      "tag": "<button type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\" style=\"border-radius: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\" style=\"color: rgb(22, 119, 255);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "[title=\"\"]",
+      "tag": "<button title=\"\" data-cy=\"company-11-edit\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-default ant-btn-sm ant-btn-icon-only refine-edit-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"edit\" class=\"anticon anticon-edit\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"edit\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z\"></path></svg></span></span></button>"
+    },
+    {
+      "selector": "[class=\"ant-pagination-item-link\"]",
+      "tag": "<button class=\"ant-pagination-item-link\" type=\"button\" tabindex=\"-1\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "Refine",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">Refine</h1></div></div></a>"
+    },
+    {
+      "selector": "Dashboard",
+      "tag": "<a href=\"/\">Dashboard</a>"
+    },
+    {
+      "selector": "Companies",
+      "tag": "<a href=\"/companies\">Companies</a>"
+    },
+    {
+      "selector": "Tasks",
+      "tag": "<a href=\"/tasks\">Tasks</a>"
+    },
+    {
+      "selector": "Create",
+      "tag": "<button title=\"\" data-cy=\"company-list-create\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-primary refine-create-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"plus-square\" class=\"anticon anticon-plus-square\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus-square\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M328 544h152v152c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V544h152c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H544V328c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v152H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z\"></path><path d=\"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z\"></path></svg></span></span><span>Create</span></button>"
+    },
+    {
+      "selector": "1",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=1&amp;filters[0][field]=name&amp;filters[0][operator]=contains\">1</a>"
+    },
+    {
+      "selector": "2",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=2&amp;filters[0][field]=name&amp;filters[0][operator]=contains\">2</a>"
+    },
+    {
+      "selector": "3",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=3&amp;filters[0][field]=name&amp;filters[0][operator]=contains\">3</a>"
+    },
+    {
+      "selector": "[class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\"]",
+      "tag": "<div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div></div></a>"
+    }
+  ],
+  "http://localhost:5173/tasks": [
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\"]",
+      "tag": "<button type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\" style=\"border-radius: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\" style=\"color: rgb(22, 119, 255);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-circle ant-btn-default ant-btn-icon-only\"]",
+      "tag": "<button data-cy=\"kanban-column-unassigned-add\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-circle ant-btn-default ant-btn-icon-only\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"plus\" class=\"anticon anticon-plus\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z\"></path><path d=\"M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z\"></path></svg></span></span></button>"
+    },
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-r0kb5i ant-btn-circle ant-btn-text ant-btn-icon-only ant-dropdown-trigger\"]",
+      "tag": "<button data-cy=\"kanban-task-4-menu\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-r0kb5i ant-btn-circle ant-btn-text ant-btn-icon-only ant-dropdown-trigger\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"more\" class=\"anticon anticon-more\" style=\"transform: rotate(90deg);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"more\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z\"></path></svg></span></span></button>"
+    },
+    {
+      "selector": "Refine",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">Refine</h1></div></div></a>"
+    },
+    {
+      "selector": "Dashboard",
+      "tag": "<a href=\"/\">Dashboard</a>"
+    },
+    {
+      "selector": "Companies",
+      "tag": "<a href=\"/companies\">Companies</a>"
+    },
+    {
+      "selector": "Tasks",
+      "tag": "<a href=\"/tasks\">Tasks</a>"
+    },
+    {
+      "selector": "Add new card",
+      "tag": "<button data-cy=\"kanban-unassigned-add-card\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-default ant-btn-lg\" style=\"margin: 16px; background-color: white;\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"plus-square\" class=\"anticon anticon-plus-square md\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus-square\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M328 544h152v152c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V544h152c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H544V328c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v152H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z\"></path><path d=\"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z\"></path></svg></span></span><span class=\"ant-typography ant-typography-secondary css-dev-only-do-not-override-164tgwq\">Add new card</span></button>"
+    },
+    {
+      "selector": "[class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\"]",
+      "tag": "<div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div></div></a>"
+    },
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-r0kb5i ant-btn-circle ant-btn-text ant-btn-icon-only ant-dropdown-trigger ant-dropdown-open\"]",
+      "tag": "<button data-cy=\"kanban-task-4-menu\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-r0kb5i ant-btn-circle ant-btn-text ant-btn-icon-only ant-dropdown-trigger ant-dropdown-open\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"more\" class=\"anticon anticon-more\" style=\"transform: rotate(90deg);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"more\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z\"></path></svg></span></span></button>"
+    }
+  ],
+  "http://localhost:5173/companies?pageSize=12&current=2&sorters[0][field]=createdAt&sorters[0][order]=desc": [
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\"]",
+      "tag": "<button type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\" style=\"border-radius: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\" style=\"color: rgb(22, 119, 255);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "[title=\"\"]",
+      "tag": "<button title=\"\" data-cy=\"company-30-edit\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-default ant-btn-sm ant-btn-icon-only refine-edit-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"edit\" class=\"anticon anticon-edit\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"edit\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z\"></path></svg></span></span></button>"
+    },
+    {
+      "selector": "[class=\"ant-pagination-item-link\"]",
+      "tag": "<button class=\"ant-pagination-item-link\" type=\"button\" tabindex=\"-1\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "Refine",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">Refine</h1></div></div></a>"
+    },
+    {
+      "selector": "Dashboard",
+      "tag": "<a href=\"/\">Dashboard</a>"
+    },
+    {
+      "selector": "Companies",
+      "tag": "<a href=\"/companies\">Companies</a>"
+    },
+    {
+      "selector": "Tasks",
+      "tag": "<a href=\"/tasks\">Tasks</a>"
+    },
+    {
+      "selector": "Create",
+      "tag": "<button title=\"\" data-cy=\"company-list-create\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-primary refine-create-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"plus-square\" class=\"anticon anticon-plus-square\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus-square\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M328 544h152v152c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V544h152c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H544V328c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v152H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z\"></path><path d=\"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z\"></path></svg></span></span><span>Create</span></button>"
+    },
+    {
+      "selector": "1",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=1\">1</a>"
+    },
+    {
+      "selector": "2",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=2\">2</a>"
+    },
+    {
+      "selector": "3",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=3\">3</a>"
+    },
+    {
+      "selector": "[class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\"]",
+      "tag": "<div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div></div></a>"
+    }
+  ],
+  "http://localhost:5173/companies?pageSize=12&current=3&sorters[0][field]=createdAt&sorters[0][order]=desc": [
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\"]",
+      "tag": "<button type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\" style=\"border-radius: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\" style=\"color: rgb(22, 119, 255);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "[title=\"\"]",
+      "tag": "<button title=\"\" data-cy=\"company-21-edit\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-default ant-btn-sm ant-btn-icon-only refine-edit-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"edit\" class=\"anticon anticon-edit\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"edit\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z\"></path></svg></span></span></button>"
+    },
+    {
+      "selector": "[class=\"ant-pagination-item-link\"]",
+      "tag": "<button class=\"ant-pagination-item-link\" type=\"button\" tabindex=\"-1\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "Refine",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">Refine</h1></div></div></a>"
+    },
+    {
+      "selector": "Dashboard",
+      "tag": "<a href=\"/\">Dashboard</a>"
+    },
+    {
+      "selector": "Companies",
+      "tag": "<a href=\"/companies\">Companies</a>"
+    },
+    {
+      "selector": "Tasks",
+      "tag": "<a href=\"/tasks\">Tasks</a>"
+    },
+    {
+      "selector": "Create",
+      "tag": "<button title=\"\" data-cy=\"company-list-create\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-primary refine-create-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"plus-square\" class=\"anticon anticon-plus-square\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus-square\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M328 544h152v152c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V544h152c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H544V328c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v152H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z\"></path><path d=\"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z\"></path></svg></span></span><span>Create</span></button>"
+    },
+    {
+      "selector": "1",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=1\">1</a>"
+    },
+    {
+      "selector": "2",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=2\">2</a>"
+    },
+    {
+      "selector": "3",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=3\">3</a>"
+    },
+    {
+      "selector": "[class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\"]",
+      "tag": "<div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div></div></a>"
+    }
+  ],
+  "http://localhost:5173/tasks/edit/8": [
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\"]",
+      "tag": "<button type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\" style=\"border-radius: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\" style=\"color: rgb(22, 119, 255);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-circle ant-btn-default ant-btn-icon-only\"]",
+      "tag": "<button data-cy=\"kanban-column-unassigned-add\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-circle ant-btn-default ant-btn-icon-only\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"plus\" class=\"anticon anticon-plus\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z\"></path><path d=\"M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z\"></path></svg></span></span></button>"
+    },
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-r0kb5i ant-btn-circle ant-btn-text ant-btn-icon-only ant-dropdown-trigger\"]",
+      "tag": "<button data-cy=\"kanban-task-4-menu\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-r0kb5i ant-btn-circle ant-btn-text ant-btn-icon-only ant-dropdown-trigger\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"more\" class=\"anticon anticon-more\" style=\"transform: rotate(90deg);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"more\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z\"></path></svg></span></span></button>"
+    },
+    {
+      "selector": "Refine",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">Refine</h1></div></div></a>"
+    },
+    {
+      "selector": "Dashboard",
+      "tag": "<a href=\"/\">Dashboard</a>"
+    },
+    {
+      "selector": "Companies",
+      "tag": "<a href=\"/companies\">Companies</a>"
+    },
+    {
+      "selector": "Tasks",
+      "tag": "<a href=\"/tasks\">Tasks</a>"
+    },
+    {
+      "selector": "Add new card",
+      "tag": "<button data-cy=\"kanban-unassigned-add-card\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-default ant-btn-lg\" style=\"margin: 16px; background-color: white;\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"plus-square\" class=\"anticon anticon-plus-square md\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus-square\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M328 544h152v152c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V544h152c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H544V328c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v152H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z\"></path><path d=\"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z\"></path></svg></span></span><span class=\"ant-typography ant-typography-secondary css-dev-only-do-not-override-164tgwq\">Add new card</span></button>"
+    },
+    {
+      "selector": "×",
+      "tag": "<button type=\"button\" aria-label=\"Close\" class=\"ant-modal-close\"><span class=\"ant-modal-close-x\"><span data-cy=\"task-edit-close\">×</span></span></button>"
+    },
+    {
+      "selector": "Delete card",
+      "tag": "<button title=\"\" data-cy=\"task-edit-delete\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-link ant-btn-dangerous refine-delete-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"delete\" class=\"anticon anticon-delete\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"delete\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z\"></path></svg></span></span><span>Delete card</span></button>"
+    },
+    {
+      "selector": "[id=\"completed\"]",
+      "tag": "<input data-cy=\"task-completed-checkbox\" id=\"completed\" class=\"ant-checkbox-input\" type=\"checkbox\">"
+    },
+    {
+      "selector": "[class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\"]",
+      "tag": "<div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div></div></a>"
+    },
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-r0kb5i ant-btn-circle ant-btn-text ant-btn-icon-only ant-dropdown-trigger ant-dropdown-open\"]",
+      "tag": "<button data-cy=\"kanban-task-4-menu\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-r0kb5i ant-btn-circle ant-btn-text ant-btn-icon-only ant-dropdown-trigger ant-dropdown-open\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"more\" class=\"anticon anticon-more\" style=\"transform: rotate(90deg);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"more\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z\"></path></svg></span></span></button>"
+    }
+  ],
+  "http://localhost:5173/companies?pageSize=12&current=1&sorters[0][field]=createdAt&sorters[0][order]=desc": [
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\"]",
+      "tag": "<button type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\" style=\"border-radius: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\" style=\"color: rgb(22, 119, 255);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "[title=\"\"]",
+      "tag": "<button title=\"\" data-cy=\"company-11-edit\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-default ant-btn-sm ant-btn-icon-only refine-edit-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"edit\" class=\"anticon anticon-edit\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"edit\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z\"></path></svg></span></span></button>"
+    },
+    {
+      "selector": "[class=\"ant-pagination-item-link\"]",
+      "tag": "<button class=\"ant-pagination-item-link\" type=\"button\" tabindex=\"-1\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "Refine",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">Refine</h1></div></div></a>"
+    },
+    {
+      "selector": "Dashboard",
+      "tag": "<a href=\"/\">Dashboard</a>"
+    },
+    {
+      "selector": "Companies",
+      "tag": "<a href=\"/companies\">Companies</a>"
+    },
+    {
+      "selector": "Tasks",
+      "tag": "<a href=\"/tasks\">Tasks</a>"
+    },
+    {
+      "selector": "Create",
+      "tag": "<button title=\"\" data-cy=\"company-list-create\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-primary refine-create-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"plus-square\" class=\"anticon anticon-plus-square\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus-square\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M328 544h152v152c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V544h152c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H544V328c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v152H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z\"></path><path d=\"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z\"></path></svg></span></span><span>Create</span></button>"
+    },
+    {
+      "selector": "1",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=1\">1</a>"
+    },
+    {
+      "selector": "2",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=2\">2</a>"
+    },
+    {
+      "selector": "3",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=3\">3</a>"
+    },
+    {
+      "selector": "[class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\"]",
+      "tag": "<div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div></div></a>"
+    }
+  ],
+  "http://localhost:5173/companies/new?pageSize=12&current=3&sorters[0][field]=createdAt&sorters[0][order]=desc&filters[0][field]=name&filters[0][operator]=contains": [
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\"]",
+      "tag": "<button type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\" style=\"border-radius: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\" style=\"color: rgb(22, 119, 255);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "[title=\"\"]",
+      "tag": "<button title=\"\" data-cy=\"company-21-edit\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-default ant-btn-sm ant-btn-icon-only refine-edit-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"edit\" class=\"anticon anticon-edit\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"edit\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z\"></path></svg></span></span></button>"
+    },
+    {
+      "selector": "[class=\"ant-pagination-item-link\"]",
+      "tag": "<button class=\"ant-pagination-item-link\" type=\"button\" tabindex=\"-1\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "Refine",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">Refine</h1></div></div></a>"
+    },
+    {
+      "selector": "Dashboard",
+      "tag": "<a href=\"/\">Dashboard</a>"
+    },
+    {
+      "selector": "Companies",
+      "tag": "<a href=\"/companies\">Companies</a>"
+    },
+    {
+      "selector": "Tasks",
+      "tag": "<a href=\"/tasks\">Tasks</a>"
+    },
+    {
+      "selector": "Create",
+      "tag": "<button title=\"\" data-cy=\"company-list-create\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-primary refine-create-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"plus-square\" class=\"anticon anticon-plus-square\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus-square\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M328 544h152v152c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V544h152c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H544V328c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v152H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z\"></path><path d=\"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z\"></path></svg></span></span><span>Create</span></button>"
+    },
+    {
+      "selector": "1",
+      "tag": "<a href=\"/companies/new?pageSize=12&amp;current=1&amp;filters[0][field]=name&amp;filters[0][operator]=contains\">1</a>"
+    },
+    {
+      "selector": "2",
+      "tag": "<a href=\"/companies/new?pageSize=12&amp;current=2&amp;filters[0][field]=name&amp;filters[0][operator]=contains\">2</a>"
+    },
+    {
+      "selector": "3",
+      "tag": "<a href=\"/companies/new?pageSize=12&amp;current=3&amp;filters[0][field]=name&amp;filters[0][operator]=contains\">3</a>"
+    },
+    {
+      "selector": "×",
+      "tag": "<button type=\"button\" aria-label=\"Close\" class=\"ant-modal-close\"><span class=\"ant-modal-close-x\"><span data-cy=\"company-create-close\">×</span></span></button>"
+    },
+    {
+      "selector": "Cancel",
+      "tag": "<button data-cy=\"company-create-cancel\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-default\"><span>Cancel</span></button>"
+    },
+    {
+      "selector": "Save",
+      "tag": "<button data-cy=\"company-create-submit\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-primary\"><span>Save</span></button>"
+    },
+    {
+      "selector": "[id=\"name\"]",
+      "tag": "<input data-cy=\"company-create-name\" placeholder=\"Please enter a company name\" id=\"name\" aria-required=\"true\" class=\"ant-input css-dev-only-do-not-override-dkbvqv css-dev-only-do-not-override-dkbvqv\" type=\"text\" value=\"\">"
+    },
+    {
+      "selector": "[id=\"salesOwnerId\"]",
+      "tag": "<input type=\"search\" id=\"salesOwnerId\" autocomplete=\"off\" class=\"ant-select-selection-search-input\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-owns=\"salesOwnerId_list\" aria-autocomplete=\"list\" aria-controls=\"salesOwnerId_list\" aria-required=\"true\" value=\"\">"
+    }
+  ],
+  "http://localhost:5173/companies?pageSize=12&current=3&sorters[0][field]=createdAt&sorters[0][order]=desc&filters[0][field]=name&filters[0][operator]=contains": [
+    {
+      "selector": "[class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\"]",
+      "tag": "<button type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-text\" style=\"border-radius: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\" style=\"color: rgb(22, 119, 255);\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "[title=\"\"]",
+      "tag": "<button title=\"\" data-cy=\"company-4-edit\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-default ant-btn-sm ant-btn-icon-only refine-edit-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"edit\" class=\"anticon anticon-edit\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"edit\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z\"></path></svg></span></span></button>"
+    },
+    {
+      "selector": "[class=\"ant-pagination-item-link\"]",
+      "tag": "<button class=\"ant-pagination-item-link\" type=\"button\" tabindex=\"-1\"><span role=\"img\" aria-label=\"left\" class=\"anticon anticon-left\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"left\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z\"></path></svg></span></button>"
+    },
+    {
+      "selector": "Refine",
+      "tag": "<a href=\"/\" style=\"display: inline-block; text-decoration: none;\"><div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div><div class=\"ant-space-item\"><h1 class=\"ant-typography css-dev-only-do-not-override-dkbvqv\" style=\"font-size: inherit; margin-bottom: 0px; font-weight: 700;\">Refine</h1></div></div></a>"
+    },
+    {
+      "selector": "Dashboard",
+      "tag": "<a href=\"/\">Dashboard</a>"
+    },
+    {
+      "selector": "Companies",
+      "tag": "<a href=\"/companies\">Companies</a>"
+    },
+    {
+      "selector": "Tasks",
+      "tag": "<a href=\"/tasks\">Tasks</a>"
+    },
+    {
+      "selector": "Create",
+      "tag": "<button title=\"\" data-cy=\"company-list-create\" type=\"button\" class=\"ant-btn css-dev-only-do-not-override-dkbvqv ant-btn-primary refine-create-button\"><span class=\"ant-btn-icon\"><span role=\"img\" aria-label=\"plus-square\" class=\"anticon anticon-plus-square\"><svg viewBox=\"64 64 896 896\" focusable=\"false\" data-icon=\"plus-square\" width=\"1em\" height=\"1em\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M328 544h152v152c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V544h152c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H544V328c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v152H328c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z\"></path><path d=\"M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z\"></path></svg></span></span><span>Create</span></button>"
+    },
+    {
+      "selector": "1",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=1&amp;filters[0][field]=name&amp;filters[0][operator]=contains\">1</a>"
+    },
+    {
+      "selector": "2",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=2&amp;filters[0][field]=name&amp;filters[0][operator]=contains\">2</a>"
+    },
+    {
+      "selector": "3",
+      "tag": "<a href=\"/companies?pageSize=12&amp;current=3&amp;filters[0][field]=name&amp;filters[0][operator]=contains\">3</a>"
+    },
+    {
+      "selector": "[class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\"]",
+      "tag": "<div class=\"ant-space css-dev-only-do-not-override-dkbvqv ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small\" style=\"display: flex; align-items: center; font-size: inherit;\"><div class=\"ant-space-item\"><div style=\"height: 24px; width: 24px; color: rgb(22, 119, 255);\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9C13.6569 9 15 7.65685 15 6C15 4.34315 13.6569 3 12 3C10.3431 3 9 4.34315 9 6C9 7.65685 10.3431 9 12 9Z\" fill=\"currentColor\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM8 6C8 3.79086 9.79086 2 12 2C14.2091 2 16 3.79086 16 6V18C16 20.2091 14.2091 22 12 22C9.79086 22 8 20.2091 8 18V6Z\" fill=\"currentColor\"></path></svg></div></div></div></a>"
+    }
+  ]
+}

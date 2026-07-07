@@ -1,0 +1,70 @@
+{
+  "http://localhost:3000": [
+    {
+      "selector": "[data-cy=\"restaurant-navbar-brand\"]",
+      "tag": "<a class=\"navbar-brand text-success fw-semibold\" data-cy=\"restaurant-navbar-brand\" href=\"/\">React Restaurant</a>"
+    },
+    {
+      "selector": "[data-cy=\"restaurant-navbar-collapse\"]",
+      "tag": "<button aria-controls=\"basic-navbar-nav\" data-cy=\"restaurant-navbar-collapse\" type=\"button\" aria-label=\"Toggle navigation\" class=\"navbar-toggler collapsed\"><span class=\"navbar-toggler-icon\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"restaurant-home\"]",
+      "tag": "<a href=\"/\" data-cy=\"restaurant-home\" data-rr-ui-event-key=\"/\" class=\"active text-uppercase nav-link\">Home</a>"
+    },
+    {
+      "selector": "[data-cy=\"restaurant-menu\"]",
+      "tag": "<a href=\"/menu\" data-cy=\"restaurant-menu\" data-rr-ui-event-key=\"/menu\" class=\"text-uppercase nav-link\">Menu</a>"
+    },
+    {
+      "selector": "[data-cy=\"restaurant-about\"]",
+      "tag": "<a href=\"/about\" data-cy=\"restaurant-about\" data-rr-ui-event-key=\"/about\" class=\"text-uppercase nav-link\">About</a>"
+    },
+    {
+      "selector": "[data-cy=\"restaurant-contact\"]",
+      "tag": "<a href=\"/contact\" data-cy=\"restaurant-contact\" data-rr-ui-event-key=\"/contact\" class=\"text-uppercase nav-link\">Contact</a>"
+    },
+    {
+      "selector": "[data-cy=\"home-hero-full-menu\"]",
+      "tag": "<button type=\"button\" class=\"btn btn-success btn-lg\" data-cy=\"home-hero-full-menu\">Our Full Menu</button>"
+    },
+    {
+      "selector": "[data-cy=\"home-more-about-us\"]",
+      "tag": "<button type=\"button\" class=\"btn btn-outline-success btn-lg\" data-cy=\"home-more-about-us\">More About Us</button>"
+    }
+  ],
+  "http://localhost:3000/contact": [
+    {
+      "selector": "[data-cy=\"contact-submit\"]",
+      "tag": "<button type=\"submit\" class=\"btn btn-success btn-lg\" data-cy=\"contact-submit\">Submit</button>"
+    },
+    {
+      "selector": "[data-cy=\"contact-first-name\"]",
+      "tag": "<input data-cy=\"contact-first-name\" type=\"text\" id=\"first-name\" class=\"form-control\">"
+    },
+    {
+      "selector": "[data-cy=\"contact-last-name\"]",
+      "tag": "<input data-cy=\"contact-last-name\" type=\"text\" id=\"last-name\" class=\"form-control\">"
+    },
+    {
+      "selector": "[data-cy=\"contact-email-address\"]",
+      "tag": "<input data-cy=\"contact-email-address\" type=\"email\" id=\"email-address\" class=\"form-control\">"
+    },
+    {
+      "selector": "[data-cy=\"contact-phone-number\"]",
+      "tag": "<input data-cy=\"contact-phone-number\" type=\"tel\" id=\"phone-number\" class=\"form-control\">"
+    },
+    {
+      "selector": "[data-cy=\"contact-date\"]",
+      "tag": "<input data-cy=\"contact-date\" type=\"date\" id=\"date\" class=\"form-control\">"
+    },
+    {
+      "selector": "[data-cy=\"contact-guests-number\"]",
+      "tag": "<input data-cy=\"contact-guests-number\" type=\"number\" id=\"guests-number\" class=\"form-control\">"
+    },
+    {
+      "selector": "[data-cy=\"contact-comments\"]",
+      "tag": "<input data-cy=\"contact-comments\" type=\"textarea\" id=\"comments\" class=\"form-control\">"
+    }
+  ]
+}

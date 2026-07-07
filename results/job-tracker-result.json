@@ -1,0 +1,114 @@
+{
+  "equal": {
+    "http://localhost:5173": [
+      [
+        {
+          "selector": "[data-cy=\"job-tracker-company\"]",
+          "tag": "<input data-cy=\"job-tracker-company\" placeholder=\"e.g., Zalando\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+        },
+        {
+          "selector": "[placeholder=\"e.g., Zalando\"]",
+          "tag": "<input data-cy=\"job-tracker-company\" placeholder=\"e.g., Zalando\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"job-tracker-title\"]",
+          "tag": "<input data-cy=\"job-tracker-title\" placeholder=\"e.g., Junior Frontend Developer\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+        },
+        {
+          "selector": "[placeholder=\"e.g., Junior Frontend Developer\"]",
+          "tag": "<input data-cy=\"job-tracker-title\" placeholder=\"e.g., Junior Frontend Developer\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"job-tracker-status\"]",
+          "tag": "<select data-cy=\"job-tracker-status\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\"><option value=\"Applied\">Applied</option><option value=\"Interview\">Interview</option><option value=\"Offer\">Offer</option><option value=\"Rejected\">Rejected</option></select>"
+        },
+        {
+          "selector": "[value=\"Applied\"]",
+          "tag": "<option value=\"Applied\">Applied</option><option value=\"Interview\">Interview</option><option value=\"Offer\">Offer</option><option value=\"Rejected\">Rejected</option></select>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"job-tracker-location\"]",
+          "tag": "<input data-cy=\"job-tracker-location\" placeholder=\"Berlin / Remote\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+        },
+        {
+          "selector": "[placeholder=\"Berlin / Remote\"]",
+          "tag": "<input data-cy=\"job-tracker-location\" placeholder=\"Berlin / Remote\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"job-tracker-url\"]",
+          "tag": "<input data-cy=\"job-tracker-url\" placeholder=\"https://...\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+        },
+        {
+          "selector": "[placeholder=\"https://...\"]",
+          "tag": "<input data-cy=\"job-tracker-url\" placeholder=\"https://...\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"job-tracker-notes\"]",
+          "tag": "<textarea data-cy=\"job-tracker-notes\" placeholder=\"What did you apply with? Who is the contact person? Next steps?\" rows=\"3\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221); resize: vertical;\"></textarea>"
+        },
+        {
+          "selector": "[placeholder=\"What did you apply with? Who is the contact person? Next steps?\"]",
+          "tag": "<textarea data-cy=\"job-tracker-notes\" placeholder=\"What did you apply with? Who is the contact person? Next steps?\" rows=\"3\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221); resize: vertical;\"></textarea>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"job-tracker-search\"]",
+          "tag": "<input data-cy=\"job-tracker-search\" placeholder=\"Search company, title, location, notes...\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221); min-width: 260px; flex: 1 1 0%;\">"
+        },
+        {
+          "selector": "[placeholder=\"Search company, title, location, notes...\"]",
+          "tag": "<input data-cy=\"job-tracker-search\" placeholder=\"Search company, title, location, notes...\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221); min-width: 260px; flex: 1 1 0%;\">"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"job-tracker-status-filter\"]",
+          "tag": "<select data-cy=\"job-tracker-status-filter\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\"><option value=\"All\">All statuses</option><option value=\"Applied\">Applied</option><option value=\"Interview\">Interview</option><option value=\"Offer\">Offer</option><option value=\"Rejected\">Rejected</option></select>"
+        },
+        {
+          "selector": "[value=\"All\"]",
+          "tag": "<option value=\"All\">All statuses</option><option value=\"Applied\">Applied</option><option value=\"Interview\">Interview</option><option value=\"Offer\">Offer</option><option value=\"Rejected\">Rejected</option></select>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"job-tracker-sort\"]",
+          "tag": "<select data-cy=\"job-tracker-sort\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\"><option value=\"newest\">Newest first</option><option value=\"oldest\">Oldest first</option></select>"
+        },
+        {
+          "selector": "[value=\"newest\"]",
+          "tag": "<option value=\"newest\">Newest first</option><option value=\"oldest\">Oldest first</option></select>"
+        }
+      ]
+    ]
+  },
+  "minus": {
+    "http://localhost:5173": []
+  },
+  "plus": {
+    "http://localhost:5173": []
+  },
+  "numbers": {
+    "http://localhost:5173": {
+      "equal": 9,
+      "minus": 0,
+      "plus": 0
+    }
+  },
+  "total": {
+    "equal": 9,
+    "minus": 0,
+    "plus": 0
+  }
+}

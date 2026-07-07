@@ -1,5 +1,5 @@
 {
-  "http://localhost:9998": [
+  "http://localhost:9999": [
     {
       "selector": "[data-cy=\"index-navbar-toggle\"]",
       "tag": "<button data-cy=\"index-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
@@ -30,7 +30,7 @@
     },
     {
       "selector": "[data-cy=\"index-dropdown-toggle\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
     },
     {
       "selector": "[data-cy=\"index-right-sidebar\"]",
@@ -38,15 +38,15 @@
     },
     {
       "selector": "[data-cy=\"index-dummy-link-1\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-1\">Dummy Link1</a>"
+      "tag": "<a href=\"#\" data-cy=\"index-dummy-link-1\">Dummy Link1</a>"
     },
     {
       "selector": "[data-cy=\"index-dummy-link-2\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-2\">Dummy Link2</a>"
+      "tag": "<a href=\"#\" data-cy=\"index-dummy-link-2\">Dummy Link2</a>"
     },
     {
       "selector": "[data-cy=\"index-dummy-link-3\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-3\">Dummy Link3</a>"
+      "tag": "<a href=\"#\" data-cy=\"index-dummy-link-3\">Dummy Link3</a>"
     },
     {
       "selector": "[data-cy=\"index-contact\"]",
@@ -54,51 +54,51 @@
     },
     {
       "selector": "[data-cy=\"index-read-more\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-read-more\" title=\"read more\" class=\"btn-inline \" target=\"_self\">read more</a>"
+      "tag": "<a href=\"#\" data-cy=\"index-read-more\" title=\"read more\" class=\"btn-inline \" target=\"_self\">read more</a>"
     },
     {
       "selector": "[data-cy=\"index-text-1\"]",
-      "tag": "<a data-cy=\"index-text-1\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"index.html\">Mathematics and Computer Science</a>"
+      "tag": "<a data-cy=\"index-text-1\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"#\">Mathematics and Computer Science</a>"
     },
     {
       "selector": "[data-cy=\"index-text-2\"]",
-      "tag": "<a data-cy=\"index-text-2\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"index.html\">Mathematics and Philosophy</a>"
+      "tag": "<a data-cy=\"index-text-2\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"#\">Mathematics and Philosophy</a>"
     },
     {
       "selector": "[data-cy=\"index-text-3\"]",
-      "tag": "<a data-cy=\"index-text-3\" title=\"Penatibus et magnis dis parturient montes ascetur ridiculus mus.\" href=\"index.html\">Philosophy and Modern Languages</a>"
+      "tag": "<a data-cy=\"index-text-3\" title=\"Penatibus et magnis dis parturient montes ascetur ridiculus mus.\" href=\"#\">Philosophy and Modern Languages</a>"
     },
     {
       "selector": "[data-cy=\"index-text-4\"]",
-      "tag": "<a data-cy=\"index-text-4\" title=\"Morbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci.\" href=\"index.html\">History (Ancient and Modern)</a>"
+      "tag": "<a data-cy=\"index-text-4\" title=\"Morbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci.\" href=\"#\">History (Ancient and Modern)</a>"
     },
     {
       "selector": "[data-cy=\"index-text-5\"]",
-      "tag": "<a data-cy=\"index-text-5\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"index.html\">Classical Archaeology and Ancient History</a>"
+      "tag": "<a data-cy=\"index-text-5\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"#\">Classical Archaeology and Ancient History</a>"
     },
     {
       "selector": "[data-cy=\"index-text-6\"]",
-      "tag": "<a data-cy=\"index-text-6\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"index.html\">Physics and Philosophy</a>"
+      "tag": "<a data-cy=\"index-text-6\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"#\">Physics and Philosophy</a>"
     },
     {
       "selector": "[data-cy=\"index-twitter\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-facebook\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-dribbble\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-flickr\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-flickr\"><i class=\"fa fa-flickr\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-flickr\"><i class=\"fa fa-flickr\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-github\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-github\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-github\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-index-footer\"]",
@@ -129,7 +129,7 @@
       "tag": "<a href=\"http://webthemez.com/\" data-cy=\"index-WebThemez\" rel=\"develop\">WebThemez.com</a>"
     }
   ],
-  "http://localhost:9998/about.html": [
+  "http://localhost:9999/about.html": [
     {
       "selector": "[data-cy=\"about-navbar-toggle\"]",
       "tag": "<button data-cy=\"about-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
@@ -160,7 +160,7 @@
     },
     {
       "selector": "[data-cy=\"about-dropdown-toggle\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
     },
     {
       "selector": "[data-cy=\"about-right-sidebar\"]",
@@ -168,15 +168,15 @@
     },
     {
       "selector": "[data-cy=\"about-dummy-link-1\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-dummy-link-1\">Dummy Link1</a>"
+      "tag": "<a href=\"#\" data-cy=\"about-dummy-link-1\">Dummy Link1</a>"
     },
     {
       "selector": "[data-cy=\"about-dummy-link-2\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-dummy-link-2\">Dummy Link2</a>"
+      "tag": "<a href=\"#\" data-cy=\"about-dummy-link-2\">Dummy Link2</a>"
     },
     {
       "selector": "[data-cy=\"about-dummy-link-3\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-dummy-link-3\">Dummy Link3</a>"
+      "tag": "<a href=\"#\" data-cy=\"about-dummy-link-3\">Dummy Link3</a>"
     },
     {
       "selector": "[data-cy=\"about-contact\"]",
@@ -204,103 +204,103 @@
     },
     {
       "selector": "[data-cy=\"about-facebook-ceo\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-facebook-ceo\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-facebook-ceo\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-google-ceo\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-google-ceo\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-google-ceo\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-twitter-ceo\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-twitter-ceo\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-twitter-ceo\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-dribbble-ceo\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-dribbble-ceo\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-dribbble-ceo\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-github-ceo\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-github-ceo\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-github-ceo\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-facebook-director\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-facebook-director\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-facebook-director\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-google-director\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-google-director\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-google-director\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-twitter-director\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-twitter-director\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-twitter-director\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-dribbble-director\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-dribbble-director\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-dribbble-director\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-github-director\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-github-director\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-github-director\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-facebook-manager\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-facebook-manager\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-facebook-manager\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-google-manager\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-google-manager\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-google-manager\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-twitter-manager\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-twitter-manager\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-twitter-manager\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-dribbble-manager\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-dribbble-manager\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-dribbble-manager\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-github-manager\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-github-manager\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-github-manager\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-facebook-creative\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-facebook-creative\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-facebook-creative\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-google-creative\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-google-creative\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-google-creative\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-twitter-creative\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-twitter-creative\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-twitter-creative\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-dribbble-creative\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-dribbble-creative\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-dribbble-creative\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-github-creative\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-github-creative\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-github-creative\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-twitter\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-facebook\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-dribbble\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-flickr\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-flickr\"><i class=\"fa fa-flickr\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-flickr\"><i class=\"fa fa-flickr\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-github\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-github\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-github\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-index-footer\"]",
@@ -331,7 +331,7 @@
       "tag": "<a href=\"http://webthemez.com/\" data-cy=\"about-WebThemez\" rel=\"develop\">WebThemez.com</a>"
     }
   ],
-  "http://localhost:9998/courses.html": [
+  "http://localhost:9999/courses.html": [
     {
       "selector": "[data-cy=\"courses-navbar-toggle\"]",
       "tag": "<button data-cy=\"courses-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
@@ -362,7 +362,7 @@
     },
     {
       "selector": "[data-cy=\"courses-dropdown-toggle\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
     },
     {
       "selector": "[data-cy=\"courses-right-sidebar\"]",
@@ -370,15 +370,15 @@
     },
     {
       "selector": "[data-cy=\"courses-dummy-link-1\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-dummy-link-1\">Dummy Link1</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-dummy-link-1\">Dummy Link1</a>"
     },
     {
       "selector": "[data-cy=\"courses-dummy-link-2\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-dummy-link-2\">Dummy Link2</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-dummy-link-2\">Dummy Link2</a>"
     },
     {
       "selector": "[data-cy=\"courses-dummy-link-3\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-dummy-link-3\">Dummy Link3</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-dummy-link-3\">Dummy Link3</a>"
     },
     {
       "selector": "[data-cy=\"courses-contact\"]",
@@ -386,23 +386,23 @@
     },
     {
       "selector": "[data-cy=\"courses-twitter\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-facebook\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-dribbble\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-flickr\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-flickr\"><i class=\"fa fa-flickr\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-flickr\"><i class=\"fa fa-flickr\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-github\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-github\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-github\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-index-footer\"]",
@@ -433,7 +433,7 @@
       "tag": "<a href=\"http://webthemez.com/\" data-cy=\"courses-WebThemez\" rel=\"develop\">WebThemez.com</a>"
     }
   ],
-  "http://localhost:9998/fees.html": [
+  "http://localhost:9999/fees.html": [
     {
       "selector": "[data-cy=\"fees-navbar-collapse\"]",
       "tag": "<button data-cy=\"fees-navbar-collapse\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
@@ -464,7 +464,7 @@
     },
     {
       "selector": "[data-cy=\"fees-dropdown\"]",
-      "tag": "<a href=\"fees.html\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" data-cy=\"fees-dropdown\">Pages <b class=\"caret\"></b></a>"
+      "tag": "<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" data-cy=\"fees-dropdown\">Pages <b class=\"caret\"></b></a>"
     },
     {
       "selector": "[data-cy=\"fees-right-sidebar\"]",
@@ -472,15 +472,15 @@
     },
     {
       "selector": "[data-cy=\"fees-dummy-link-1\"]",
-      "tag": "<a data-cy=\"fees-dummy-link-1\" href=\"fees.html\">Dummy Link1</a>"
+      "tag": "<a data-cy=\"fees-dummy-link-1\" href=\"#\">Dummy Link1</a>"
     },
     {
       "selector": "[data-cy=\"fees-dummy-link-2\"]",
-      "tag": "<a data-cy=\"fees-dummy-link-2\" href=\"fees.html\">Dummy Link2</a>"
+      "tag": "<a data-cy=\"fees-dummy-link-2\" href=\"#\">Dummy Link2</a>"
     },
     {
       "selector": "[data-cy=\"fees-dummy-link-3\"]",
-      "tag": "<a data-cy=\"fees-dummy-link-3\" href=\"fees.html\">Dummy Link3</a>"
+      "tag": "<a data-cy=\"fees-dummy-link-3\" href=\"#\">Dummy Link3</a>"
     },
     {
       "selector": "[data-cy=\"fees-contact\"]",
@@ -488,39 +488,39 @@
     },
     {
       "selector": "[data-cy=\"fees-signup-basic\"]",
-      "tag": "<a href=\"fees.html\" class=\"btn\" data-cy=\"fees-signup-basic\">Signup</a>"
+      "tag": "<a href=\"#\" class=\"btn\" data-cy=\"fees-signup-basic\">Signup</a>"
     },
     {
       "selector": "[data-cy=\"fees-signup-standard\"]",
-      "tag": "<a href=\"fees.html\" class=\"btn\" data-cy=\"fees-signup-standard\">Signup</a>"
+      "tag": "<a href=\"#\" class=\"btn\" data-cy=\"fees-signup-standard\">Signup</a>"
     },
     {
       "selector": "[data-cy=\"fees-signup-advanced\"]",
-      "tag": "<a href=\"fees.html\" class=\"btn\" data-cy=\"fees-signup-advanced\">Signup</a>"
+      "tag": "<a href=\"#\" class=\"btn\" data-cy=\"fees-signup-advanced\">Signup</a>"
     },
     {
       "selector": "[data-cy=\"fees-signup-mighty\"]",
-      "tag": "<a href=\"fees.html\" class=\"btn\" data-cy=\"fees-signup-mighty\">Signup</a>"
+      "tag": "<a href=\"#\" class=\"btn\" data-cy=\"fees-signup-mighty\">Signup</a>"
     },
     {
       "selector": "[data-cy=\"fees-twitter\"]",
-      "tag": "<a href=\"fees.html\" data-cy=\"fees-twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"fees-twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"fees-facebook\"]",
-      "tag": "<a href=\"fees.html\" data-cy=\"fees-facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"fees-facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"fees-dribbble\"]",
-      "tag": "<a href=\"fees.html\" data-cy=\"fees-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"fees-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"fees-flickr\"]",
-      "tag": "<a href=\"fees.html\" data-cy=\"fees-flickr\"><i class=\"fa fa-flickr\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"fees-flickr\"><i class=\"fa fa-flickr\"></i></a>"
     },
     {
       "selector": "[data-cy=\"fees-github\"]",
-      "tag": "<a href=\"fees.html\" data-cy=\"fees-github\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"fees-github\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"fees-WebThemez\"]",
@@ -551,7 +551,7 @@
       "tag": "<a href=\"contact.html\" data-cy=\"index-contact-footer\">Contact</a>"
     }
   ],
-  "http://localhost:9998/portfolio.html": [
+  "http://localhost:9999/portfolio.html": [
     {
       "selector": "[data-cy=\"portfolio-navbar-collapse\"]",
       "tag": "<button data-cy=\"portfolio-navbar-collapse\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
@@ -582,7 +582,7 @@
     },
     {
       "selector": "[data-cy=\"portfolio-dropdown\"]",
-      "tag": "<a href=\"portfolio.html\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" data-cy=\"portfolio-dropdown\">Pages <b class=\"caret\"></b></a>"
+      "tag": "<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" data-cy=\"portfolio-dropdown\">Pages <b class=\"caret\"></b></a>"
     },
     {
       "selector": "[data-cy=\"portfolio-right-sidebar\"]",
@@ -590,15 +590,15 @@
     },
     {
       "selector": "[data-cy=\"portfolio-dummy-link-1\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-dummy-link-1\">Dummy Link1</a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-dummy-link-1\">Dummy Link1</a>"
     },
     {
       "selector": "[data-cy=\"portfolio-dummy-link-2\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-dummy-link-2\">Dummy Link2</a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-dummy-link-2\">Dummy Link2</a>"
     },
     {
       "selector": "[data-cy=\"portfolio-dummy-link-3\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-dummy-link-3\">Dummy Link3</a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-dummy-link-3\">Dummy Link3</a>"
     },
     {
       "selector": "[data-cy=\"portfolio-contact\"]",
@@ -606,39 +606,39 @@
     },
     {
       "selector": "[data-cy=\"portfolio-all\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-all\" class=\"current btn-theme btn-small\" data-filter=\"*\">All</a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-all\" class=\"current btn-theme btn-small\" data-filter=\"*\">All</a>"
     },
     {
       "selector": "[data-cy=\"portfolio-web-design\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-web-design\" class=\"btn-theme btn-small\" data-filter=\".webdesign\">Web Design</a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-web-design\" class=\"btn-theme btn-small\" data-filter=\".webdesign\">Web Design</a>"
     },
     {
       "selector": "[data-cy=\"portfolio-photography\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-photography\" class=\"btn-theme btn-small\" data-filter=\".photography\">Photography</a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-photography\" class=\"btn-theme btn-small\" data-filter=\".photography\">Photography</a>"
     },
     {
       "selector": "[data-cy=\"portfolio-print\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-print\" class=\"btn-theme btn-small\" data-filter=\".print\">Print</a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-print\" class=\"btn-theme btn-small\" data-filter=\".print\">Print</a>"
     },
     {
       "selector": "[data-cy=\"portfolio-twitter\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"portfolio-facebook\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"portfolio-dribbble\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"portfolio-flickr\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-flickr\"><i class=\"fa fa-flickr\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-flickr\"><i class=\"fa fa-flickr\"></i></a>"
     },
     {
       "selector": "[data-cy=\"portfolio-github\"]",
-      "tag": "<a href=\"portfolio.html\" data-cy=\"portfolio-github\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"portfolio-github\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"portfolio-index-footer\"]",
@@ -669,7 +669,7 @@
       "tag": "<a href=\"http://webthemez.com/\" data-cy=\"portfolio-WebThemez\" rel=\"develop\">WebThemez.com</a>"
     }
   ],
-  "http://localhost:9998/contact.html": [
+  "http://localhost:9999/contact.html": [
     {
       "selector": "[data-cy=\"contact-navbar-toggle\"]",
       "tag": "<button data-cy=\"contact-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
@@ -700,7 +700,7 @@
     },
     {
       "selector": "[data-cy=\"contact-dropdown-toggle\"]",
-      "tag": "<a href=\"contact.html\" data-cy=\"contact-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+      "tag": "<a href=\"#\" data-cy=\"contact-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
     },
     {
       "selector": "[data-cy=\"contact-right-sidebar\"]",
@@ -708,15 +708,15 @@
     },
     {
       "selector": "[data-cy=\"contact-dummy-link-1\"]",
-      "tag": "<a href=\"contact.html\" data-cy=\"contact-dummy-link-1\">Dummy Link1</a>"
+      "tag": "<a href=\"#\" data-cy=\"contact-dummy-link-1\">Dummy Link1</a>"
     },
     {
       "selector": "[data-cy=\"contact-dummy-link-2\"]",
-      "tag": "<a href=\"contact.html\" data-cy=\"contact-dummy-link-2\">Dummy Link2</a>"
+      "tag": "<a href=\"#\" data-cy=\"contact-dummy-link-2\">Dummy Link2</a>"
     },
     {
       "selector": "[data-cy=\"contact-dummy-link-3\"]",
-      "tag": "<a href=\"contact.html\" data-cy=\"contact-dummy-link-3\">Dummy Link3</a>"
+      "tag": "<a href=\"#\" data-cy=\"contact-dummy-link-3\">Dummy Link3</a>"
     },
     {
       "selector": "[data-cy=\"contact-contact\"]",
@@ -728,23 +728,23 @@
     },
     {
       "selector": "[data-cy=\"courses-twitter\"]",
-      "tag": "<a href=\"contact.html\" data-cy=\"courses-twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-facebook\"]",
-      "tag": "<a href=\"contact.html\" data-cy=\"courses-facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-dribbble\"]",
-      "tag": "<a data-cy=\"courses-dribbble\" href=\"contact.html\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a data-cy=\"courses-dribbble\" href=\"#\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-flickr\"]",
-      "tag": "<a href=\"contact.html\" data-cy=\"courses-flickr\"><i class=\"fa fa-flickr\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-flickr\"><i class=\"fa fa-flickr\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-github\"]",
-      "tag": "<a href=\"contact.html\" data-cy=\"courses-github\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-github\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"contact-index-footer\"]",
@@ -795,7 +795,7 @@
       "tag": "<textarea data-cy=\"message-textarea\" class=\"form-control\" id=\"message\" placeholder=\"Write you message here...\" style=\"height:100px;\"></textarea>"
     }
   ],
-  "http://localhost:9998/index.html": [
+  "http://localhost:9999/index.html": [
     {
       "selector": "[data-cy=\"index-navbar-toggle\"]",
       "tag": "<button data-cy=\"index-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
@@ -826,7 +826,7 @@
     },
     {
       "selector": "[data-cy=\"index-dropdown-toggle\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
     },
     {
       "selector": "[data-cy=\"index-right-sidebar\"]",
@@ -834,15 +834,15 @@
     },
     {
       "selector": "[data-cy=\"index-dummy-link-1\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-1\">Dummy Link1</a>"
+      "tag": "<a href=\"#\" data-cy=\"index-dummy-link-1\">Dummy Link1</a>"
     },
     {
       "selector": "[data-cy=\"index-dummy-link-2\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-2\">Dummy Link2</a>"
+      "tag": "<a href=\"#\" data-cy=\"index-dummy-link-2\">Dummy Link2</a>"
     },
     {
       "selector": "[data-cy=\"index-dummy-link-3\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-dummy-link-3\">Dummy Link3</a>"
+      "tag": "<a href=\"#\" data-cy=\"index-dummy-link-3\">Dummy Link3</a>"
     },
     {
       "selector": "[data-cy=\"index-contact\"]",
@@ -850,51 +850,51 @@
     },
     {
       "selector": "[data-cy=\"index-read-more\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-read-more\" title=\"read more\" class=\"btn-inline \" target=\"_self\">read more</a>"
+      "tag": "<a href=\"#\" data-cy=\"index-read-more\" title=\"read more\" class=\"btn-inline \" target=\"_self\">read more</a>"
     },
     {
       "selector": "[data-cy=\"index-text-1\"]",
-      "tag": "<a data-cy=\"index-text-1\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"index.html\">Mathematics and Computer Science</a>"
+      "tag": "<a data-cy=\"index-text-1\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"#\">Mathematics and Computer Science</a>"
     },
     {
       "selector": "[data-cy=\"index-text-2\"]",
-      "tag": "<a data-cy=\"index-text-2\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"index.html\">Mathematics and Philosophy</a>"
+      "tag": "<a data-cy=\"index-text-2\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"#\">Mathematics and Philosophy</a>"
     },
     {
       "selector": "[data-cy=\"index-text-3\"]",
-      "tag": "<a data-cy=\"index-text-3\" title=\"Penatibus et magnis dis parturient montes ascetur ridiculus mus.\" href=\"index.html\">Philosophy and Modern Languages</a>"
+      "tag": "<a data-cy=\"index-text-3\" title=\"Penatibus et magnis dis parturient montes ascetur ridiculus mus.\" href=\"#\">Philosophy and Modern Languages</a>"
     },
     {
       "selector": "[data-cy=\"index-text-4\"]",
-      "tag": "<a data-cy=\"index-text-4\" title=\"Morbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci.\" href=\"index.html\">History (Ancient and Modern)</a>"
+      "tag": "<a data-cy=\"index-text-4\" title=\"Morbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci.\" href=\"#\">History (Ancient and Modern)</a>"
     },
     {
       "selector": "[data-cy=\"index-text-5\"]",
-      "tag": "<a data-cy=\"index-text-5\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"index.html\">Classical Archaeology and Ancient History</a>"
+      "tag": "<a data-cy=\"index-text-5\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"#\">Classical Archaeology and Ancient History</a>"
     },
     {
       "selector": "[data-cy=\"index-text-6\"]",
-      "tag": "<a data-cy=\"index-text-6\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"index.html\">Physics and Philosophy</a>"
+      "tag": "<a data-cy=\"index-text-6\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"#\">Physics and Philosophy</a>"
     },
     {
       "selector": "[data-cy=\"index-twitter\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-facebook\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-dribbble\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-flickr\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-flickr\"><i class=\"fa fa-flickr\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-flickr\"><i class=\"fa fa-flickr\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-github\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-github\"><i class=\"fa fa-github\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-github\"><i class=\"fa fa-github\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-index-footer\"]",

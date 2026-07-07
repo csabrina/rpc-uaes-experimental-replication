@@ -1,5 +1,5 @@
 {
-  "http://localhost:9997": [
+  "http://localhost:9999": [
     {
       "selector": "[data-cy=\"index-navbar-toggle\"]",
       "tag": "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\" data-cy=\"index-navbar-toggle\">\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                    </button>"
@@ -34,67 +34,67 @@
     },
     {
       "selector": "[data-cy=\"index-read-more-1\"]",
-      "tag": "<a href=\"index.html\" class=\"btn btn-theme\" data-cy=\"index-read-more-1\">Read More</a>"
+      "tag": "<a href=\"#\" class=\"btn btn-theme\" data-cy=\"index-read-more-1\">Read More</a>"
     },
     {
       "selector": "[data-cy=\"index-read-more-2\"]",
-      "tag": "<a href=\"index.html\" class=\"btn btn-theme\" data-cy=\"index-read-more-2\">Read More</a>"
+      "tag": "<a href=\"#\" class=\"btn btn-theme\" data-cy=\"index-read-more-2\">Read More</a>"
     },
     {
       "selector": "[data-cy=\"index-img-1\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-img-1\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">Feb</span>\n                            </time>\n                            <p>Lorem ipsum dolor sit amet, consectetur adipis.</p>\n                        </a>"
+      "tag": "<a href=\"#\" data-cy=\"index-img-1\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">Feb</span>\n                            </time>\n                            <p>Lorem ipsum dolor sit amet, consectetur adipis.</p>\n                        </a>"
     },
     {
       "selector": "[data-cy=\"index-img-2\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-img-2\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">March</span>\n                            </time>\n                            <p>Apsum dolor sit amet, consectetur adipisdslif.</p>\n                        </a>"
+      "tag": "<a href=\"#\" data-cy=\"index-img-2\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">March</span>\n                            </time>\n                            <p>Apsum dolor sit amet, consectetur adipisdslif.</p>\n                        </a>"
     },
     {
       "selector": "[data-cy=\"index-img-3\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-img-3\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">April</span>\n                            </time>\n                            <p>Dolor sit amet, consectetur adipisic indfeft</p>\n                        </a>"
+      "tag": "<a href=\"#\" data-cy=\"index-img-3\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">April</span>\n                            </time>\n                            <p>Dolor sit amet, consectetur adipisic indfeft</p>\n                        </a>"
     },
     {
       "selector": "[data-cy=\"index-events\"]",
-      "tag": "<a data-cy=\"index-events\" href=\"index.html\">Latest Events</a>"
+      "tag": "<a data-cy=\"index-events\" href=\"#\">Latest Events</a>"
     },
     {
       "selector": "[data-cy=\"index-terms\"]",
-      "tag": "<a data-cy=\"index-terms\" href=\"index.html\">Terms and conditions</a>"
+      "tag": "<a data-cy=\"index-terms\" href=\"#\">Terms and conditions</a>"
     },
     {
       "selector": "[data-cy=\"index-privacy\"]",
-      "tag": "<a data-cy=\"index-privacy\" href=\"index.html\">Privacy policy</a>"
+      "tag": "<a data-cy=\"index-privacy\" href=\"#\">Privacy policy</a>"
     },
     {
       "selector": "[data-cy=\"index-career\"]",
-      "tag": "<a data-cy=\"index-career\" href=\"index.html\">Career</a>"
+      "tag": "<a data-cy=\"index-career\" href=\"#\">Career</a>"
     },
     {
       "selector": "[data-cy=\"index-contact-us\"]",
-      "tag": "<a data-cy=\"index-contact-us\" href=\"index.html\">Contact us</a>"
+      "tag": "<a data-cy=\"index-contact-us\" href=\"#\">Contact us</a>"
     },
     {
       "selector": "[data-cy=\"index-text-1\"]",
-      "tag": "<a data-cy=\"index-text-1\" href=\"index.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"index-text-1\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"index-text-2\"]",
-      "tag": "<a data-cy=\"index-text-2\" href=\"index.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"index-text-2\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"index-text-3\"]",
-      "tag": "<a data-cy=\"index-text-3\" href=\"index.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"index-text-3\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"index-text-4\"]",
-      "tag": "<a data-cy=\"index-text-4\" href=\"index.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"index-text-4\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"index-text-5\"]",
-      "tag": "<a data-cy=\"index-text-5\" href=\"index.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"index-text-5\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"index-text-6\"]",
-      "tag": "<a data-cy=\"index-text-6\" href=\"index.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"index-text-6\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"index-WebThemez\"]",
@@ -102,30 +102,30 @@
     },
     {
       "selector": "[data-cy=\"index-facebook\"]",
-      "tag": "<a data-cy=\"index-facebook\" href=\"index.html\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a data-cy=\"index-facebook\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-twitter\"]",
-      "tag": "<a data-cy=\"index-twitter\" href=\"index.html\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a data-cy=\"index-twitter\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-linkedin\"]",
-      "tag": "<a data-cy=\"index-linkedin\" href=\"index.html\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
+      "tag": "<a data-cy=\"index-linkedin\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-pinterest\"]",
-      "tag": "<a data-cy=\"index-pinterest\" href=\"index.html\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
+      "tag": "<a data-cy=\"index-pinterest\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-google\"]",
-      "tag": "<a data-cy=\"index-google\" href=\"index.html\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a data-cy=\"index-google\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-angle-up\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
     }
   ],
-  "http://localhost:9997/about.html": [
+  "http://localhost:9999/about.html": [
     {
       "selector": "[data-cy=\"about-navbar-collapse\"]",
       "tag": "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\" data-cy=\"about-navbar-collapse\">\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                    </button>"
@@ -160,7 +160,7 @@
     },
     {
       "selector": "[data-cy=\"about-read-more\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-read-more\" class=\"btn btn-color\">Read more</a>"
+      "tag": "<a href=\"#\" data-cy=\"about-read-more\" class=\"btn btn-color\">Read more</a>"
     },
     {
       "selector": "[data-cy=\"about-collapse-1\"]",
@@ -180,47 +180,47 @@
     },
     {
       "selector": "[data-cy=\"about-text-1\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-text-1\">Eriure dolor in hendrerit in vulpu</a>"
+      "tag": "<a href=\"#\" data-cy=\"about-text-1\">Eriure dolor in hendrerit in vulpu</a>"
     },
     {
       "selector": "[data-cy=\"about-text-2\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-text-2\">Otate velit esse molestie con</a>"
+      "tag": "<a href=\"#\" data-cy=\"about-text-2\">Otate velit esse molestie con</a>"
     },
     {
       "selector": "[data-cy=\"about-text-3\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-text-3\">Bequat, vel illum dolore eu feugiat</a>"
+      "tag": "<a href=\"#\" data-cy=\"about-text-3\">Bequat, vel illum dolore eu feugiat</a>"
     },
     {
       "selector": "[data-cy=\"about-text-4\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-text-4\">Nulla facilisis at vero eros et</a>"
+      "tag": "<a href=\"#\" data-cy=\"about-text-4\">Nulla facilisis at vero eros et</a>"
     },
     {
       "selector": "[data-cy=\"about-text-5\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-text-5\">Bumsan et iusto odio dignissim</a>"
+      "tag": "<a href=\"#\" data-cy=\"about-text-5\">Bumsan et iusto odio dignissim</a>"
     },
     {
       "selector": "[data-cy=\"about-text-6\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-text-6\">Equi blandit praesent lup</a>"
+      "tag": "<a href=\"#\" data-cy=\"about-text-6\">Equi blandit praesent lup</a>"
     },
     {
       "selector": "[data-cy=\"about-events\"]",
-      "tag": "<a data-cy=\"about-events\" href=\"about.html\">Latest Events</a>"
+      "tag": "<a data-cy=\"about-events\" href=\"#\">Latest Events</a>"
     },
     {
       "selector": "[data-cy=\"about-terms\"]",
-      "tag": "<a data-cy=\"about-terms\" href=\"about.html\">Terms and conditions</a>"
+      "tag": "<a data-cy=\"about-terms\" href=\"#\">Terms and conditions</a>"
     },
     {
       "selector": "[data-cy=\"about-privacy\"]",
-      "tag": "<a data-cy=\"about-privacy\" href=\"about.html\">Privacy policy</a>"
+      "tag": "<a data-cy=\"about-privacy\" href=\"#\">Privacy policy</a>"
     },
     {
       "selector": "[data-cy=\"about-career\"]",
-      "tag": "<a data-cy=\"about-career\" href=\"about.html\">Career</a>"
+      "tag": "<a data-cy=\"about-career\" href=\"#\">Career</a>"
     },
     {
       "selector": "[data-cy=\"about-contact-us\"]",
-      "tag": "<a data-cy=\"about-contact-us\" href=\"about.html\">Contact us</a>"
+      "tag": "<a data-cy=\"about-contact-us\" href=\"#\">Contact us</a>"
     },
     {
       "selector": "[data-cy=\"about-WebThemez\"]",
@@ -228,30 +228,30 @@
     },
     {
       "selector": "[data-cy=\"about-facebook\"]",
-      "tag": "<a data-cy=\"about-facebook\" href=\"about.html\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a data-cy=\"about-facebook\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-twitter\"]",
-      "tag": "<a data-cy=\"about-twitter\" href=\"about.html\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a data-cy=\"about-twitter\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-linkedin\"]",
-      "tag": "<a data-cy=\"about-linkedin\" href=\"about.html\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
+      "tag": "<a data-cy=\"about-linkedin\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-pinterest\"]",
-      "tag": "<a data-cy=\"about-pinterest\" href=\"about.html\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
+      "tag": "<a data-cy=\"about-pinterest\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-google\"]",
-      "tag": "<a data-cy=\"about-google\" href=\"about.html\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a data-cy=\"about-google\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"about-angle-up\"]",
-      "tag": "<a href=\"about.html\" data-cy=\"about-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"about-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
     }
   ],
-  "http://localhost:9997/services.html": [
+  "http://localhost:9999/services.html": [
     {
       "selector": "[data-cy=\"services-navbar-toggle\"]",
       "tag": "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\" data-cy=\"services-navbar-toggle\">\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                    </button>"
@@ -286,47 +286,47 @@
     },
     {
       "selector": "[data-cy=\"services-events\"]",
-      "tag": "<a data-cy=\"services-events\" href=\"services.html\">Latest Events</a>"
+      "tag": "<a data-cy=\"services-events\" href=\"#\">Latest Events</a>"
     },
     {
       "selector": "[data-cy=\"services-terms\"]",
-      "tag": "<a data-cy=\"services-terms\" href=\"services.html\">Terms and conditions</a>"
+      "tag": "<a data-cy=\"services-terms\" href=\"#\">Terms and conditions</a>"
     },
     {
       "selector": "[data-cy=\"services-privacy\"]",
-      "tag": "<a data-cy=\"services-privacy\" href=\"services.html\">Privacy policy</a>"
+      "tag": "<a data-cy=\"services-privacy\" href=\"#\">Privacy policy</a>"
     },
     {
       "selector": "[data-cy=\"services-career\"]",
-      "tag": "<a data-cy=\"services-career\" href=\"services.html\">Career</a>"
+      "tag": "<a data-cy=\"services-career\" href=\"#\">Career</a>"
     },
     {
       "selector": "[data-cy=\"services-contact-us\"]",
-      "tag": "<a data-cy=\"services-contact-us\" href=\"services.html\">Contact us</a>"
+      "tag": "<a data-cy=\"services-contact-us\" href=\"#\">Contact us</a>"
     },
     {
       "selector": "[data-cy=\"services-text-1\"]",
-      "tag": "<a data-cy=\"services-text-1\" href=\"services.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"services-text-1\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"services-text-2\"]",
-      "tag": "<a data-cy=\"services-text-2\" href=\"services.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"services-text-2\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"services-text-3\"]",
-      "tag": "<a data-cy=\"services-text-3\" href=\"services.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"services-text-3\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"services-text-4\"]",
-      "tag": "<a data-cy=\"services-text-4\" href=\"services.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"services-text-4\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"services-text-5\"]",
-      "tag": "<a data-cy=\"services-text-5\" href=\"services.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"services-text-5\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"services-text-6\"]",
-      "tag": "<a data-cy=\"services-text-6\" href=\"services.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"services-text-6\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"services-WebThemez\"]",
@@ -334,30 +334,30 @@
     },
     {
       "selector": "[data-cy=\"services-facebook\"]",
-      "tag": "<a data-cy=\"services-facebook\" href=\"services.html\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a data-cy=\"services-facebook\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"services-twitter\"]",
-      "tag": "<a data-cy=\"services-twitter\" href=\"services.html\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a data-cy=\"services-twitter\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"services-linkedin\"]",
-      "tag": "<a data-cy=\"services-linkedin\" href=\"services.html\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
+      "tag": "<a data-cy=\"services-linkedin\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
     },
     {
       "selector": "[data-cy=\"services-pinterest\"]",
-      "tag": "<a data-cy=\"services-pinterest\" href=\"services.html\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
+      "tag": "<a data-cy=\"services-pinterest\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
     },
     {
       "selector": "[data-cy=\"services-google\"]",
-      "tag": "<a data-cy=\"services-google\" href=\"services.html\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a data-cy=\"services-google\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"services-angle-up\"]",
-      "tag": "<a href=\"services.html\" data-cy=\"services-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"services-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
     }
   ],
-  "http://localhost:9997/courses.html": [
+  "http://localhost:9999/courses.html": [
     {
       "selector": "[data-cy=\"courses-navbar-toggle\"]",
       "tag": "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\" data-cy=\"courses-navbar-toggle\">\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                    </button>"
@@ -392,15 +392,15 @@
     },
     {
       "selector": "[data-cy=\"courses-web-design\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-web-design\" title=\"\">Web design</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-web-design\" title=\"\">Web design</a>"
     },
     {
       "selector": "[data-cy=\"courses-mobile-app\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-mobile-app\" title=\"\">Mobile App</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-mobile-app\" title=\"\">Mobile App</a>"
     },
     {
       "selector": "[data-cy=\"courses-ui-design\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-ui-design\" title=\"\">UI design</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-ui-design\" title=\"\">UI design</a>"
     },
     {
       "selector": "[data-cy=\"courses-work-1\"]",
@@ -408,11 +408,11 @@
     },
     {
       "selector": "[data-cy=\"courses-course-title-1\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-course-title-1\">Course Title</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-course-title-1\">Course Title</a>"
     },
     {
       "selector": "[data-cy=\"courses-learn-more-1\"]",
-      "tag": "<a href=\"courses.html\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-1\"><div><i>Learn More</i></div></a>"
+      "tag": "<a href=\"#\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-1\"><div><i>Learn More</i></div></a>"
     },
     {
       "selector": "[data-cy=\"courses-work-2\"]",
@@ -420,11 +420,11 @@
     },
     {
       "selector": "[data-cy=\"courses-course-title-2\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-course-title-2\">Course Title</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-course-title-2\">Course Title</a>"
     },
     {
       "selector": "[data-cy=\"courses-learn-more-2\"]",
-      "tag": "<a href=\"courses.html\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-2\"><div><i>Learn More</i></div></a>"
+      "tag": "<a href=\"#\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-2\"><div><i>Learn More</i></div></a>"
     },
     {
       "selector": "[data-cy=\"courses-work-3\"]",
@@ -432,11 +432,11 @@
     },
     {
       "selector": "[data-cy=\"courses-course-title-3\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-course-title-3\">Course Title</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-course-title-3\">Course Title</a>"
     },
     {
       "selector": "[data-cy=\"courses-learn-more-3\"]",
-      "tag": "<a href=\"courses.html\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-3\"><div><i>Learn More</i></div></a>"
+      "tag": "<a href=\"#\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-3\"><div><i>Learn More</i></div></a>"
     },
     {
       "selector": "[data-cy=\"courses-work-4\"]",
@@ -444,11 +444,11 @@
     },
     {
       "selector": "[data-cy=\"courses-course-title-4\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-course-title-4\">Course Title</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-course-title-4\">Course Title</a>"
     },
     {
       "selector": "[data-cy=\"courses-learn-more-4\"]",
-      "tag": "<a href=\"courses.html\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-4\"><div><i>Learn More</i></div></a>"
+      "tag": "<a href=\"#\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-4\"><div><i>Learn More</i></div></a>"
     },
     {
       "selector": "[data-cy=\"courses-work-5\"]",
@@ -456,11 +456,11 @@
     },
     {
       "selector": "[data-cy=\"courses-course-title-5\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-course-title-5\">Course Title</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-course-title-5\">Course Title</a>"
     },
     {
       "selector": "[data-cy=\"courses-learn-more-5\"]",
-      "tag": "<a href=\"courses.html\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-5\"><div><i>Learn More</i></div></a>"
+      "tag": "<a href=\"#\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-5\"><div><i>Learn More</i></div></a>"
     },
     {
       "selector": "[data-cy=\"courses-work-6\"]",
@@ -468,11 +468,11 @@
     },
     {
       "selector": "[data-cy=\"courses-course-title-6\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-course-title-6\">Course Title</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-course-title-6\">Course Title</a>"
     },
     {
       "selector": "[data-cy=\"courses-learn-more-6\"]",
-      "tag": "<a href=\"courses.html\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-6\"><div><i>Learn More</i></div></a>"
+      "tag": "<a href=\"#\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-6\"><div><i>Learn More</i></div></a>"
     },
     {
       "selector": "[data-cy=\"courses-work-7\"]",
@@ -480,11 +480,11 @@
     },
     {
       "selector": "[data-cy=\"courses-course-title-7\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-course-title-7\">Course Title</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-course-title-7\">Course Title</a>"
     },
     {
       "selector": "[data-cy=\"courses-learn-more-7\"]",
-      "tag": "<a href=\"courses.html\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-7\"><div><i>Learn More</i></div></a>"
+      "tag": "<a href=\"#\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-7\"><div><i>Learn More</i></div></a>"
     },
     {
       "selector": "[data-cy=\"courses-work-8\"]",
@@ -492,55 +492,55 @@
     },
     {
       "selector": "[data-cy=\"courses-course-title-8\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-course-title-8\">Course Title</a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-course-title-8\">Course Title</a>"
     },
     {
       "selector": "[data-cy=\"courses-learn-more-8\"]",
-      "tag": "<a href=\"courses.html\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-8\"><div><i>Learn More</i></div></a>"
+      "tag": "<a href=\"#\" class=\"btn btn-primary\" data-cy=\"courses-learn-more-8\"><div><i>Learn More</i></div></a>"
     },
     {
       "selector": "[data-cy=\"courses-events\"]",
-      "tag": "<a data-cy=\"courses-events\" href=\"courses.html\">Latest Events</a>"
+      "tag": "<a data-cy=\"courses-events\" href=\"#\">Latest Events</a>"
     },
     {
       "selector": "[data-cy=\"courses-terms\"]",
-      "tag": "<a data-cy=\"courses-terms\" href=\"courses.html\">Terms and conditions</a>"
+      "tag": "<a data-cy=\"courses-terms\" href=\"#\">Terms and conditions</a>"
     },
     {
       "selector": "[data-cy=\"courses-privacy\"]",
-      "tag": "<a data-cy=\"courses-privacy\" href=\"courses.html\">Privacy policy</a>"
+      "tag": "<a data-cy=\"courses-privacy\" href=\"#\">Privacy policy</a>"
     },
     {
       "selector": "[data-cy=\"courses-career\"]",
-      "tag": "<a data-cy=\"courses-career\" href=\"courses.html\">Career</a>"
+      "tag": "<a data-cy=\"courses-career\" href=\"#\">Career</a>"
     },
     {
       "selector": "[data-cy=\"courses-contact-us\"]",
-      "tag": "<a data-cy=\"courses-contact-us\" href=\"courses.html\">Contact us</a>"
+      "tag": "<a data-cy=\"courses-contact-us\" href=\"#\">Contact us</a>"
     },
     {
       "selector": "[data-cy=\"courses-text-1\"]",
-      "tag": "<a data-cy=\"courses-text-1\" href=\"courses.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"courses-text-1\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"courses-text-2\"]",
-      "tag": "<a data-cy=\"courses-text-2\" href=\"courses.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"courses-text-2\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"courses-text-3\"]",
-      "tag": "<a data-cy=\"courses-text-3\" href=\"courses.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"courses-text-3\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"courses-text-4\"]",
-      "tag": "<a data-cy=\"courses-text-4\" href=\"courses.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"courses-text-4\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"courses-text-5\"]",
-      "tag": "<a data-cy=\"courses-text-5\" href=\"courses.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"courses-text-5\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"courses-text-6\"]",
-      "tag": "<a data-cy=\"courses-text-6\" href=\"courses.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"courses-text-6\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"courses-WebThemez\"]",
@@ -548,30 +548,30 @@
     },
     {
       "selector": "[data-cy=\"courses-facebook\"]",
-      "tag": "<a data-cy=\"courses-facebook\" href=\"courses.html\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a data-cy=\"courses-facebook\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-twitter\"]",
-      "tag": "<a data-cy=\"courses-twitter\" href=\"courses.html\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a data-cy=\"courses-twitter\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-linkedin\"]",
-      "tag": "<a data-cy=\"courses-linkedin\" href=\"courses.html\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
+      "tag": "<a data-cy=\"courses-linkedin\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-pinterest\"]",
-      "tag": "<a data-cy=\"courses-pinterest\" href=\"courses.html\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
+      "tag": "<a data-cy=\"courses-pinterest\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-google\"]",
-      "tag": "<a data-cy=\"courses-google\" href=\"courses.html\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a data-cy=\"courses-google\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"courses-angle-up\"]",
-      "tag": "<a href=\"courses.html\" data-cy=\"courses-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"courses-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
     }
   ],
-  "http://localhost:9997/pricing.html": [
+  "http://localhost:9999/pricing.html": [
     {
       "selector": "[data-cy=\"pricing-navbar-collapse\"]",
       "tag": "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\" data-cy=\"pricing-navbar-collapse\">\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                    </button>"
@@ -606,63 +606,63 @@
     },
     {
       "selector": "[data-cy=\"pricing-get-now-1\"]",
-      "tag": "<a href=\"pricing.html\" class=\"btn btn-medium\" data-cy=\"pricing-get-now-1\"><i class=\"icon-bolt\"></i> Get Now</a>"
+      "tag": "<a href=\"#\" class=\"btn btn-medium\" data-cy=\"pricing-get-now-1\"><i class=\"icon-bolt\"></i> Get Now</a>"
     },
     {
       "selector": "[data-cy=\"pricing-get-now-2\"]",
-      "tag": "<a href=\"pricing.html\" class=\"btn btn-medium\" data-cy=\"pricing-get-now-2\"><i class=\"icon-bolt\"></i> Get Now</a>"
+      "tag": "<a href=\"#\" class=\"btn btn-medium\" data-cy=\"pricing-get-now-2\"><i class=\"icon-bolt\"></i> Get Now</a>"
     },
     {
       "selector": "[data-cy=\"pricing-get-now-3\"]",
-      "tag": "<a href=\"pricing.html\" class=\"btn btn-medium\" data-cy=\"pricing-get-now-3\"><i class=\"icon-bolt\"></i> Get Now</a>"
+      "tag": "<a href=\"#\" class=\"btn btn-medium\" data-cy=\"pricing-get-now-3\"><i class=\"icon-bolt\"></i> Get Now</a>"
     },
     {
       "selector": "[data-cy=\"pricing-get-now-4\"]",
-      "tag": "<a href=\"pricing.html\" class=\"btn btn-medium\" data-cy=\"pricing-get-now-4\"><i class=\"icon-bolt\"></i> Get Now</a>"
+      "tag": "<a href=\"#\" class=\"btn btn-medium\" data-cy=\"pricing-get-now-4\"><i class=\"icon-bolt\"></i> Get Now</a>"
     },
     {
       "selector": "[data-cy=\"pricing-events\"]",
-      "tag": "<a data-cy=\"pricing-events\" href=\"pricing.html\">Latest Events</a>"
+      "tag": "<a data-cy=\"pricing-events\" href=\"#\">Latest Events</a>"
     },
     {
       "selector": "[data-cy=\"pricing-terms\"]",
-      "tag": "<a data-cy=\"pricing-terms\" href=\"pricing.html\">Terms and conditions</a>"
+      "tag": "<a data-cy=\"pricing-terms\" href=\"#\">Terms and conditions</a>"
     },
     {
       "selector": "[data-cy=\"pricing-privacy\"]",
-      "tag": "<a data-cy=\"pricing-privacy\" href=\"pricing.html\">Privacy policy</a>"
+      "tag": "<a data-cy=\"pricing-privacy\" href=\"#\">Privacy policy</a>"
     },
     {
       "selector": "[data-cy=\"pricing-career\"]",
-      "tag": "<a data-cy=\"pricing-career\" href=\"pricing.html\">Career</a>"
+      "tag": "<a data-cy=\"pricing-career\" href=\"#\">Career</a>"
     },
     {
       "selector": "[data-cy=\"pricing-contact-us\"]",
-      "tag": "<a data-cy=\"pricing-contact-us\" href=\"pricing.html\">Contact us</a>"
+      "tag": "<a data-cy=\"pricing-contact-us\" href=\"#\">Contact us</a>"
     },
     {
       "selector": "[data-cy=\"pricing-text-1\"]",
-      "tag": "<a data-cy=\"pricing-text-1\" href=\"pricing.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"pricing-text-1\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"pricing-text-2\"]",
-      "tag": "<a data-cy=\"pricing-text-2\" href=\"pricing.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"pricing-text-2\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"pricing-text-3\"]",
-      "tag": "<a data-cy=\"pricing-text-3\" href=\"pricing.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"pricing-text-3\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"pricing-text-4\"]",
-      "tag": "<a data-cy=\"pricing-text-4\" href=\"pricing.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"pricing-text-4\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"pricing-text-5\"]",
-      "tag": "<a data-cy=\"pricing-text-5\" href=\"pricing.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"pricing-text-5\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"pricing-text-6\"]",
-      "tag": "<a data-cy=\"pricing-text-6\" href=\"pricing.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"pricing-text-6\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"pricing-WebThemez\"]",
@@ -670,30 +670,30 @@
     },
     {
       "selector": "[data-cy=\"pricing-facebook\"]",
-      "tag": "<a data-cy=\"pricing-facebook\" href=\"pricing.html\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a data-cy=\"pricing-facebook\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"pricing-twitter\"]",
-      "tag": "<a data-cy=\"pricing-twitter\" href=\"pricing.html\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a data-cy=\"pricing-twitter\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"pricing-linkedin\"]",
-      "tag": "<a data-cy=\"pricing-linkedin\" href=\"pricing.html\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
+      "tag": "<a data-cy=\"pricing-linkedin\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
     },
     {
       "selector": "[data-cy=\"pricing-pinterest\"]",
-      "tag": "<a data-cy=\"pricing-pinterest\" href=\"pricing.html\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
+      "tag": "<a data-cy=\"pricing-pinterest\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
     },
     {
       "selector": "[data-cy=\"pricing-google\"]",
-      "tag": "<a data-cy=\"pricing-google\" href=\"pricing.html\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a data-cy=\"pricing-google\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"pricing-angle-up\"]",
-      "tag": "<a href=\"pricing.html\" data-cy=\"pricing-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"pricing-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
     }
   ],
-  "http://localhost:9997/contact.html": [
+  "http://localhost:9999/contact.html": [
     {
       "selector": "[data-cy=\"contact-navbar-collapse\"]",
       "tag": "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\" data-cy=\"contact-navbar-collapse\">\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                    </button>"
@@ -732,47 +732,47 @@
     },
     {
       "selector": "[data-cy=\"contact-events\"]",
-      "tag": "<a data-cy=\"contact-events\" href=\"contact.html\">Latest Events</a>"
+      "tag": "<a data-cy=\"contact-events\" href=\"#\">Latest Events</a>"
     },
     {
       "selector": "[data-cy=\"contact-terms\"]",
-      "tag": "<a data-cy=\"contact-terms\" href=\"contact.html\">Terms and conditions</a>"
+      "tag": "<a data-cy=\"contact-terms\" href=\"#\">Terms and conditions</a>"
     },
     {
       "selector": "[data-cy=\"contact-privacy\"]",
-      "tag": "<a data-cy=\"contact-privacy\" href=\"contact.html\">Privacy policy</a>"
+      "tag": "<a data-cy=\"contact-privacy\" href=\"#\">Privacy policy</a>"
     },
     {
       "selector": "[data-cy=\"contact-career\"]",
-      "tag": "<a data-cy=\"contact-career\" href=\"contact.html\">Career</a>"
+      "tag": "<a data-cy=\"contact-career\" href=\"#\">Career</a>"
     },
     {
       "selector": "[data-cy=\"contact-contact-us\"]",
-      "tag": "<a data-cy=\"contact-contact-us\" href=\"contact.html\">Contact us</a>"
+      "tag": "<a data-cy=\"contact-contact-us\" href=\"#\">Contact us</a>"
     },
     {
       "selector": "[data-cy=\"contact-text-1\"]",
-      "tag": "<a data-cy=\"contact-text-1\" href=\"contact.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"contact-text-1\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"contact-text-2\"]",
-      "tag": "<a data-cy=\"contact-text-2\" href=\"contact.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"contact-text-2\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"contact-text-3\"]",
-      "tag": "<a data-cy=\"contact-text-3\" href=\"contact.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"contact-text-3\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"contact-text-4\"]",
-      "tag": "<a data-cy=\"contact-text-4\" href=\"contact.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"contact-text-4\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"contact-text-5\"]",
-      "tag": "<a data-cy=\"contact-text-5\" href=\"contact.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"contact-text-5\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"contact-text-6\"]",
-      "tag": "<a data-cy=\"contact-text-6\" href=\"contact.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"contact-text-6\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"contact-WebThemez\"]",
@@ -780,27 +780,27 @@
     },
     {
       "selector": "[data-cy=\"contact-facebook\"]",
-      "tag": "<a data-cy=\"contact-facebook\" href=\"contact.html\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a data-cy=\"contact-facebook\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"contact-twitter\"]",
-      "tag": "<a data-cy=\"contact-twitter\" href=\"contact.html\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a data-cy=\"contact-twitter\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"contact-linkedin\"]",
-      "tag": "<a data-cy=\"contact-linkedin\" href=\"contact.html\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
+      "tag": "<a data-cy=\"contact-linkedin\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
     },
     {
       "selector": "[data-cy=\"contact-pinterest\"]",
-      "tag": "<a data-cy=\"contact-pinterest\" href=\"contact.html\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
+      "tag": "<a data-cy=\"contact-pinterest\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
     },
     {
       "selector": "[data-cy=\"contact-google\"]",
-      "tag": "<a data-cy=\"contact-google\" href=\"contact.html\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a data-cy=\"contact-google\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"contact-angle-up\"]",
-      "tag": "<a data-cy=\"contact-angle-up\" href=\"contact.html\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
+      "tag": "<a data-cy=\"contact-angle-up\" href=\"#\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
     },
     {
       "selector": "[data-cy=\"name-input\"]",
@@ -819,7 +819,7 @@
       "tag": "<input data-cy=\"submit-input\" value=\"Submit\" id=\"submit\" class=\"submit btn btn-default\">"
     }
   ],
-  "http://localhost:9997/index.html": [
+  "http://localhost:9999/index.html": [
     {
       "selector": "[data-cy=\"index-navbar-toggle\"]",
       "tag": "<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\" data-cy=\"index-navbar-toggle\">\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                    </button>"
@@ -854,67 +854,67 @@
     },
     {
       "selector": "[data-cy=\"index-read-more-1\"]",
-      "tag": "<a href=\"index.html\" class=\"btn btn-theme\" data-cy=\"index-read-more-1\">Read More</a>"
+      "tag": "<a href=\"#\" class=\"btn btn-theme\" data-cy=\"index-read-more-1\">Read More</a>"
     },
     {
       "selector": "[data-cy=\"index-read-more-2\"]",
-      "tag": "<a href=\"index.html\" class=\"btn btn-theme\" data-cy=\"index-read-more-2\">Read More</a>"
+      "tag": "<a href=\"#\" class=\"btn btn-theme\" data-cy=\"index-read-more-2\">Read More</a>"
     },
     {
       "selector": "[data-cy=\"index-img-1\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-img-1\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">Feb</span>\n                            </time>\n                            <p>Lorem ipsum dolor sit amet, consectetur adipis.</p>\n                        </a>"
+      "tag": "<a href=\"#\" data-cy=\"index-img-1\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">Feb</span>\n                            </time>\n                            <p>Lorem ipsum dolor sit amet, consectetur adipis.</p>\n                        </a>"
     },
     {
       "selector": "[data-cy=\"index-img-2\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-img-2\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">March</span>\n                            </time>\n                            <p>Apsum dolor sit amet, consectetur adipisdslif.</p>\n                        </a>"
+      "tag": "<a href=\"#\" data-cy=\"index-img-2\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">March</span>\n                            </time>\n                            <p>Apsum dolor sit amet, consectetur adipisdslif.</p>\n                        </a>"
     },
     {
       "selector": "[data-cy=\"index-img-3\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-img-3\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">April</span>\n                            </time>\n                            <p>Dolor sit amet, consectetur adipisic indfeft</p>\n                        </a>"
+      "tag": "<a href=\"#\" data-cy=\"index-img-3\">\n                            <time datetime=\"2015-03-01\">\n                                <span class=\"year\">2015</span>\n                                <span class=\"month\">April</span>\n                            </time>\n                            <p>Dolor sit amet, consectetur adipisic indfeft</p>\n                        </a>"
     },
     {
       "selector": "[data-cy=\"index-events\"]",
-      "tag": "<a data-cy=\"index-events\" href=\"index.html\">Latest Events</a>"
+      "tag": "<a data-cy=\"index-events\" href=\"#\">Latest Events</a>"
     },
     {
       "selector": "[data-cy=\"index-terms\"]",
-      "tag": "<a data-cy=\"index-terms\" href=\"index.html\">Terms and conditions</a>"
+      "tag": "<a data-cy=\"index-terms\" href=\"#\">Terms and conditions</a>"
     },
     {
       "selector": "[data-cy=\"index-privacy\"]",
-      "tag": "<a data-cy=\"index-privacy\" href=\"index.html\">Privacy policy</a>"
+      "tag": "<a data-cy=\"index-privacy\" href=\"#\">Privacy policy</a>"
     },
     {
       "selector": "[data-cy=\"index-career\"]",
-      "tag": "<a data-cy=\"index-career\" href=\"index.html\">Career</a>"
+      "tag": "<a data-cy=\"index-career\" href=\"#\">Career</a>"
     },
     {
       "selector": "[data-cy=\"index-contact-us\"]",
-      "tag": "<a data-cy=\"index-contact-us\" href=\"index.html\">Contact us</a>"
+      "tag": "<a data-cy=\"index-contact-us\" href=\"#\">Contact us</a>"
     },
     {
       "selector": "[data-cy=\"index-text-1\"]",
-      "tag": "<a data-cy=\"index-text-1\" href=\"index.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"index-text-1\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"index-text-2\"]",
-      "tag": "<a data-cy=\"index-text-2\" href=\"index.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"index-text-2\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"index-text-3\"]",
-      "tag": "<a data-cy=\"index-text-3\" href=\"index.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"index-text-3\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"index-text-4\"]",
-      "tag": "<a data-cy=\"index-text-4\" href=\"index.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
+      "tag": "<a data-cy=\"index-text-4\" href=\"#\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>"
     },
     {
       "selector": "[data-cy=\"index-text-5\"]",
-      "tag": "<a data-cy=\"index-text-5\" href=\"index.html\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
+      "tag": "<a data-cy=\"index-text-5\" href=\"#\">Pellentesque et pulvinar enim. Quisque at tempor ligula</a>"
     },
     {
       "selector": "[data-cy=\"index-text-6\"]",
-      "tag": "<a data-cy=\"index-text-6\" href=\"index.html\">Natus sit voluptatem accusantium doloremque</a>"
+      "tag": "<a data-cy=\"index-text-6\" href=\"#\">Natus sit voluptatem accusantium doloremque</a>"
     },
     {
       "selector": "[data-cy=\"index-WebThemez\"]",
@@ -922,27 +922,27 @@
     },
     {
       "selector": "[data-cy=\"index-facebook\"]",
-      "tag": "<a data-cy=\"index-facebook\" href=\"index.html\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
+      "tag": "<a data-cy=\"index-facebook\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Facebook\"><i class=\"fa fa-facebook\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-twitter\"]",
-      "tag": "<a data-cy=\"index-twitter\" href=\"index.html\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
+      "tag": "<a data-cy=\"index-twitter\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Twitter\"><i class=\"fa fa-twitter\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-linkedin\"]",
-      "tag": "<a data-cy=\"index-linkedin\" href=\"index.html\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
+      "tag": "<a data-cy=\"index-linkedin\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Linkedin\"><i class=\"fa fa-linkedin\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-pinterest\"]",
-      "tag": "<a data-cy=\"index-pinterest\" href=\"index.html\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
+      "tag": "<a data-cy=\"index-pinterest\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Pinterest\"><i class=\"fa fa-pinterest\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-google\"]",
-      "tag": "<a data-cy=\"index-google\" href=\"index.html\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
+      "tag": "<a data-cy=\"index-google\" href=\"#\" data-placement=\"top\" title=\"\" data-original-title=\"Google plus\"><i class=\"fa fa-google-plus\"></i></a>"
     },
     {
       "selector": "[data-cy=\"index-angle-up\"]",
-      "tag": "<a href=\"index.html\" data-cy=\"index-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
+      "tag": "<a href=\"#\" data-cy=\"index-angle-up\" class=\"scrollup\"><i class=\"fa fa-angle-up active\"></i></a>"
     }
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "http://localhost:5173": [
+    {
+      "selector": "[data-cy=\"job-tracker-company\"]",
+      "tag": "<input data-cy=\"job-tracker-company\" placeholder=\"e.g., Zalando\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+    },
+    {
+      "selector": "[data-cy=\"job-tracker-title\"]",
+      "tag": "<input data-cy=\"job-tracker-title\" placeholder=\"e.g., Junior Frontend Developer\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+    },
+    {
+      "selector": "[data-cy=\"job-tracker-status\"]",
+      "tag": "<select data-cy=\"job-tracker-status\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\"><option value=\"Applied\">Applied</option><option value=\"Interview\">Interview</option><option value=\"Offer\">Offer</option><option value=\"Rejected\">Rejected</option></select>"
+    },
+    {
+      "selector": "[data-cy=\"job-tracker-location\"]",
+      "tag": "<input data-cy=\"job-tracker-location\" placeholder=\"Berlin / Remote\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+    },
+    {
+      "selector": "[data-cy=\"job-tracker-url\"]",
+      "tag": "<input data-cy=\"job-tracker-url\" placeholder=\"https://...\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\">"
+    },
+    {
+      "selector": "[data-cy=\"job-tracker-notes\"]",
+      "tag": "<textarea data-cy=\"job-tracker-notes\" placeholder=\"What did you apply with? Who is the contact person? Next steps?\" rows=\"3\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221); resize: vertical;\"></textarea>"
+    },
+    {
+      "selector": "[data-cy=\"job-tracker-search\"]",
+      "tag": "<input data-cy=\"job-tracker-search\" placeholder=\"Search company, title, location, notes...\" value=\"\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221); min-width: 260px; flex: 1 1 0%;\">"
+    },
+    {
+      "selector": "[data-cy=\"job-tracker-status-filter\"]",
+      "tag": "<select data-cy=\"job-tracker-status-filter\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\"><option value=\"All\">All statuses</option><option value=\"Applied\">Applied</option><option value=\"Interview\">Interview</option><option value=\"Offer\">Offer</option><option value=\"Rejected\">Rejected</option></select>"
+    },
+    {
+      "selector": "[data-cy=\"job-tracker-sort\"]",
+      "tag": "<select data-cy=\"job-tracker-sort\" style=\"padding: 10px; border-radius: 10px; border: 1px solid rgb(221, 221, 221);\"><option value=\"newest\">Newest first</option><option value=\"oldest\">Oldest first</option></select>"
+    }
+  ]
+}

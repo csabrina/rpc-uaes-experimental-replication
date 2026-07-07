@@ -1,0 +1,186 @@
+{
+  "http://localhost:9999": [
+    {
+      "selector": "[data-cy=\"index-navbar-toggle\"]",
+      "tag": "<button data-cy=\"index-navbar-toggle\" type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+    },
+    {
+      "selector": "[data-cy=\"index-navbar-brand\"]",
+      "tag": "<a class=\"navbar-brand\" href=\"index.html\" data-cy=\"index-navbar-brand\">\n\t\t\t\t\t<img src=\"assets/images/logo.png\" alt=\"Techro HTML5 template\"></a>"
+    },
+    {
+      "selector": "[data-cy=\"index-index\"]",
+      "tag": "<a href=\"index.html\" data-cy=\"index-index\">Home</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-about\"]",
+      "tag": "<a href=\"about.html\" data-cy=\"index-about\">About</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-courses\"]",
+      "tag": "<a href=\"courses.html\" data-cy=\"index-courses\">Courses</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-fees\"]",
+      "tag": "<a href=\"fees.html\" data-cy=\"index-fees\">Fees</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-portfolio\"]",
+      "tag": "<a href=\"portfolio.html\" data-cy=\"index-portfolio\">Portfolio</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-dropdown-toggle\"]",
+      "tag": "<a href=\"#\" data-cy=\"index-dropdown-toggle\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Pages <b class=\"caret\"></b></a>"
+    },
+    {
+      "selector": "[data-cy=\"index-right-sidebar\"]",
+      "tag": "<a href=\"sidebar-right.html\" data-cy=\"index-right-sidebar\">Right Sidebar</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-dummy-link-1\"]",
+      "tag": "<a href=\"#\" data-cy=\"index-dummy-link-1\">Dummy Link1</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-dummy-link-2\"]",
+      "tag": "<a href=\"#\" data-cy=\"index-dummy-link-2\">Dummy Link2</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-dummy-link-3\"]",
+      "tag": "<a href=\"#\" data-cy=\"index-dummy-link-3\">Dummy Link3</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-contact\"]",
+      "tag": "<a data-cy=\"index-contact\" href=\"contact.html\">Contact</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-read-more\"]",
+      "tag": "<a href=\"#\" data-cy=\"index-read-more\" title=\"read more\" class=\"btn-inline \" target=\"_self\">read more</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-text-1\"]",
+      "tag": "<a data-cy=\"index-text-1\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"#\">Mathematics and Computer Science</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-text-2\"]",
+      "tag": "<a data-cy=\"index-text-2\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"#\">Mathematics and Philosophy</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-text-3\"]",
+      "tag": "<a data-cy=\"index-text-3\" title=\"Penatibus et magnis dis parturient montes ascetur ridiculus mus.\" href=\"#\">Philosophy and Modern Languages</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-text-4\"]",
+      "tag": "<a data-cy=\"index-text-4\" title=\"Morbi nunc odio gravida at cursus nec luctus a lorem. Maecenas tristique orci.\" href=\"#\">History (Ancient and Modern)</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-text-5\"]",
+      "tag": "<a data-cy=\"index-text-5\" title=\"Snatoque penatibus et magnis dis partu rient montes ascetur ridiculus mus.\" href=\"#\">Classical Archaeology and Ancient History</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-text-6\"]",
+      "tag": "<a data-cy=\"index-text-6\" title=\"Fusce feugiat malesuada odio. Morbi nunc odio gravida at cursus nec luctus.\" href=\"#\">Physics and Philosophy</a>"
+    },
+    {
+      "selector": "[data-cy=\"index-twitter\"]",
+      "tag": "<a href=\"#\" data-cy=\"index-twitter\"><i class=\"fa fa-twitter\"></i></a>"
+    },
+    {
+      "selector": "[data-cy=\"index-facebook\"]",
+      "tag": "<a href=\"#\" data-cy=\"index-facebook\"><i class=\"fa fa-facebook\"></i></a>"
+    },
+    {
+      "selector": "[data-cy=\"index-dribbble\"]",
+      "tag": "<a href=\"#\" data-cy=\"index-dribbble\"><i class=\"fa fa-dribbble\"></i></a>"
+    },
+    {
+      "selector": "[data-cy=\"index-flickr\"]",
+      "tag": "<a href=\"#\" data-cy=\"index-flickr\"><i class=\"fa fa-flickr\"></i></a>"
+    },
+    {
+      "selector": "[data-cy=\"index-github\"]",
+      "tag": "<a href=\"#\" data-cy=\"index-github\"><i class=\"fa fa-github\"></i></a>"
+    },
+    {
+      "selector": "[data-cy=\"index-WebThemez\"]",
+      "tag": "<a href=\"http://webthemez.com/\" data-cy=\"index-WebThemez\" rel=\"develop\">WebThemez.com</a>"
+    }
+  ],
+  "http://localhost:9999/about.html": [
+    {
+      "selector": "[data-cy=\"about-Responsive\"]",
+      "tag": "<a data-cy=\"about-Responsive\" href=\"\">Responsive Design</a>"
+    },
+    {
+      "selector": "[data-cy=\"about-HTML5\"]",
+      "tag": "<a href=\"\" data-cy=\"about-HTML5\">HTML5, CSS3 and JavaScript</a>"
+    },
+    {
+      "selector": "[data-cy=\"about-Bootstrap\"]",
+      "tag": "<a href=\"\" data-cy=\"about-Bootstrap\">Bootstrap</a>"
+    },
+    {
+      "selector": "[data-cy=\"about-Clean\"]",
+      "tag": "<a href=\"\" data-cy=\"about-Clean\">Clean Template</a>"
+    },
+    {
+      "selector": "[data-cy=\"about-Premium\"]",
+      "tag": "<a href=\"\" data-cy=\"about-Premium\">Premium Quality</a>"
+    },
+    {
+      "selector": "[data-cy=\"about-google-ceo\"]",
+      "tag": "<a href=\"#\" data-cy=\"about-google-ceo\"><i class=\"fa fa-google-plus\"></i></a>"
+    }
+  ],
+  "http://localhost:9999/courses.html": [],
+  "http://localhost:9999/fees.html": [
+    {
+      "selector": "[data-cy=\"fees-signup-basic\"]",
+      "tag": "<a href=\"#\" class=\"btn\" data-cy=\"fees-signup-basic\">Signup</a>"
+    }
+  ],
+  "http://localhost:9999/portfolio.html": [
+    {
+      "selector": "[data-cy=\"portfolio-all\"]",
+      "tag": "<a href=\"#\" data-cy=\"portfolio-all\" class=\"current btn-theme btn-small\" data-filter=\"*\">All</a>"
+    },
+    {
+      "selector": "[data-cy=\"portfolio-web-design\"]",
+      "tag": "<a href=\"#\" data-cy=\"portfolio-web-design\" class=\"btn-theme btn-small\" data-filter=\".webdesign\">Web Design</a>"
+    },
+    {
+      "selector": "[data-cy=\"portfolio-photography\"]",
+      "tag": "<a href=\"#\" data-cy=\"portfolio-photography\" class=\"btn-theme btn-small\" data-filter=\".photography\">Photography</a>"
+    },
+    {
+      "selector": "[data-cy=\"portfolio-print\"]",
+      "tag": "<a href=\"#\" data-cy=\"portfolio-print\" class=\"btn-theme btn-small\" data-filter=\".print\">Print</a>"
+    }
+  ],
+  "http://localhost:9999/contact.html": [
+    {
+      "selector": "[data-cy=\"send-message-button\"]",
+      "tag": "<button data-cy=\"send-message-button\" type=\"submit\" class=\"btn btn-two\">Send message</button>"
+    },
+    {
+      "selector": "[data-cy=\"email-name-input\"]",
+      "tag": "<input type=\"text\" class=\"form-control\" placeholder=\"Your name\" data-cy=\"email-name-input\">"
+    },
+    {
+      "selector": "[data-cy=\"email-address-input\"]",
+      "tag": "<input type=\"email\" class=\"form-control\" placeholder=\"Email address\" data-cy=\"email-address-input\">"
+    },
+    {
+      "selector": "[data-cy=\"phone-number-input\"]",
+      "tag": "<input type=\"text\" class=\"form-control\" placeholder=\"Phone number\" data-cy=\"phone-number-input\">"
+    },
+    {
+      "selector": "[data-cy=\"subject-input\"]",
+      "tag": "<input type=\"text\" class=\"form-control\" placeholder=\"Subject\" data-cy=\"subject-input\">"
+    },
+    {
+      "selector": "[data-cy=\"message-textarea\"]",
+      "tag": "<textarea data-cy=\"message-textarea\" class=\"form-control\" id=\"message\" placeholder=\"Write you message here...\" style=\"height:100px;\"></textarea>"
+    }
+  ],
+  "http://localhost:9999/index.html": []
+}

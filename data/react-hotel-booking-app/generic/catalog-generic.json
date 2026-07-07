@@ -1,0 +1,92 @@
+{
+  "http://localhost:3000": [
+    {
+      "selector": "[class=\"mobile-nav active\"]",
+      "tag": "<a aria-current=\"page\" class=\"mobile-nav active\" data-cy=\"header-mobile-home\" href=\"/\"><img src=\"/images/logo_mobile.png\" alt=\"Cocos\" height=\"36\"></a>"
+    },
+    {
+      "selector": "[class=\"active\"]",
+      "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-logo-home\" href=\"/\"><img src=\"/images/logo.png\" class=\"logo\" alt=\"Cocos\"></a>"
+    },
+    {
+      "selector": "[class=\"navbar-toggle\"]",
+      "tag": "<button data-cy=\"header-mobile-menu-toggle\" class=\"navbar-toggle\"><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span></button>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-home\" href=\"/\">Home</a>"
+    },
+    {
+      "selector": "Rooms",
+      "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-rooms\" href=\"/\">Rooms</a>"
+    },
+    {
+      "selector": "Restaurant",
+      "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-restaurant\" href=\"/\">Restaurant</a>"
+    },
+    {
+      "selector": "Weddings",
+      "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-weddings\" href=\"/\">Weddings</a>"
+    },
+    {
+      "selector": "Membership",
+      "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-membership\" href=\"/\">Membership</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a aria-current=\"page\" class=\"active\" data-cy=\"header-contact\" href=\"/\">Contact</a>"
+    },
+    {
+      "selector": "Modify",
+      "tag": "<button data-cy=\"booking-search-modify\" class=\"btn btn-primary\">Modify</button>"
+    },
+    {
+      "selector": "Enjoy",
+      "tag": "<button data-cy=\"booking-promotion-enjoy\" class=\"btn btn-primary text-uppercase\">Enjoy</button>"
+    },
+    {
+      "selector": "Continue",
+      "tag": "<button data-cy=\"booking-reservation-continue\" type=\"button\" class=\"btn btn-primary btn-group-justified\">Continue</button>"
+    },
+    {
+      "selector": "Terms &amp; Conditions",
+      "tag": "<a data-cy=\"footer-terms\" href=\"/\">Terms &amp; Conditions</a>"
+    },
+    {
+      "selector": "Privacy Policy",
+      "tag": "<a data-cy=\"footer-privacy\" href=\"/\">Privacy Policy</a>"
+    },
+    {
+      "selector": "Partners",
+      "tag": "<a data-cy=\"footer-partners\" href=\"/\">Partners</a>"
+    },
+    {
+      "selector": "reservations@loscocosbungalows.com",
+      "tag": "<a data-cy=\"footer-reservations-email\" href=\"/\" class=\"dark-blue\">reservations@loscocosbungalows.com</a>"
+    },
+    {
+      "selector": "Tlf: +34 987 675 432",
+      "tag": "<a data-cy=\"footer-reservations-phone\" href=\"/\" class=\"dark-blue\">Tlf: +34 987 675 432</a>"
+    },
+    {
+      "selector": "[value=\"29/06/2026\"]",
+      "tag": "<input data-cy=\"booking-search-checkin\" type=\"text\" class=\"form-item\" value=\"29/06/2026\">"
+    },
+    {
+      "selector": "[value=\"30/06/2026\"]",
+      "tag": "<input data-cy=\"booking-search-checkout\" type=\"text\" class=\"form-item\" value=\"30/06/2026\">"
+    },
+    {
+      "selector": "[name=\"adults\"]",
+      "tag": "<select data-cy=\"booking-search-adults\" name=\"adults\" class=\"form-item\"><option value=\"1\">Adults: 1</option><option value=\"2\">Adults: 2</option><option value=\"3\">Adults: 3</option><option value=\"4\">Adults: 4</option><option value=\"5\">Adults: 5</option><option value=\"6\">Adults: 6</option><option value=\"7\">Adults: 7</option><option value=\"8\">Adults: 8</option><option value=\"9\">Adults: 9</option></select>"
+    },
+    {
+      "selector": "[name=\"children\"]",
+      "tag": "<select data-cy=\"booking-search-children\" name=\"children\" class=\"form-item\"><option value=\"0\">Children</option><option value=\"1\">Children: 1</option><option value=\"2\">Children: 2</option><option value=\"3\">Children: 3</option><option value=\"4\">Children: 4</option><option value=\"5\">Children: 5</option><option value=\"6\">Children: 6</option><option value=\"7\">Children: 7</option><option value=\"8\">Children: 8</option><option value=\"9\">Children: 9</option></select>"
+    },
+    {
+      "selector": "[name=\"rooms\"]",
+      "tag": "<select data-cy=\"booking-reservation-rooms\" name=\"rooms\" class=\"\"><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option></select>"
+    }
+  ]
+}

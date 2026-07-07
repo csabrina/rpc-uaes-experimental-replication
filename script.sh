@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env bash
 
 dirs=("data/*/");
 
@@ -11,7 +11,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-python convert_to_csv.py
-python group_plot.py
+python scripts/convert_to_csv.py
+python scripts/group_plot.py
 deactivate
 rm -rf venv

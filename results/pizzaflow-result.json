@@ -1,0 +1,185 @@
+{
+  "equal": {
+    "http://localhost:5173": [
+      [
+        {
+          "selector": "[data-cy=\"header-logo\"]",
+          "tag": "<a data-cy=\"header-logo\" class=\"flex items-center gap-2 tracking-wider text-white hover:text-accent-300 transition-colors\" href=\"/\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-pizza h-6 w-6\" aria-hidden=\"true\"><path d=\"m12 14-1 1\"></path><path d=\"m13.75 18.25-1.25 1.42\"></path><path d=\"M17.775 5.654a15.68 15.68 0 0 0-12.121 12.12\"></path><path d=\"M18.8 9.3a1 1 0 0 0 2.1 7.7\"></path><path d=\"M21.964 20.732a1 1 0 0 1-1.232 1.232l-18-5a1 1 0 0 1-.695-1.232A19.68 19.68 0 0 1 15.732 2.037a1 1 0 0 1 1.232.695z\"></path></svg><span class=\"font-bold text-lg\">PizzaFlow</span></a>"
+        },
+        {
+          "selector": "PizzaFlow",
+          "tag": "<a data-cy=\"header-logo\" class=\"flex items-center gap-2 tracking-wider text-white hover:text-accent-300 transition-colors\" href=\"/\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-pizza h-6 w-6\" aria-hidden=\"true\"><path d=\"m12 14-1 1\"></path><path d=\"m13.75 18.25-1.25 1.42\"></path><path d=\"M17.775 5.654a15.68 15.68 0 0 0-12.121 12.12\"></path><path d=\"M18.8 9.3a1 1 0 0 0 2.1 7.7\"></path><path d=\"M21.964 20.732a1 1 0 0 1-1.232 1.232l-18-5a1 1 0 0 1-.695-1.232A19.68 19.68 0 0 1 15.732 2.037a1 1 0 0 1 1.232.695z\"></path></svg><span class=\"font-bold text-lg\">PizzaFlow</span></a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-desktop-home\"]",
+          "tag": "<a data-cy=\"header-desktop-home\" class=\"flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 bg-white/20 text-white\" href=\"/\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-house h-4 w-4\" aria-hidden=\"true\"><path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"></path><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"></path></svg>Home</a>"
+        },
+        {
+          "selector": "Home",
+          "tag": "<a data-cy=\"header-desktop-home\" class=\"flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 bg-white/20 text-white\" href=\"/\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-house h-4 w-4\" aria-hidden=\"true\"><path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"></path><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"></path></svg>Home</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-desktop-menu\"]",
+          "tag": "<a data-cy=\"header-desktop-menu\" class=\"flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 text-white/80 hover:text-white hover:bg-white/10\" href=\"/menu\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-utensils h-4 w-4\" aria-hidden=\"true\"><path d=\"M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2\"></path><path d=\"M7 2v20\"></path><path d=\"M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7\"></path></svg>Menu</a>"
+        },
+        {
+          "selector": "Menu",
+          "tag": "<a data-cy=\"header-desktop-menu\" class=\"flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 text-white/80 hover:text-white hover:bg-white/10\" href=\"/menu\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-utensils h-4 w-4\" aria-hidden=\"true\"><path d=\"M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2\"></path><path d=\"M7 2v20\"></path><path d=\"M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7\"></path></svg>Menu</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-desktop-cart\"]",
+          "tag": "<a data-cy=\"header-desktop-cart\" class=\"flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 text-white/80 hover:text-white hover:bg-white/10\" href=\"/cart\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shopping-cart h-4 w-4\" aria-hidden=\"true\"><circle cx=\"8\" cy=\"21\" r=\"1\"></circle><circle cx=\"19\" cy=\"21\" r=\"1\"></circle><path d=\"M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12\"></path></svg>Cart</a>"
+        },
+        {
+          "selector": "Cart",
+          "tag": "<a data-cy=\"header-desktop-cart\" class=\"flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 text-white/80 hover:text-white hover:bg-white/10\" href=\"/cart\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shopping-cart h-4 w-4\" aria-hidden=\"true\"><circle cx=\"8\" cy=\"21\" r=\"1\"></circle><circle cx=\"19\" cy=\"21\" r=\"1\"></circle><path d=\"M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12\"></path></svg>Cart</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"header-mobile-menu-toggle\"]",
+          "tag": "<button data-cy=\"header-mobile-menu-toggle\" class=\"md:hidden p-2 text-white hover:bg-white/10 rounded-lg transition-colors flex-shrink-0\" aria-label=\"Toggle menu\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-menu h-5 w-5\" aria-hidden=\"true\"><path d=\"M4 5h16\"></path><path d=\"M4 12h16\"></path><path d=\"M4 19h16\"></path></svg></button>"
+        },
+        {
+          "selector": "[aria-label=\"Toggle menu\"]",
+          "tag": "<button data-cy=\"header-mobile-menu-toggle\" class=\"md:hidden p-2 text-white hover:bg-white/10 rounded-lg transition-colors flex-shrink-0\" aria-label=\"Toggle menu\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-menu h-5 w-5\" aria-hidden=\"true\"><path d=\"M4 5h16\"></path><path d=\"M4 12h16\"></path><path d=\"M4 19h16\"></path></svg></button>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"footer-github\"]",
+          "tag": "<a data-cy=\"footer-github\" href=\"https://github.com/zacktam12\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white hover:bg-primary-500 hover:scale-110 transition-all duration-200\" title=\"GitHub Profile\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-github h-5 w-5\" aria-hidden=\"true\"><path d=\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"></path><path d=\"M9 18c-4.51 2-5-2-7-2\"></path></svg></a>"
+        },
+        {
+          "selector": "[title=\"GitHub Profile\"]",
+          "tag": "<a data-cy=\"footer-github\" href=\"https://github.com/zacktam12\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white hover:bg-primary-500 hover:scale-110 transition-all duration-200\" title=\"GitHub Profile\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-github h-5 w-5\" aria-hidden=\"true\"><path d=\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"></path><path d=\"M9 18c-4.51 2-5-2-7-2\"></path></svg></a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"footer-linkedin\"]",
+          "tag": "<a data-cy=\"footer-linkedin\" href=\"https://www.linkedin.com/in/zekariastamiru\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white hover:bg-primary-500 hover:scale-110 transition-all duration-200\" title=\"LinkedIn Profile\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-linkedin h-5 w-5\" aria-hidden=\"true\"><path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect width=\"4\" height=\"12\" x=\"2\" y=\"9\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle></svg></a>"
+        },
+        {
+          "selector": "[title=\"LinkedIn Profile\"]",
+          "tag": "<a data-cy=\"footer-linkedin\" href=\"https://www.linkedin.com/in/zekariastamiru\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white hover:bg-primary-500 hover:scale-110 transition-all duration-200\" title=\"LinkedIn Profile\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-linkedin h-5 w-5\" aria-hidden=\"true\"><path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect width=\"4\" height=\"12\" x=\"2\" y=\"9\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle></svg></a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"footer-order-now\"]",
+          "tag": "<a data-cy=\"footer-order-now\" class=\"text-stone-300 hover:text-primary-400 transition-colors flex items-center gap-2 group\" href=\"/order/new\" data-discover=\"true\"><span class=\"h-1 w-1 rounded-full bg-primary-400 group-hover:w-2 transition-all\"></span>Order Now</a>"
+        },
+        {
+          "selector": "Order Now",
+          "tag": "<a data-cy=\"footer-order-now\" class=\"text-stone-300 hover:text-primary-400 transition-colors flex items-center gap-2 group\" href=\"/order/new\" data-discover=\"true\"><span class=\"h-1 w-1 rounded-full bg-primary-400 group-hover:w-2 transition-all\"></span>Order Now</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"footer-phone\"]",
+          "tag": "<a data-cy=\"footer-phone\" href=\"tel:+251703922596\" class=\"hover:text-primary-400 transition-colors\">+251 703 922 596</a>"
+        },
+        {
+          "selector": "+251 703 922 596",
+          "tag": "<a data-cy=\"footer-phone\" href=\"tel:+251703922596\" class=\"hover:text-primary-400 transition-colors\">+251 703 922 596</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"footer-author-github\"]",
+          "tag": "<a data-cy=\"footer-author-github\" href=\"https://github.com/zacktam12\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-400 hover:text-primary-300 font-medium transition-colors\">Zekarias Tamiru</a>"
+        },
+        {
+          "selector": "Zekarias Tamiru",
+          "tag": "<a data-cy=\"footer-author-github\" href=\"https://github.com/zacktam12\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-400 hover:text-primary-300 font-medium transition-colors\">Zekarias Tamiru</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"search-order-form\"]",
+          "tag": "<form data-cy=\"search-order-form\" class=\"flex-1 max-w-xs\"><input data-cy=\"search-order-input\" placeholder=\"Search order #\" class=\"w-full rounded-full bg-white/90 px-3 py-2 text-xs transition-all duration-300 placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-white/50 sm:text-sm sm:px-4 md:focus:w-full\" value=\"\"></form>"
+        },
+        {
+          "selector": "[placeholder=\"Search order #\"]",
+          "tag": "<input data-cy=\"search-order-input\" placeholder=\"Search order #\" class=\"w-full rounded-full bg-white/90 px-3 py-2 text-xs transition-all duration-300 placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-white/50 sm:text-sm sm:px-4 md:focus:w-full\" value=\"\">"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"create-user-form\"]",
+          "tag": "<form data-cy=\"create-user-form\" class=\"space-y-6\"><div class=\"relative\"><div class=\"relative transition-all duration-300 scale-100\"><input data-cy=\"create-user-name\" type=\"text\" placeholder=\"Enter your full name\" class=\"w-full rounded-xl border-2 px-3 py-3 pr-10 text-base transition-all duration-300 focus:outline-none sm:px-4 sm:py-4 sm:pr-12 sm:text-lg border-stone-200 bg-stone-50 \" value=\"\"></div></div></form>"
+        },
+        {
+          "selector": "[placeholder=\"Enter your full name\"]",
+          "tag": "<input data-cy=\"create-user-name\" type=\"text\" placeholder=\"Enter your full name\" class=\"w-full rounded-xl border-2 px-3 py-3 pr-10 text-base transition-all duration-300 focus:outline-none sm:px-4 sm:py-4 sm:pr-12 sm:text-lg border-stone-200 bg-stone-50 \" value=\"\">"
+        }
+      ]
+    ]
+  },
+  "minus": {
+    "http://localhost:5173": [
+      {
+        "selector": "[data-cy=\"header-mobile-home\"]",
+        "tag": "<a data-cy=\"header-mobile-home\" class=\"flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 bg-white/20 text-white\" href=\"/\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-house h-5 w-5\" aria-hidden=\"true\"><path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"></path><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"></path></svg>Home</a>"
+      },
+      {
+        "selector": "[data-cy=\"header-mobile-menu\"]",
+        "tag": "<a data-cy=\"header-mobile-menu\" class=\"flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 text-white/80 hover:text-white hover:bg-white/10\" href=\"/menu\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-utensils h-5 w-5\" aria-hidden=\"true\"><path d=\"M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2\"></path><path d=\"M7 2v20\"></path><path d=\"M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7\"></path></svg>Menu</a>"
+      },
+      {
+        "selector": "[data-cy=\"header-mobile-cart\"]",
+        "tag": "<a data-cy=\"header-mobile-cart\" class=\"flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 text-white/80 hover:text-white hover:bg-white/10\" href=\"/cart\" data-discover=\"true\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shopping-cart h-5 w-5\" aria-hidden=\"true\"><circle cx=\"8\" cy=\"21\" r=\"1\"></circle><circle cx=\"19\" cy=\"21\" r=\"1\"></circle><path d=\"M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12\"></path></svg>Cart</a>"
+      },
+      {
+        "selector": "[data-cy=\"footer-email-icon\"]",
+        "tag": "<a data-cy=\"footer-email-icon\" href=\"mailto:zekariastamiru12@gmail.com\" class=\"flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white hover:bg-primary-500 hover:scale-110 transition-all duration-200\" title=\"Email Contact\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail h-5 w-5\" aria-hidden=\"true\"><path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\"></path><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"></rect></svg></a>"
+      },
+      {
+        "selector": "[data-cy=\"footer-home\"]",
+        "tag": "<a data-cy=\"footer-home\" class=\"text-stone-300 hover:text-primary-400 transition-colors flex items-center gap-2 group\" href=\"/\" data-discover=\"true\"><span class=\"h-1 w-1 rounded-full bg-primary-400 group-hover:w-2 transition-all\"></span>Home</a>"
+      },
+      {
+        "selector": "[data-cy=\"footer-menu\"]",
+        "tag": "<a data-cy=\"footer-menu\" class=\"text-stone-300 hover:text-primary-400 transition-colors flex items-center gap-2 group\" href=\"/menu\" data-discover=\"true\"><span class=\"h-1 w-1 rounded-full bg-primary-400 group-hover:w-2 transition-all\"></span>Menu</a>"
+      },
+      {
+        "selector": "[data-cy=\"footer-cart\"]",
+        "tag": "<a data-cy=\"footer-cart\" class=\"text-stone-300 hover:text-primary-400 transition-colors flex items-center gap-2 group\" href=\"/cart\" data-discover=\"true\"><span class=\"h-1 w-1 rounded-full bg-primary-400 group-hover:w-2 transition-all\"></span>Cart</a>"
+      },
+      {
+        "selector": "[data-cy=\"footer-email\"]",
+        "tag": "<a data-cy=\"footer-email\" href=\"mailto:zekariastamiru12@gmail.com\" class=\"hover:text-primary-400 transition-colors break-all\">zekariastamiru12@gmail.com</a>"
+      },
+      {
+        "selector": "[data-cy=\"search-order-input\"]",
+        "tag": "<input data-cy=\"search-order-input\" placeholder=\"Search order #\" class=\"w-full rounded-full bg-white/90 px-3 py-2 text-xs transition-all duration-300 placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-white/50 sm:text-sm sm:px-4 md:focus:w-full\" value=\"\">"
+      },
+      {
+        "selector": "[data-cy=\"create-user-name\"]",
+        "tag": "<input data-cy=\"create-user-name\" type=\"text\" placeholder=\"Enter your full name\" class=\"w-full rounded-xl border-2 px-3 py-3 pr-10 text-base transition-all duration-300 focus:outline-none sm:px-4 sm:py-4 sm:pr-12 sm:text-lg border-stone-200 bg-stone-50 \" value=\"\">"
+      }
+    ]
+  },
+  "plus": {
+    "http://localhost:5173": []
+  },
+  "numbers": {
+    "http://localhost:5173": {
+      "equal": 12,
+      "minus": 10,
+      "plus": 0
+    }
+  },
+  "total": {
+    "equal": 12,
+    "minus": 10,
+    "plus": 0
+  }
+}

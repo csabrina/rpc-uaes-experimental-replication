@@ -1,0 +1,146 @@
+{
+  "http://localhost:3000": [
+    {
+      "selector": "[aria-label=\"Toggle navigation\"]",
+      "tag": "<button aria-controls=\"basic-navbar-nav\" data-cy=\"restaurant-navbar-collapse\" type=\"button\" aria-label=\"Toggle navigation\" class=\"navbar-toggler collapsed\"><span class=\"navbar-toggler-icon\"></span></button>"
+    },
+    {
+      "selector": "React Restaurant",
+      "tag": "<a class=\"navbar-brand text-success fw-semibold\" data-cy=\"restaurant-navbar-brand\" href=\"/\">React Restaurant</a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"/\" data-cy=\"restaurant-home\" data-rr-ui-event-key=\"/\" class=\"active text-uppercase nav-link\">Home</a>"
+    },
+    {
+      "selector": "Menu",
+      "tag": "<a href=\"/menu\" data-cy=\"restaurant-menu\" data-rr-ui-event-key=\"/menu\" class=\"text-uppercase nav-link\">Menu</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"/about\" data-cy=\"restaurant-about\" data-rr-ui-event-key=\"/about\" class=\"text-uppercase nav-link\">About</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a href=\"/contact\" data-cy=\"restaurant-contact\" data-rr-ui-event-key=\"/contact\" class=\"text-uppercase nav-link\">Contact</a>"
+    },
+    {
+      "selector": "Our Full Menu",
+      "tag": "<button type=\"button\" class=\"btn btn-success btn-lg\" data-cy=\"home-hero-full-menu\">Our Full Menu</button>"
+    },
+    {
+      "selector": "More About Us",
+      "tag": "<button type=\"button\" class=\"btn btn-outline-success btn-lg\" data-cy=\"home-more-about-us\">More About Us</button>"
+    }
+  ],
+  "http://localhost:3000/menu": [
+    {
+      "selector": "[aria-label=\"Toggle navigation\"]",
+      "tag": "<button aria-controls=\"basic-navbar-nav\" data-cy=\"restaurant-navbar-collapse\" type=\"button\" aria-label=\"Toggle navigation\" class=\"navbar-toggler collapsed\"><span class=\"navbar-toggler-icon\"></span></button>"
+    },
+    {
+      "selector": "React Restaurant",
+      "tag": "<a class=\"navbar-brand text-success fw-semibold\" data-cy=\"restaurant-navbar-brand\" href=\"/\">React Restaurant</a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"/\" data-cy=\"restaurant-home\" data-rr-ui-event-key=\"/\" class=\"active text-uppercase nav-link\">Home</a>"
+    },
+    {
+      "selector": "Menu",
+      "tag": "<a href=\"/menu\" data-cy=\"restaurant-menu\" data-rr-ui-event-key=\"/menu\" class=\"text-uppercase nav-link\">Menu</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"/about\" data-cy=\"restaurant-about\" data-rr-ui-event-key=\"/about\" class=\"text-uppercase nav-link\">About</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a href=\"/contact\" data-cy=\"restaurant-contact\" data-rr-ui-event-key=\"/contact\" class=\"text-uppercase nav-link\">Contact</a>"
+    }
+  ],
+  "http://localhost:3000/about": [
+    {
+      "selector": "[aria-label=\"Toggle navigation\"]",
+      "tag": "<button aria-controls=\"basic-navbar-nav\" data-cy=\"restaurant-navbar-collapse\" type=\"button\" aria-label=\"Toggle navigation\" class=\"navbar-toggler collapsed\"><span class=\"navbar-toggler-icon\"></span></button>"
+    },
+    {
+      "selector": "React Restaurant",
+      "tag": "<a class=\"navbar-brand text-success fw-semibold\" data-cy=\"restaurant-navbar-brand\" href=\"/\">React Restaurant</a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"/\" data-cy=\"restaurant-home\" data-rr-ui-event-key=\"/\" class=\"active text-uppercase nav-link\">Home</a>"
+    },
+    {
+      "selector": "Menu",
+      "tag": "<a href=\"/menu\" data-cy=\"restaurant-menu\" data-rr-ui-event-key=\"/menu\" class=\"text-uppercase nav-link\">Menu</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"/about\" data-cy=\"restaurant-about\" data-rr-ui-event-key=\"/about\" class=\"text-uppercase nav-link\">About</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a href=\"/contact\" data-cy=\"restaurant-contact\" data-rr-ui-event-key=\"/contact\" class=\"text-uppercase nav-link\">Contact</a>"
+    }
+  ],
+  "http://localhost:3000/contact": [
+    {
+      "selector": "[aria-label=\"Toggle navigation\"]",
+      "tag": "<button aria-controls=\"basic-navbar-nav\" data-cy=\"restaurant-navbar-collapse\" type=\"button\" aria-label=\"Toggle navigation\" class=\"navbar-toggler collapsed\"><span class=\"navbar-toggler-icon\"></span></button>"
+    },
+    {
+      "selector": "React Restaurant",
+      "tag": "<a class=\"navbar-brand text-success fw-semibold\" data-cy=\"restaurant-navbar-brand\" href=\"/\">React Restaurant</a>"
+    },
+    {
+      "selector": "Home",
+      "tag": "<a href=\"/\" data-cy=\"restaurant-home\" data-rr-ui-event-key=\"/\" class=\"active text-uppercase nav-link\">Home</a>"
+    },
+    {
+      "selector": "Menu",
+      "tag": "<a href=\"/menu\" data-cy=\"restaurant-menu\" data-rr-ui-event-key=\"/menu\" class=\"text-uppercase nav-link\">Menu</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"/about\" data-cy=\"restaurant-about\" data-rr-ui-event-key=\"/about\" class=\"text-uppercase nav-link\">About</a>"
+    },
+    {
+      "selector": "Contact",
+      "tag": "<a href=\"/contact\" data-cy=\"restaurant-contact\" data-rr-ui-event-key=\"/contact\" class=\"text-uppercase nav-link\">Contact</a>"
+    },
+    {
+      "selector": "Submit",
+      "tag": "<button type=\"submit\" class=\"btn btn-success btn-lg\" data-cy=\"contact-submit\">Submit</button>"
+    },
+    {
+      "selector": "[id=\"first-name\"]",
+      "tag": "<input data-cy=\"contact-first-name\" type=\"text\" id=\"first-name\" class=\"form-control\">"
+    },
+    {
+      "selector": "[id=\"last-name\"]",
+      "tag": "<input data-cy=\"contact-last-name\" type=\"text\" id=\"last-name\" class=\"form-control\">"
+    },
+    {
+      "selector": "[id=\"email-address\"]",
+      "tag": "<input data-cy=\"contact-email-address\" type=\"email\" id=\"email-address\" class=\"form-control\">"
+    },
+    {
+      "selector": "[id=\"phone-number\"]",
+      "tag": "<input data-cy=\"contact-phone-number\" type=\"tel\" id=\"phone-number\" class=\"form-control\">"
+    },
+    {
+      "selector": "[id=\"date\"]",
+      "tag": "<input data-cy=\"contact-date\" type=\"date\" id=\"date\" class=\"form-control\">"
+    },
+    {
+      "selector": "[id=\"guests-number\"]",
+      "tag": "<input data-cy=\"contact-guests-number\" type=\"number\" id=\"guests-number\" class=\"form-control\">"
+    },
+    {
+      "selector": "[id=\"comments\"]",
+      "tag": "<input data-cy=\"contact-comments\" type=\"textarea\" id=\"comments\" class=\"form-control\">"
+    }
+  ]
+}

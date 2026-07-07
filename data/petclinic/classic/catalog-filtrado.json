@@ -1,0 +1,502 @@
+{
+  "http://localhost:8080": [
+    {
+      "selector": "[data-cy=\"navbar-brand\"]",
+      "tag": "<a data-cy=\"navbar-brand\" class=\"navbar-brand\" href=\"/\"><span></span></a>"
+    },
+    {
+      "selector": "[data-cy=\"navbar-toggler\"]",
+      "tag": "<button data-cy=\"navbar-toggler\" class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#main-navbar\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>"
+    },
+    {
+      "selector": "[data-cy=\"home page\"]",
+      "tag": "<a data-cy=\"home page\" class=\"nav-link active\" href=\"/\" title=\"home page\">\n              <span class=\"fa fa-home\"></span>\n              <span>Home</span>\n            </a>"
+    },
+    {
+      "selector": "[data-cy=\"find owners\"]",
+      "tag": "<a data-cy=\"find owners\" class=\"nav-link\" href=\"/owners/find\" title=\"find owners\">\n              <span class=\"fa fa-search\"></span>\n              <span>Find owners</span>\n            </a>"
+    },
+    {
+      "selector": "[data-cy=\"veterinarians\"]",
+      "tag": "<a data-cy=\"veterinarians\" class=\"nav-link\" href=\"/vets.html\" title=\"veterinarians\">\n              <span class=\"fa fa-th-list\"></span>\n              <span>Veterinarians</span>\n            </a>"
+    }
+  ],
+  "http://localhost:8080/owners/find": [
+    {
+      "selector": "[data-cy=\"find-owner-button\"]",
+      "tag": "<button data-cy=\"find-owner-button\" type=\"submit\" class=\"btn btn-primary\">Find\n          Owner</button>"
+    },
+    {
+      "selector": "[data-cy=\"add-owner-find-owners\"]",
+      "tag": "<a class=\"btn btn-primary\" data-cy=\"add-owner-find-owners\" href=\"/owners/new\">Add Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"last-name-input-find-owners\"]",
+      "tag": "<input data-cy=\"last-name-input-find-owners\" class=\"form-control\" size=\"30\" maxlength=\"80\" id=\"lastName\" name=\"lastName\" value=\"\">"
+    }
+  ],
+  "http://localhost:8080/vets.html": [
+    {
+      "selector": "[data-cy=\"vets-pagination-button\"]",
+      "tag": "<a data-cy=\"vets-pagination-button\" href=\"/vets.html?page=2\">2</a>"
+    },
+    {
+      "selector": "[data-cy=\"vets-next-button\"]",
+      "tag": "<a data-cy=\"vets-next-button\" href=\"/vets.html?page=2\" title=\"Next\" class=\"fa fa-step-forward\"></a>"
+    },
+    {
+      "selector": "[data-cy=\"vets-last-button\"]",
+      "tag": "<a data-cy=\"vets-last-button\" href=\"/vets.html?page=2\" title=\"Last\" class=\"fa fa-fast-forward\"></a>"
+    }
+  ],
+  "http://localhost:8080/owners?lastName=": [
+    {
+      "selector": "[data-cy=\"owner-link\"]",
+      "tag": "<a data-cy=\"owner-link\" href=\"/owners/1\">George Franklin</a>"
+    },
+    {
+      "selector": "[data-cy=\"pagination-button\"]",
+      "tag": "<a data-cy=\"pagination-button\" href=\"/owners?page=2\">2</a>"
+    },
+    {
+      "selector": "[data-cy=\"next-button\"]",
+      "tag": "<a data-cy=\"next-button\" href=\"/owners?page=2\" title=\"Next\" class=\"fa fa-step-forward\"></a>"
+    },
+    {
+      "selector": "[data-cy=\"last-button\"]",
+      "tag": "<a data-cy=\"last-button\" href=\"/owners?page=2\" title=\"Last\" class=\"fa fa-fast-forward\"></a>"
+    }
+  ],
+  "http://localhost:8080/owners/new": [
+    {
+      "selector": "[data-cy=\"add-owner\"]",
+      "tag": "<button data-cy=\"add-owner\" class=\"btn btn-primary\" type=\"submit\">Add Owner</button>"
+    },
+    {
+      "selector": "[data-cy=\"firstName\"]",
+      "tag": "<input data-cy=\"firstName\" class=\"form-control\" type=\"text\" id=\"firstName\" name=\"firstName\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"lastName\"]",
+      "tag": "<input data-cy=\"lastName\" class=\"form-control\" type=\"text\" id=\"lastName\" name=\"lastName\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"address\"]",
+      "tag": "<input data-cy=\"address\" class=\"form-control\" type=\"text\" id=\"address\" name=\"address\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"city\"]",
+      "tag": "<input data-cy=\"city\" class=\"form-control\" type=\"text\" id=\"city\" name=\"city\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"telephone\"]",
+      "tag": "<input data-cy=\"telephone\" class=\"form-control\" type=\"text\" id=\"telephone\" name=\"telephone\" value=\"\">"
+    }
+  ],
+  "http://localhost:8080/vets.html?page=2": [
+    {
+      "selector": "[data-cy=\"vets-first-button\"]",
+      "tag": "<a data-cy=\"vets-first-button\" href=\"/vets.html?page=1\" title=\"First\" class=\"fa fa-fast-backward\"></a>"
+    },
+    {
+      "selector": "[data-cy=\"vets-previous-button\"]",
+      "tag": "<a data-cy=\"vets-previous-button\" href=\"/vets.html?page=1\" title=\"Previous\" class=\"fa fa-step-backward\"></a>"
+    }
+  ],
+  "http://localhost:8080/owners?page=2": [
+    {
+      "selector": "[data-cy=\"first-button\"]",
+      "tag": "<a data-cy=\"first-button\" href=\"/owners?page=1\" title=\"First\" class=\"fa fa-fast-backward\"></a>"
+    },
+    {
+      "selector": "[data-cy=\"previous-button\"]",
+      "tag": "<a data-cy=\"previous-button\" href=\"/owners?page=1\" title=\"Previous\" class=\"fa fa-step-backward\"></a>"
+    }
+  ],
+  "http://localhost:8080/owners/1": [
+    {
+      "selector": "[data-cy=\"edit-owner\"]",
+      "tag": "<a data-cy=\"edit-owner\" href=\"1/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-new-pet\"]",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"1/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"edit-pet-a\"]",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"1/pets/1/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-visit-a\"]",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"1/pets/1/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/owners/2": [
+    {
+      "selector": "[data-cy=\"edit-owner\"]",
+      "tag": "<a data-cy=\"edit-owner\" href=\"2/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-new-pet\"]",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"2/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"edit-pet-a\"]",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"2/pets/2/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-visit-a\"]",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"2/pets/2/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/owners/3": [
+    {
+      "selector": "[data-cy=\"edit-owner\"]",
+      "tag": "<a data-cy=\"edit-owner\" href=\"3/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-new-pet\"]",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"3/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"edit-pet-a\"]",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"3/pets/4/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-visit-a\"]",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"3/pets/4/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/owners/4": [
+    {
+      "selector": "[data-cy=\"edit-owner\"]",
+      "tag": "<a data-cy=\"edit-owner\" href=\"4/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-new-pet\"]",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"4/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"edit-pet-a\"]",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"4/pets/5/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-visit-a\"]",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"4/pets/5/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/owners/5": [
+    {
+      "selector": "[data-cy=\"edit-owner\"]",
+      "tag": "<a data-cy=\"edit-owner\" href=\"5/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-new-pet\"]",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"5/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"edit-pet-a\"]",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"5/pets/6/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-visit-a\"]",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"5/pets/6/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/vets.html?page=1": [],
+  "http://localhost:8080/owners?page=1": [],
+  "http://localhost:8080/owners/6": [
+    {
+      "selector": "[data-cy=\"edit-owner\"]",
+      "tag": "<a data-cy=\"edit-owner\" href=\"6/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-new-pet\"]",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"6/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"edit-pet-a\"]",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"6/pets/8/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-visit-a\"]",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"6/pets/8/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/owners/7": [
+    {
+      "selector": "[data-cy=\"edit-owner\"]",
+      "tag": "<a data-cy=\"edit-owner\" href=\"7/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-new-pet\"]",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"7/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"edit-pet-a\"]",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"7/pets/9/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-visit-a\"]",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"7/pets/9/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/owners/8": [
+    {
+      "selector": "[data-cy=\"edit-owner\"]",
+      "tag": "<a data-cy=\"edit-owner\" href=\"8/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-new-pet\"]",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"8/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"edit-pet-a\"]",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"8/pets/10/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-visit-a\"]",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"8/pets/10/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/owners/9": [
+    {
+      "selector": "[data-cy=\"edit-owner\"]",
+      "tag": "<a data-cy=\"edit-owner\" href=\"9/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-new-pet\"]",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"9/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"edit-pet-a\"]",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"9/pets/11/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-visit-a\"]",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"9/pets/11/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/owners/10": [
+    {
+      "selector": "[data-cy=\"edit-owner\"]",
+      "tag": "<a data-cy=\"edit-owner\" href=\"10/edit\" class=\"btn btn-primary\">Edit\n      Owner</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-new-pet\"]",
+      "tag": "<a data-cy=\"add-new-pet\" href=\"10/pets/new\" class=\"btn btn-primary\">Add\n      New Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"edit-pet-a\"]",
+      "tag": "<a data-cy=\"edit-pet-a\" href=\"10/pets/12/edit\">Edit Pet</a>"
+    },
+    {
+      "selector": "[data-cy=\"add-visit-a\"]",
+      "tag": "<a data-cy=\"add-visit-a\" href=\"10/pets/12/visits/new\">Add Visit</a>"
+    }
+  ],
+  "http://localhost:8080/owners/1/pets/1/edit": [
+    {
+      "selector": "[data-cy=\"bird\"]",
+      "tag": "<option data-cy=\"bird\" value=\"bird\">bird</option>"
+    },
+    {
+      "selector": "[data-cy=\"cat\"]",
+      "tag": "<option data-cy=\"cat\" value=\"cat\" selected=\"selected\">cat</option>"
+    },
+    {
+      "selector": "[data-cy=\"dog\"]",
+      "tag": "<option data-cy=\"dog\" value=\"dog\">dog</option>"
+    },
+    {
+      "selector": "[data-cy=\"hamster\"]",
+      "tag": "<option data-cy=\"hamster\" value=\"hamster\">hamster</option>"
+    },
+    {
+      "selector": "[data-cy=\"lizard\"]",
+      "tag": "<option data-cy=\"lizard\" value=\"lizard\">lizard</option>"
+    },
+    {
+      "selector": "[data-cy=\"snake\"]",
+      "tag": "<option data-cy=\"snake\" value=\"snake\">snake</option>"
+    },
+    {
+      "selector": "[data-cy=\"add-pet\"]",
+      "tag": "<button data-cy=\"add-pet\" class=\"btn btn-primary\" type=\"submit\">Update Pet</button>"
+    },
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"id\" value=\"1\">"
+    },
+    {
+      "selector": "[data-cy=\"name\"]",
+      "tag": "<input data-cy=\"name\" class=\"form-control\" type=\"text\" id=\"name\" name=\"name\" value=\"Leo\">"
+    },
+    {
+      "selector": "[data-cy=\"birthDate\"]",
+      "tag": "<input data-cy=\"birthDate\" class=\"form-control\" type=\"date\" id=\"birthDate\" name=\"birthDate\" value=\"2010-09-07\">"
+    }
+  ],
+  "http://localhost:8080/owners/1/pets/1/visits/new": [
+    {
+      "selector": "[data-cy=\"add-visit-button\"]",
+      "tag": "<button data-cy=\"add-visit-button\" class=\"btn btn-primary\" type=\"submit\">Add Visit</button>"
+    },
+    {
+      "selector": "[data-cy=\"date\"]",
+      "tag": "<input data-cy=\"date\" class=\"form-control\" type=\"date\" id=\"date\" name=\"date\" value=\"2026-06-16\">"
+    },
+    {
+      "selector": "[data-cy=\"description\"]",
+      "tag": "<input data-cy=\"description\" class=\"form-control\" type=\"text\" id=\"description\" name=\"description\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"petId\" value=\"1\">"
+    }
+  ],
+  "http://localhost:8080/owners/2/pets/2/edit": [
+    {
+      "selector": "[data-cy=\"cat\"]",
+      "tag": "<option data-cy=\"cat\" value=\"cat\">cat</option>"
+    },
+    {
+      "selector": "[data-cy=\"hamster\"]",
+      "tag": "<option data-cy=\"hamster\" value=\"hamster\" selected=\"selected\">hamster</option>"
+    },
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"id\" value=\"2\">"
+    },
+    {
+      "selector": "[data-cy=\"name\"]",
+      "tag": "<input data-cy=\"name\" class=\"form-control\" type=\"text\" id=\"name\" name=\"name\" value=\"Basil\">"
+    },
+    {
+      "selector": "[data-cy=\"birthDate\"]",
+      "tag": "<input data-cy=\"birthDate\" class=\"form-control\" type=\"date\" id=\"birthDate\" name=\"birthDate\" value=\"2012-08-06\">"
+    }
+  ],
+  "http://localhost:8080/owners/2/pets/2/visits/new": [
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"petId\" value=\"2\">"
+    }
+  ],
+  "http://localhost:8080/owners/4/pets/5/edit": [
+    {
+      "selector": "[data-cy=\"lizard\"]",
+      "tag": "<option data-cy=\"lizard\" value=\"lizard\" selected=\"selected\">lizard</option>"
+    },
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"id\" value=\"5\">"
+    },
+    {
+      "selector": "[data-cy=\"name\"]",
+      "tag": "<input data-cy=\"name\" class=\"form-control\" type=\"text\" id=\"name\" name=\"name\" value=\"Iggy\">"
+    },
+    {
+      "selector": "[data-cy=\"birthDate\"]",
+      "tag": "<input data-cy=\"birthDate\" class=\"form-control\" type=\"date\" id=\"birthDate\" name=\"birthDate\" value=\"2010-11-30\">"
+    }
+  ],
+  "http://localhost:8080/owners/4/pets/5/visits/new": [
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"petId\" value=\"5\">"
+    }
+  ],
+  "http://localhost:8080/owners/5/pets/6/edit": [
+    {
+      "selector": "[data-cy=\"snake\"]",
+      "tag": "<option data-cy=\"snake\" value=\"snake\" selected=\"selected\">snake</option>"
+    },
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"id\" value=\"6\">"
+    },
+    {
+      "selector": "[data-cy=\"name\"]",
+      "tag": "<input data-cy=\"name\" class=\"form-control\" type=\"text\" id=\"name\" name=\"name\" value=\"George\">"
+    },
+    {
+      "selector": "[data-cy=\"birthDate\"]",
+      "tag": "<input data-cy=\"birthDate\" class=\"form-control\" type=\"date\" id=\"birthDate\" name=\"birthDate\" value=\"2010-01-20\">"
+    }
+  ],
+  "http://localhost:8080/owners/5/pets/6/visits/new": [
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"petId\" value=\"6\">"
+    }
+  ],
+  "http://localhost:8080/owners/7/pets/9/edit": [
+    {
+      "selector": "[data-cy=\"bird\"]",
+      "tag": "<option data-cy=\"bird\" value=\"bird\" selected=\"selected\">bird</option>"
+    },
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"id\" value=\"9\">"
+    },
+    {
+      "selector": "[data-cy=\"name\"]",
+      "tag": "<input data-cy=\"name\" class=\"form-control\" type=\"text\" id=\"name\" name=\"name\" value=\"Lucky\">"
+    },
+    {
+      "selector": "[data-cy=\"birthDate\"]",
+      "tag": "<input data-cy=\"birthDate\" class=\"form-control\" type=\"date\" id=\"birthDate\" name=\"birthDate\" value=\"2011-08-06\">"
+    }
+  ],
+  "http://localhost:8080/owners/7/pets/9/visits/new": [
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"petId\" value=\"9\">"
+    }
+  ],
+  "http://localhost:8080/owners/8/pets/10/edit": [
+    {
+      "selector": "[data-cy=\"dog\"]",
+      "tag": "<option data-cy=\"dog\" value=\"dog\" selected=\"selected\">dog</option>"
+    },
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"id\" value=\"10\">"
+    },
+    {
+      "selector": "[data-cy=\"name\"]",
+      "tag": "<input data-cy=\"name\" class=\"form-control\" type=\"text\" id=\"name\" name=\"name\" value=\"Mulligan\">"
+    },
+    {
+      "selector": "[data-cy=\"birthDate\"]",
+      "tag": "<input data-cy=\"birthDate\" class=\"form-control\" type=\"date\" id=\"birthDate\" name=\"birthDate\" value=\"2007-02-24\">"
+    }
+  ],
+  "http://localhost:8080/owners/8/pets/10/visits/new": [
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"petId\" value=\"10\">"
+    }
+  ],
+  "http://localhost:8080/owners/9/pets/11/edit": [
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"id\" value=\"11\">"
+    },
+    {
+      "selector": "[data-cy=\"name\"]",
+      "tag": "<input data-cy=\"name\" class=\"form-control\" type=\"text\" id=\"name\" name=\"name\" value=\"Freddy\">"
+    },
+    {
+      "selector": "[data-cy=\"birthDate\"]",
+      "tag": "<input data-cy=\"birthDate\" class=\"form-control\" type=\"date\" id=\"birthDate\" name=\"birthDate\" value=\"2010-03-09\">"
+    }
+  ],
+  "http://localhost:8080/owners/9/pets/11/visits/new": [
+    {
+      "selector": "[data-cy=\"id-input\"]",
+      "tag": "<input data-cy=\"id-input\" type=\"hidden\" name=\"petId\" value=\"11\">"
+    }
+  ]
+}

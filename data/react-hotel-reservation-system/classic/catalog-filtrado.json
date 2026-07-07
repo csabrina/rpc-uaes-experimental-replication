@@ -1,0 +1,32 @@
+{
+  "http://localhost:3000": [
+    {
+      "selector": "[data-cy=\"reservation-step-hotel-date\"]",
+      "tag": "<button data-cy=\"reservation-step-hotel-date\" class=\"StepIndicator_steps__item__1eJwI StepIndicator_steps__item--active__1wE6k\" type=\"button\"><div class=\"StepIndicator_steps__img-wrapper__2uSDW\"><img src=\"/files/battlefield/react/react-hotel-reservation-system/static/media/calendar.36e28671.svg\" alt=\"Hotel &amp; Date\" class=\"StepIndicator_steps__img__1ZYxp\"></div><h3 class=\"StepIndicator_steps__title__YVYe_\">Hotel &amp; Date</h3></button>"
+    },
+    {
+      "selector": "[data-cy=\"reservation-step-room-view\"]",
+      "tag": "<button data-cy=\"reservation-step-room-view\" class=\"StepIndicator_steps__item__1eJwI\" type=\"button\"><div class=\"StepIndicator_steps__img-wrapper__2uSDW\"><img src=\"/files/battlefield/react/react-hotel-reservation-system/static/media/bed.a98e1d57.svg\" alt=\"Room type &amp; View\" class=\"StepIndicator_steps__img__1ZYxp\"></div><h3 class=\"StepIndicator_steps__title__YVYe_\">Room type &amp; View</h3></button>"
+    },
+    {
+      "selector": "[data-cy=\"reservation-step-preview-payment\"]",
+      "tag": "<button data-cy=\"reservation-step-preview-payment\" class=\"StepIndicator_steps__item__1eJwI\" type=\"button\"><div class=\"StepIndicator_steps__img-wrapper__2uSDW\"><img src=\"/files/battlefield/react/react-hotel-reservation-system/static/media/credit-card.7865e1a8.svg\" alt=\"Preview &amp; Payment\" class=\"StepIndicator_steps__img__1ZYxp\"></div><h3 class=\"StepIndicator_steps__title__YVYe_\">Preview &amp; Payment</h3></button>"
+    },
+    {
+      "selector": "[data-cy=\"reservation-hotel-date-checkin\"]",
+      "tag": "<input data-cy=\"reservation-hotel-date-checkin\" id=\"checkin\" name=\"checkin\" class=\"TextField_input__field__2mFmc\" type=\"date\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"reservation-hotel-date-checkout\"]",
+      "tag": "<input data-cy=\"reservation-hotel-date-checkout\" id=\"checkout\" name=\"checkout\" class=\"TextField_input__field__2mFmc\" type=\"date\" value=\"\">"
+    },
+    {
+      "selector": "[data-cy=\"reservation-hotel-date-adults\"]",
+      "tag": "<input data-cy=\"reservation-hotel-date-adults\" id=\"adults\" name=\"adults\" class=\"TextField_input__field__2mFmc\" type=\"number\" value=\"1\">"
+    },
+    {
+      "selector": "[data-cy=\"reservation-hotel-date-children\"]",
+      "tag": "<input data-cy=\"reservation-hotel-date-children\" id=\"children\" name=\"children\" class=\"TextField_input__field__2mFmc\" type=\"number\" value=\"0\">"
+    }
+  ]
+}

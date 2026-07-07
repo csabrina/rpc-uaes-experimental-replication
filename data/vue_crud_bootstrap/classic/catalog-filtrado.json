@@ -1,0 +1,130 @@
+{
+  "http://localhost:8080": [
+    {
+      "selector": "[data-cy=\"app-nav-home\"]",
+      "tag": "<a href=\"/\" aria-current=\"page\" class=\"router-link-exact-active router-link-active\" data-cy=\"app-nav-home\">Home</a>"
+    },
+    {
+      "selector": "[data-cy=\"app-nav-about\"]",
+      "tag": "<a href=\"/about\" class=\"\" data-cy=\"app-nav-about\">About</a>"
+    },
+    {
+      "selector": "[data-cy=\"app-nav-rest-api\"]",
+      "tag": "<a href=\"/callrestapi\" class=\"\" data-cy=\"app-nav-rest-api\">REST API</a>"
+    },
+    {
+      "selector": "[data-cy=\"home-add-employee\"]",
+      "tag": "<button data-cy=\"home-add-employee\" type=\"button\" class=\"btn btn-secondary btn-sm\"> Add New Employee </button>"
+    },
+    {
+      "selector": "[data-cy=\"home-employees-table\"]",
+      "tag": "<table data-cy=\"home-employees-table\" role=\"table\" aria-busy=\"false\" aria-colcount=\"5\" class=\"table b-table table-striped\" id=\"__BVID__25\"><!----><!----><thead role=\"rowgroup\" class=\"\"><!----><tr role=\"row\" class=\"\"><th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"1\" data-cy=\"home-sort-employee-id\" aria-sort=\"none\" class=\"position-relative\"><div>Employee ID</div><span class=\"sr-only\"> (Click to sort ascending)</span></th><th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"2\" data-cy=\"home-sort-employee-name\" aria-sort=\"none\" class=\"position-relative text-center\"><div>Employee Name</div><span class=\"sr-only\"> (Click to sort ascending)</span></th><th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"3\" data-cy=\"home-sort-email\" aria-sort=\"none\" class=\"position-relative\"><div>Email</div><span class=\"sr-only\"> (Click to sort ascending)</span></th><th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"4\" data-cy=\"home-sort-contact\" aria-sort=\"none\" class=\"position-relative\"><div>Contact</div><span class=\"sr-only\"> (Click to sort ascending)</span></th><th role=\"columnheader\" scope=\"col\" aria-colindex=\"5\" class=\"\"><div>Actions</div></th></tr></thead><tbody role=\"rowgroup\"><!----><tr role=\"row\" class=\"b-table-empty-row\"><td colspan=\"5\" role=\"cell\" class=\"\"><div role=\"alert\" aria-live=\"polite\"><div class=\"text-center my-2\">There are no records to show</div></div></td></tr><!----></tbody><!----></table>"
+    },
+    {
+      "selector": "[data-cy=\"home-sort-employee-id\"]",
+      "tag": "<th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"1\" data-cy=\"home-sort-employee-id\" aria-sort=\"none\" class=\"position-relative\"><div>Employee ID</div><span class=\"sr-only\"> (Click to sort ascending)</span></th>"
+    },
+    {
+      "selector": "[data-cy=\"home-sort-employee-name\"]",
+      "tag": "<th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"2\" data-cy=\"home-sort-employee-name\" aria-sort=\"none\" class=\"position-relative text-center\"><div>Employee Name</div><span class=\"sr-only\"> (Click to sort ascending)</span></th>"
+    },
+    {
+      "selector": "[data-cy=\"home-sort-email\"]",
+      "tag": "<th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"3\" data-cy=\"home-sort-email\" aria-sort=\"none\" class=\"position-relative\"><div>Email</div><span class=\"sr-only\"> (Click to sort ascending)</span></th>"
+    },
+    {
+      "selector": "[data-cy=\"home-sort-contact\"]",
+      "tag": "<th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"4\" data-cy=\"home-sort-contact\" aria-sort=\"none\" class=\"position-relative\"><div>Contact</div><span class=\"sr-only\"> (Click to sort ascending)</span></th>"
+    },
+    {
+      "selector": "[data-cy=\"home-sort-field\"]",
+      "tag": "<select id=\"sortBySelect\" class=\"w-75 custom-select\" data-cy=\"home-sort-field\"><option value=\"\">Select</option><option value=\"id\">Employee ID</option><option value=\"name\">Employee Name</option><option value=\"email\">Email</option><option value=\"contact\">Contact</option></select>"
+    },
+    {
+      "selector": "[data-cy=\"home-initial-sort-direction\"]",
+      "tag": "<select id=\"initialSortSelect\" class=\"custom-select custom-select-sm\" data-cy=\"home-initial-sort-direction\"><option value=\"asc\">asc</option><option value=\"desc\">desc</option><option value=\"last\">last</option></select>"
+    },
+    {
+      "selector": "[data-cy=\"home-filter-input\"]",
+      "tag": "<input id=\"filterInput\" type=\"search\" placeholder=\"Type to Search\" class=\"form-control\" data-cy=\"home-filter-input\">"
+    },
+    {
+      "selector": "[data-cy=\"home-filter-on-id\"]",
+      "tag": "<input data-cy=\"home-filter-on-id\" type=\"checkbox\" class=\"custom-control-input\" value=\"id\" id=\"__BVID__19\" name=\"__BVID__18\">"
+    },
+    {
+      "selector": "[data-cy=\"home-filter-on-name\"]",
+      "tag": "<input data-cy=\"home-filter-on-name\" type=\"checkbox\" class=\"custom-control-input\" value=\"name\" id=\"__BVID__20\" name=\"__BVID__18\">"
+    },
+    {
+      "selector": "[data-cy=\"home-filter-on-email\"]",
+      "tag": "<input data-cy=\"home-filter-on-email\" type=\"checkbox\" class=\"custom-control-input\" value=\"email\" id=\"__BVID__21\" name=\"__BVID__18\">"
+    },
+    {
+      "selector": "[data-cy=\"home-filter-on-contact\"]",
+      "tag": "<input data-cy=\"home-filter-on-contact\" type=\"checkbox\" class=\"custom-control-input\" value=\"contact\" id=\"__BVID__22\" name=\"__BVID__18\">"
+    },
+    {
+      "selector": "[data-cy=\"home-per-page\"]",
+      "tag": "<select id=\"perPageSelect\" class=\"custom-select custom-select-sm\" data-cy=\"home-per-page\"><option value=\"2\">2</option><option value=\"5\">5</option><option value=\"10\">10</option><option value=\"15\">15</option></select>"
+    },
+    {
+      "selector": "[data-cy=\"employee-save\"]",
+      "tag": "<button data-cy=\"employee-save\" type=\"button\" class=\"btn float-right m-l-10 btn-danger btn-sm\"> Save </button>"
+    },
+    {
+      "selector": "[data-cy=\"employee-cancel\"]",
+      "tag": "<button data-cy=\"employee-cancel\" type=\"button\" class=\"btn float-right btn-primary btn-sm\"> Cancel </button>"
+    },
+    {
+      "selector": "[data-cy=\"employee-modal\"]",
+      "tag": "<div data-cy=\"employee-modal\" id=\"addNewEmployee___BV_modal_outer_\" style=\"position: absolute; z-index: 1040;\"><div id=\"addNewEmployee\" role=\"dialog\" aria-labelledby=\"addNewEmployee___BV_modal_title_\" aria-describedby=\"addNewEmployee___BV_modal_body_\" class=\"modal fade show\" aria-modal=\"true\" style=\"display: block;\"><div class=\"modal-dialog modal-md\"><span tabindex=\"0\"></span><div id=\"addNewEmployee___BV_modal_content_\" tabindex=\"-1\" class=\"modal-content\"><header id=\"addNewEmployee___BV_modal_header_\" class=\"modal-header\"><h5 id=\"addNewEmployee___BV_modal_title_\" class=\"modal-title\">Add Employee</h5><button type=\"button\" aria-label=\"Close\" class=\"close\">×</button></header><div id=\"addNewEmployee___BV_modal_body_\" class=\"modal-body\"><form data-cy=\"employee-form\" class=\"\"><div id=\"input-group-1\" role=\"group\" class=\"form-group\"><label id=\"input-group-1__BV_label_\" for=\"input-1\" class=\"d-block\">Employee ID:</label><div><input id=\"input-1\" type=\"text\" placeholder=\"Enter Employee ID\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-id-input\"><!----><!----><!----><!----></div></div><div id=\"input-group-2\" role=\"group\" class=\"form-group\"><label id=\"input-group-2__BV_label_\" for=\"input-2\" class=\"d-block\">Employee Name:</label><div><input id=\"input-2\" type=\"text\" placeholder=\"Enter Employee Name\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-name-input\"><!----><!----><!----><!----></div></div><div id=\"input-group-3\" role=\"group\" class=\"form-group\"><label id=\"input-group-3__BV_label_\" for=\"input-3\" class=\"d-block\">Employee Email:</label><div><input id=\"input-3\" type=\"email\" placeholder=\"Enter Employee Email\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-email-input\"><!----><!----><!----><!----></div></div><div id=\"input-group-4\" role=\"group\" class=\"form-group\"><label id=\"input-group-4__BV_label_\" for=\"input-4\" class=\"d-block\">Employee Contact:</label><div><input id=\"input-4\" type=\"text\" placeholder=\"Enter Employee Contact\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-contact-input\"><!----><!----><!----><!----></div>"
+    },
+    {
+      "selector": "[data-cy=\"employee-form\"]",
+      "tag": "<form data-cy=\"employee-form\" class=\"\"><div id=\"input-group-1\" role=\"group\" class=\"form-group\"><label id=\"input-group-1__BV_label_\" for=\"input-1\" class=\"d-block\">Employee ID:</label><div><input id=\"input-1\" type=\"text\" placeholder=\"Enter Employee ID\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-id-input\"><!----><!----><!----><!----></div></div><div id=\"input-group-2\" role=\"group\" class=\"form-group\"><label id=\"input-group-2__BV_label_\" for=\"input-2\" class=\"d-block\">Employee Name:</label><div><input id=\"input-2\" type=\"text\" placeholder=\"Enter Employee Name\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-name-input\"><!----><!----><!----><!----></div></div><div id=\"input-group-3\" role=\"group\" class=\"form-group\"><label id=\"input-group-3__BV_label_\" for=\"input-3\" class=\"d-block\">Employee Email:</label><div><input id=\"input-3\" type=\"email\" placeholder=\"Enter Employee Email\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-email-input\"><!----><!----><!----><!----></div></div><div id=\"input-group-4\" role=\"group\" class=\"form-group\"><label id=\"input-group-4__BV_label_\" for=\"input-4\" class=\"d-block\">Employee Contact:</label><div><input id=\"input-4\" type=\"text\" placeholder=\"Enter Employee Contact\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-contact-input\"><!----><!----><!----><!----></div></div></form>"
+    },
+    {
+      "selector": "[data-cy=\"employee-id-input\"]",
+      "tag": "<input id=\"input-1\" type=\"text\" placeholder=\"Enter Employee ID\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-id-input\">"
+    },
+    {
+      "selector": "[data-cy=\"employee-name-input\"]",
+      "tag": "<input id=\"input-2\" type=\"text\" placeholder=\"Enter Employee Name\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-name-input\">"
+    },
+    {
+      "selector": "[data-cy=\"employee-email-input\"]",
+      "tag": "<input id=\"input-3\" type=\"email\" placeholder=\"Enter Employee Email\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-email-input\">"
+    },
+    {
+      "selector": "[data-cy=\"employee-contact-input\"]",
+      "tag": "<input id=\"input-4\" type=\"text\" placeholder=\"Enter Employee Contact\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-contact-input\">"
+    }
+  ],
+  "http://localhost:8080/callrestapi": [
+    {
+      "selector": "[data-cy=\"rest-api-passengers-table\"]",
+      "tag": "<table data-cy=\"rest-api-passengers-table\" role=\"table\" aria-busy=\"false\" aria-colcount=\"5\" class=\"table b-table table-striped\" id=\"__BVID__41\"><!----><!----><thead role=\"rowgroup\" class=\"\"><!----><tr role=\"row\" class=\"\"><th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"1\" data-cy=\"rest-api-sort-passenger-id\" aria-sort=\"none\" class=\"position-relative\"><div>ID</div><span class=\"sr-only\"> (Click to sort ascending)</span></th><th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"2\" data-cy=\"rest-api-sort-passenger-name\" aria-sort=\"none\" class=\"position-relative text-center\"><div>Passenger Name</div><span class=\"sr-only\"> (Click to sort ascending)</span></th><th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"3\" data-cy=\"rest-api-sort-airline-name\" aria-sort=\"none\" class=\"position-relative\"><div>Aireline Name</div><span class=\"sr-only\"> (Click to sort ascending)</span></th><th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"4\" data-cy=\"rest-api-sort-airline-country\" aria-sort=\"none\" class=\"position-relative\"><div>Country</div><span class=\"sr-only\"> (Click to sort ascending)</span></th><th role=\"columnheader\" scope=\"col\" aria-colindex=\"5\" class=\"\"><div>Actions</div></th></tr></thead><tbody role=\"rowgroup\"></tbody><!----></table>"
+    },
+    {
+      "selector": "[data-cy=\"rest-api-sort-passenger-id\"]",
+      "tag": "<th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"1\" data-cy=\"rest-api-sort-passenger-id\" aria-sort=\"none\" class=\"position-relative\"><div>ID</div><span class=\"sr-only\"> (Click to sort ascending)</span></th>"
+    },
+    {
+      "selector": "[data-cy=\"rest-api-sort-passenger-name\"]",
+      "tag": "<th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"2\" data-cy=\"rest-api-sort-passenger-name\" aria-sort=\"none\" class=\"position-relative text-center\"><div>Passenger Name</div><span class=\"sr-only\"> (Click to sort ascending)</span></th>"
+    },
+    {
+      "selector": "[data-cy=\"rest-api-sort-airline-name\"]",
+      "tag": "<th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"3\" data-cy=\"rest-api-sort-airline-name\" aria-sort=\"none\" class=\"position-relative\"><div>Aireline Name</div><span class=\"sr-only\"> (Click to sort ascending)</span></th>"
+    },
+    {
+      "selector": "[data-cy=\"rest-api-sort-airline-country\"]",
+      "tag": "<th role=\"columnheader\" scope=\"col\" tabindex=\"0\" aria-colindex=\"4\" data-cy=\"rest-api-sort-airline-country\" aria-sort=\"none\" class=\"position-relative\"><div>Country</div><span class=\"sr-only\"> (Click to sort ascending)</span></th>"
+    },
+    {
+      "selector": "[data-cy=\"rest-api-loading-overlay\"]",
+      "tag": "<div tabindex=\"0\" aria-busy=\"true\" aria-label=\"Loading\" class=\"vld-overlay is-active is-full-page\" data-cy=\"rest-api-loading-overlay\"><div class=\"vld-background\" style=\"backdrop-filter: blur(2px);\"></div><div class=\"vld-icon\"><svg viewBox=\"0 0 38 38\" xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" stroke=\"#000\"><g fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(1 1)\" stroke-width=\"2\"><circle stroke-opacity=\".25\" cx=\"18\" cy=\"18\" r=\"18\"></circle><path d=\"M36 18c0-9.94-8.06-18-18-18\"><animateTransform attributeName=\"transform\" type=\"rotate\" from=\"0 18 18\" to=\"360 18 18\" dur=\"0.8s\" repeatCount=\"indefinite\"></animateTransform></path></g></g></svg></div>"
+    }
+  ]
+}

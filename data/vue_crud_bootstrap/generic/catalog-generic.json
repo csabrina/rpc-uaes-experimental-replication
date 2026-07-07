@@ -1,0 +1,132 @@
+{
+  "http://localhost:8080": [
+    {
+      "selector": "Home",
+      "tag": "<a href=\"/\" aria-current=\"page\" class=\"router-link-exact-active router-link-active\" data-cy=\"app-nav-home\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"/about\" class=\"\" data-cy=\"app-nav-about\">About</a>"
+    },
+    {
+      "selector": "REST API",
+      "tag": "<a href=\"/callrestapi\" class=\"\" data-cy=\"app-nav-rest-api\">REST API</a>"
+    },
+    {
+      "selector": "Add New Employee",
+      "tag": "<button data-cy=\"home-add-employee\" type=\"button\" class=\"btn btn-secondary btn-sm\"> Add New Employee </button>"
+    },
+    {
+      "selector": "1",
+      "tag": "<button role=\"menuitemradio\" type=\"button\" aria-label=\"Go to page 1\" aria-checked=\"true\" aria-posinset=\"1\" aria-setsize=\"1\" tabindex=\"0\" class=\"page-link flex-grow-1\">1</button>"
+    },
+    {
+      "selector": "[id=\"sortBySelect\"]",
+      "tag": "<select id=\"sortBySelect\" class=\"w-75 custom-select\" data-cy=\"home-sort-field\"><option value=\"\">Select</option><option value=\"id\">Employee ID</option><option value=\"name\">Employee Name</option><option value=\"email\">Email</option><option value=\"contact\">Contact</option></select>"
+    },
+    {
+      "selector": "[id=\"initialSortSelect\"]",
+      "tag": "<select id=\"initialSortSelect\" class=\"custom-select custom-select-sm\" data-cy=\"home-initial-sort-direction\"><option value=\"asc\">asc</option><option value=\"desc\">desc</option><option value=\"last\">last</option></select>"
+    },
+    {
+      "selector": "[id=\"filterInput\"]",
+      "tag": "<input id=\"filterInput\" type=\"search\" placeholder=\"Type to Search\" class=\"form-control\" data-cy=\"home-filter-input\">"
+    },
+    {
+      "selector": "[id=\"__BVID__19\"]",
+      "tag": "<input data-cy=\"home-filter-on-id\" type=\"checkbox\" class=\"custom-control-input\" value=\"id\" id=\"__BVID__19\" name=\"__BVID__18\">"
+    },
+    {
+      "selector": "[id=\"__BVID__20\"]",
+      "tag": "<input data-cy=\"home-filter-on-name\" type=\"checkbox\" class=\"custom-control-input\" value=\"name\" id=\"__BVID__20\" name=\"__BVID__18\">"
+    },
+    {
+      "selector": "[id=\"__BVID__21\"]",
+      "tag": "<input data-cy=\"home-filter-on-email\" type=\"checkbox\" class=\"custom-control-input\" value=\"email\" id=\"__BVID__21\" name=\"__BVID__18\">"
+    },
+    {
+      "selector": "[id=\"__BVID__22\"]",
+      "tag": "<input data-cy=\"home-filter-on-contact\" type=\"checkbox\" class=\"custom-control-input\" value=\"contact\" id=\"__BVID__22\" name=\"__BVID__18\">"
+    },
+    {
+      "selector": "[id=\"perPageSelect\"]",
+      "tag": "<select id=\"perPageSelect\" class=\"custom-select custom-select-sm\" data-cy=\"home-per-page\"><option value=\"2\">2</option><option value=\"5\">5</option><option value=\"10\">10</option><option value=\"15\">15</option></select>"
+    },
+    {
+      "selector": "×",
+      "tag": "<button type=\"button\" aria-label=\"Close\" class=\"close\">×</button>"
+    },
+    {
+      "selector": "Save",
+      "tag": "<button data-cy=\"employee-save\" type=\"button\" class=\"btn float-right m-l-10 btn-danger btn-sm\"> Save </button>"
+    },
+    {
+      "selector": "Cancel",
+      "tag": "<button data-cy=\"employee-cancel\" type=\"button\" class=\"btn float-right btn-primary btn-sm\"> Cancel </button>"
+    },
+    {
+      "selector": "[id=\"input-1\"]",
+      "tag": "<input id=\"input-1\" type=\"text\" placeholder=\"Enter Employee ID\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-id-input\">"
+    },
+    {
+      "selector": "[id=\"input-2\"]",
+      "tag": "<input id=\"input-2\" type=\"text\" placeholder=\"Enter Employee Name\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-name-input\">"
+    },
+    {
+      "selector": "[id=\"input-3\"]",
+      "tag": "<input id=\"input-3\" type=\"email\" placeholder=\"Enter Employee Email\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-email-input\">"
+    },
+    {
+      "selector": "[id=\"input-4\"]",
+      "tag": "<input id=\"input-4\" type=\"text\" placeholder=\"Enter Employee Contact\" required=\"required\" aria-required=\"true\" class=\"form-control\" data-cy=\"employee-contact-input\">"
+    },
+    {
+      "selector": "[id=\"__BVID__51\"]",
+      "tag": "<input data-cy=\"home-filter-on-id\" type=\"checkbox\" class=\"custom-control-input\" value=\"id\" id=\"__BVID__51\" name=\"__BVID__50\">"
+    },
+    {
+      "selector": "[id=\"__BVID__52\"]",
+      "tag": "<input data-cy=\"home-filter-on-name\" type=\"checkbox\" class=\"custom-control-input\" value=\"name\" id=\"__BVID__52\" name=\"__BVID__50\">"
+    },
+    {
+      "selector": "[id=\"__BVID__53\"]",
+      "tag": "<input data-cy=\"home-filter-on-email\" type=\"checkbox\" class=\"custom-control-input\" value=\"email\" id=\"__BVID__53\" name=\"__BVID__50\">"
+    },
+    {
+      "selector": "[id=\"__BVID__54\"]",
+      "tag": "<input data-cy=\"home-filter-on-contact\" type=\"checkbox\" class=\"custom-control-input\" value=\"contact\" id=\"__BVID__54\" name=\"__BVID__50\">"
+    }
+  ],
+  "http://localhost:8080/about": [
+    {
+      "selector": "Home",
+      "tag": "<a href=\"/\" class=\"router-link-active\" data-cy=\"app-nav-home\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"/about\" class=\"router-link-exact-active router-link-active\" data-cy=\"app-nav-about\" aria-current=\"page\">About</a>"
+    },
+    {
+      "selector": "REST API",
+      "tag": "<a href=\"/callrestapi\" class=\"\" data-cy=\"app-nav-rest-api\">REST API</a>"
+    }
+  ],
+  "http://localhost:8080/callrestapi": [
+    {
+      "selector": "Home",
+      "tag": "<a href=\"/\" class=\"router-link-active\" data-cy=\"app-nav-home\">Home</a>"
+    },
+    {
+      "selector": "About",
+      "tag": "<a href=\"/about\" class=\"\" data-cy=\"app-nav-about\">About</a>"
+    },
+    {
+      "selector": "REST API",
+      "tag": "<a href=\"/callrestapi\" class=\"router-link-exact-active router-link-active\" data-cy=\"app-nav-rest-api\" aria-current=\"page\">REST API</a>"
+    },
+    {
+      "selector": "1",
+      "tag": "<button role=\"menuitemradio\" type=\"button\" aria-label=\"Go to page 1\" aria-checked=\"true\" aria-posinset=\"1\" aria-setsize=\"1\" tabindex=\"0\" class=\"page-link\">1</button>"
+    }
+  ]
+}

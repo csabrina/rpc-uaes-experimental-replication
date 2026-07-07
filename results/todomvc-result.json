@@ -1,0 +1,94 @@
+{
+  "equal": {
+    "http://localhost:7002": [
+      [
+        {
+          "selector": "[data-cy=\"todo-filter-all\"]",
+          "tag": "<a data-cy=\"todo-filter-all\" class=\"selected\" href=\"#/\">All</a>"
+        },
+        {
+          "selector": "All",
+          "tag": "<a data-cy=\"todo-filter-all\" class=\"selected\" href=\"#/\">All</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"todo-filter-active\"]",
+          "tag": "<a data-cy=\"todo-filter-active\" class=\"\" href=\"#/active\">Active</a>"
+        },
+        {
+          "selector": "Active",
+          "tag": "<a data-cy=\"todo-filter-active\" class=\"\" href=\"#/active\">Active</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"todo-filter-completed\"]",
+          "tag": "<a data-cy=\"todo-filter-completed\" class=\"\" href=\"#/completed\">Completed</a>"
+        },
+        {
+          "selector": "Completed",
+          "tag": "<a data-cy=\"todo-filter-completed\" class=\"\" href=\"#/completed\">Completed</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"todo-clear-completed\"]",
+          "tag": "<button class=\"clear-completed\" data-cy=\"todo-clear-completed\" hidden=\"\">Clear completed</button>"
+        },
+        {
+          "selector": "Clear completed",
+          "tag": "<button class=\"clear-completed\" data-cy=\"todo-clear-completed\" hidden=\"\">Clear completed</button>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"todo-info-site\"]",
+          "tag": "<a href=\"http://todomvc.com\" data-cy=\"todo-info-site\">TodoMVC</a>"
+        },
+        {
+          "selector": "TodoMVC",
+          "tag": "<a href=\"http://todomvc.com\" data-cy=\"todo-info-site\">TodoMVC</a>"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"todo-new\"]",
+          "tag": "<input class=\"new-todo\" data-cy=\"todo-new\" data-testid=\"text-input\" aria-label=\"New Todo Input\" placeholder=\"What needs to be done?\" type=\"text\">"
+        },
+        {
+          "selector": "[placeholder=\"What needs to be done?\"]",
+          "tag": "<input class=\"new-todo\" data-cy=\"todo-new\" data-testid=\"text-input\" aria-label=\"New Todo Input\" placeholder=\"What needs to be done?\" type=\"text\">"
+        }
+      ],
+      [
+        {
+          "selector": "[data-cy=\"todo-toggle-all\"]",
+          "tag": "<input class=\"toggle-all\" id=\"toggle-all\" data-cy=\"todo-toggle-all\" data-testid=\"toggle-all\" type=\"checkbox\">"
+        },
+        {
+          "selector": "[id=\"toggle-all\"]",
+          "tag": "<input class=\"toggle-all\" id=\"toggle-all\" data-cy=\"todo-toggle-all\" data-testid=\"toggle-all\" type=\"checkbox\">"
+        }
+      ]
+    ]
+  },
+  "minus": {
+    "http://localhost:7002": []
+  },
+  "plus": {
+    "http://localhost:7002": []
+  },
+  "numbers": {
+    "http://localhost:7002": {
+      "equal": 7,
+      "minus": 0,
+      "plus": 0
+    }
+  },
+  "total": {
+    "equal": 7,
+    "minus": 0,
+    "plus": 0
+  }
+}
