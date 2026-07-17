@@ -10,7 +10,7 @@ O estudo compara a abordagem UAES com a abordagem Markup. O conjunto de dados at
 
 | Aplicação | Repositório | KLOC |
 | --- | --- | ---: |
-| spring-petclinic | [spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic) | 20.7 |
+| spring-petclinic | [spring-petclinic](https://gitlab.com/lsi-ufcg/cytestion/gui-testing-study/applications/spring-petclinic) | 20.7 |
 | juiceshop | [juice-shop/juice-shop](https://github.com/juice-shop/juice-shop) | 142.9 |
 | website-bistro-restaurant | [website-bistro-restaurant](https://gitlab.com/lsi-ufcg/cytestion/gui-testing-study/applications/website-bistro-restaurant) | 12.3 |
 | website-learn-educational | [website-learn-educational](https://gitlab.com/lsi-ufcg/cytestion/gui-testing-study/applications/website-learn-educational) | 5.1 |
