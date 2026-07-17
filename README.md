@@ -4,6 +4,8 @@ Este repositório foi inicializado a partir de um fork do [repositório original
 
 O pacote do Cytestion utilizado neste experimento está disponível no arquivo [cytestion-open-source.zip](./cytestion-open-source.zip), localizado na raiz do repositório. Após extraí-lo, siga as instruções do README incluído no pacote para executar o Cytestion e gerar os catálogos.
 
+Os artefatos desse estudo também estão disponíveis no [Zenodo](https://zenodo.org/records/21415361)
+
 ## Estudo com a abordagem UAES
 
 O estudo compara a abordagem UAES com a abordagem Markup. O conjunto de dados atual contém 20 aplicações open-source:
