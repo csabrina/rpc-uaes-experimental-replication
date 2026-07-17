@@ -1,14 +1,14 @@
-# UAES Experimental Replication
+# Replicação Experimental do UAES
 
-This repository contains the data and scripts used to replicate the open-source part of the UAES experiment.
+Este repositório foi inicializado a partir de um fork do [repositório original de artefatos do estudo UAES](https://gitlab.com/lsi-ufcg/cytestion/loc-study/execute-study-uaes) e posteriormente estendido com novas aplicações, dados e análises produzidos nesta replicação.
 
-The Cytestion package that must be executed for this experiment is [cytestion-open-source.zip](./cytestion-open-source.zip), available in the root of this repository. After extracting it, follow the README included inside the zip to run Cytestion and generate the catalogs.
+O pacote do Cytestion utilizado neste experimento está disponível no arquivo [cytestion-open-source.zip](./cytestion-open-source.zip), localizado na raiz do repositório. Após extraí-lo, siga as instruções do README incluído no pacote para executar o Cytestion e gerar os catálogos.
 
-## Study Using UAES Approach
+## Estudo com a abordagem UAES
 
-The study compares the UAES approach with the markup approach. The current dataset contains 20 open-source applications:
+O estudo compara a abordagem UAES com a abordagem Markup. O conjunto de dados atual contém 20 aplicações open-source:
 
-| Application | Repository | KLOC |
+| Aplicação | Repositório | KLOC |
 | --- | --- | ---: |
 | spring-petclinic | [spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic) | 20.7 |
 | juiceshop | [juice-shop/juice-shop](https://github.com/juice-shop/juice-shop) | 142.9 |
@@ -31,58 +31,55 @@ The study compares the UAES approach with the markup approach. The current datas
 | cv-application | [michalosman/cv-application](https://github.com/michalosman/cv-application) | 39.8 |
 | Habit-Tracker-Web-App | [TheUnknown550/Habit-Tracker-Web-App](https://github.com/TheUnknown550/Habit-Tracker-Web-App) | 4.6 |
 
-The study aims to extract the elements located to be tested in each state of the applications. Those elements are separated by URL and placed in catalogs in order to analyze the properties of each approach.
+O estudo busca coletar os elementos acionáveis identificados em cada estado das aplicações. Esses elementos são separados por URL e organizados em catálogos, permitindo analisar os resultados de cada abordagem.
 
-The data acquired from Cytestion is located in `data/`. Each application has catalogs for both approaches:
+Os dados coletados pelo Cytestion estão disponíveis em `data/`. Cada aplicação possui catálogos referentes às duas abordagens:
 
-- `classic/`: markup approach catalog.
-- `generic/`: UAES approach catalog.
+- `classic/`: catálogo da abordagem Markup;
+- `generic/`: catálogo da abordagem UAES.
 
-Some applications also include coverage artifacts in `coverage/` and the generated Cypress test file `cytestion.cy.js`.
+Algumas aplicações também incluem artefatos de cobertura em `coverage/` e o arquivo de teste Cypress gerado, `cytestion.cy.js`.
 
-## Requirements
+## Requisitos
 
-- Python 3
-- Pip
-- Node.js
+- Python 3;
+- pip;
+- Node.js.
 
-## To execute
+## Execução
 
-To generate the comparison results (`results/`), CSV summaries (`results_csv/`), individual graphs (`generated_graphs/`), and grouped graphs (`group_graphs/`), execute the bash script from the repository root:
+Para gerar os resultados da comparação (`results/`), os resumos em CSV (`results_csv/`), os gráficos individuais (`generated_graphs/`) e os gráficos agrupados (`group_graphs/`), execute o script Bash a partir da raiz do repositório:
 
-`bash script.sh`
+```bash
+bash script.sh
+```
 
-The script runs `index.js` for each application in `data/`, creates a temporary Python virtual environment, installs the dependencies from `requirements.txt`, and executes the Python scripts in `scripts/`.
+O script executa o `index.js` para cada aplicação presente em `data/`, cria um ambiente virtual temporário do Python, instala as dependências definidas em `requirements.txt` e executa os scripts Python disponíveis em `scripts/`.
 
-To count particular details of the data comparison, edit `scripts/cnt_plus_minus.py` as needed and then execute:
+Para contabilizar detalhes específicos da comparação, edite `scripts/cnt_plus_minus.py` conforme necessário e execute:
 
-`python3 scripts/cnt_plus_minus.py`
+```bash
+python3 scripts/cnt_plus_minus.py
+```
 
-The results can be found in `results_new_elements/` and in `selectorsRanking.json`.
+Os resultados podem ser encontrados em `results_new_elements/` e em `selectorsRanking.json`.
 
-To reproduce the descriptive statistics and the confidence intervals with the
-application as the resampling unit, execute:
+Para reproduzir as estatísticas descritivas e os intervalos de confiança utilizando a aplicação como unidade de reamostragem, execute:
 
-`python3 scripts/statistical_analysis.py`
+```bash
+python3 scripts/statistical_analysis.py
+```
 
-The command writes per-application metrics to
-`statistical_analysis/project_metrics.csv` and the aggregate results, bootstrap
-configuration, random seed, and historical-reference comparison to
-`statistical_analysis/summary.json`. The default analysis uses 100,000
-application-clustered bootstrap samples and seed `20260716`. These options can
-be changed explicitly with `--bootstrap-repetitions` and `--seed`.
+O comando grava as métricas por aplicação em `statistical_analysis/project_metrics.csv` e os resultados agregados, a configuração do bootstrap, a semente aleatória e a comparação com a referência histórica em `statistical_analysis/summary.json`. Por padrão, a análise utiliza 100.000 reamostragens bootstrap agrupadas por aplicação e a semente `20260716`. Essas opções podem ser alteradas explicitamente por meio dos argumentos `--bootstrap-repetitions` e `--seed`.
 
-The exact LLM prompt and the metadata required to document the LLM-assisted
-Markup procedure are available in
-[`llm-markup-protocol.md`](artifacts/llm-markup-protocol.md).
+O prompt exato e os metadados utilizados para documentar o procedimento de construção do Markup assistido por LLM estão disponíveis em [`llm-markup-protocol.md`](llm-markup-protocol.md).
 
+## Resultados
 
-## Result
+Cada arquivo em `results/` contém os elementos agrupados por categoria:
 
-Each file in `results/` contains the elements grouped by category:
+- `same`: elementos encontrados pelas duas abordagens;
+- `new`: elementos encontrados somente pelo UAES;
+- `missed`: elementos encontrados somente pela abordagem Markup.
 
-- `same`: elements found by both approaches.
-- `new`: elements found only by UAES.
-- `missed`: elements found only by the markup approach.
-
-The catalog structure is maintained to indicate which elements are found in each GUI state of the applications.
+A estrutura dos catálogos é preservada para indicar quais elementos foram encontrados em cada estado da GUI das aplicações.
