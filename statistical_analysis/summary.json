@@ -1,0 +1,52 @@
+{
+  "analysis_unit": "application",
+  "application_count": 20,
+  "bootstrap": {
+    "method": "nonparametric percentile bootstrap clustered by application",
+    "repetitions": 100000,
+    "seed": 20260716,
+    "confidence_level": 0.95
+  },
+  "counts": {
+    "same": 900,
+    "new": 969,
+    "missed": 727,
+    "markup_baseline": 1627,
+    "uaes_total": 1869,
+    "union_total": 2596
+  },
+  "pooled_baseline_recovery": {
+    "estimate_pct": 55.316533497234175,
+    "cluster_bootstrap_ci_95_pct": [
+      39.030442932867516,
+      68.28314774560127
+    ]
+  },
+  "application_level_baseline_recovery": {
+    "mean_pct": 63.74032414561277,
+    "median_pct": 70.51426850387772,
+    "sample_standard_deviation_pp": 29.256085870012978,
+    "iqr_pct": [
+      40.4053920111012,
+      85.12820512820512
+    ],
+    "range_pct": [
+      10.828025477707007,
+      100.0
+    ],
+    "bootstrap_ci_95_for_mean_pct": [
+      50.83303900972754,
+      75.96259714158927
+    ]
+  },
+  "historical_open_source_reference": {
+    "original_study_pct": 79.81,
+    "pooled_difference_percentage_points": -24.493466502765827,
+    "interpretation": "Fixed historical reference for contextual comparison; it is not an equivalence or similarity margin."
+  },
+  "new_elements": {
+    "count": 969,
+    "share_of_union_pct": 37.326656394453,
+    "interpretation": "Candidates found only by UAES; do not interpret this share as precision or false-positive rate without systematic manual validation."
+  }
+}

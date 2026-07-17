@@ -60,6 +60,22 @@ To count particular details of the data comparison, edit `scripts/cnt_plus_minus
 
 The results can be found in `results_new_elements/` and in `selectorsRanking.json`.
 
+To reproduce the descriptive statistics and the confidence intervals with the
+application as the resampling unit, execute:
+
+`python3 scripts/statistical_analysis.py`
+
+The command writes per-application metrics to
+`statistical_analysis/project_metrics.csv` and the aggregate results, bootstrap
+configuration, random seed, and historical-reference comparison to
+`statistical_analysis/summary.json`. The default analysis uses 100,000
+application-clustered bootstrap samples and seed `20260716`. These options can
+be changed explicitly with `--bootstrap-repetitions` and `--seed`.
+
+The exact LLM prompt and the metadata required to document the LLM-assisted
+Markup procedure are available in
+[`llm-markup-protocol.md`](artifacts/llm-markup-protocol.md).
+
 
 ## Result
 
